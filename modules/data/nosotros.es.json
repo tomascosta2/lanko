@@ -1,0 +1,15 @@
+{
+	"nosotros":{ 
+		"titulo":"Nosotros",
+        "foto_principal":"img/fondos/bg1.jpg",
+		"secciones":[
+			{
+				"menuItem":"¿Quiénes somos?",
+				"titulo":"Quiénes somos",
+				
+				"html":"“Lanko Altas Montañas” es una Empresa Prestadora de Servicios en el Parque Provincial Aconcagua y además Empresa de Viajes y Turismo con Legajo N º 14538, otorgado por el Ministerio de Turismo de la Nación Argentina. Nuestra empresa realiza Expediciones, Trekkings y provee Servicios Logísticos en el cerro Aconcagua desde hace 17 años, orientado a montañistas individuales, grupos, clubes de montaña y empresas de todo el mundo. Comenzamos a incursionar en la montaña en los 90 y la primera vez que subimos el Aconcagua fue en 1995 con uno de los clubes más importantes de Mendoza, El Club Andinista Mendoza, en su aniversario N° 60.<br>Estos años de experiencia nos han dado éxito, sabiduría y plenitud lo que nos enorgullece- Esto nos ha convertido en una de las empresas líderes dentro del Parque Provincial Aconcagua.<br>Una de nuestras premisas ha sido no perder la esencia de la montaña y la valoración del medio ambiente. Uno de nuestros motores para seguir trabajando es la retroalimentación permanente con nuestros clientes lo que nos ha permitido crecer y mejorar día a día.<br>Organizamos nuestros programas de expediciones, trekkings y servicios logísticos basados en experiencias vividas en Aconcagua y en otras montañas del mundo. Nuestros clientes nos han confiado que vamos por buen camino.<br>Esta pasión por la montaña, que además es nuestro trabajo y elección de vida, es transmitida día a día a nuestro equipo de trabaja, juntos les garantizamos servicios de muy alta calidad.<br>Hacemos lo mejor para valorar su dinero, siendo uno de nuestros objetivos primordiales, la Seguridad.<br>Desde ya muchas gracias por confiar en nosotros.<br>JOSE CASAS – OSVALDO CARBAJAL"
+			}
+		]
+
+	}
+}

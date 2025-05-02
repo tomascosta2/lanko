@@ -1,0 +1,43 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="banner" ng-controller="MenuController">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#/" class="brand hidden-xs hidden-sm">
+                <img src="img/logo_menu_fixed.png" alt="" class="brand"></a>
+            <a href="#/" class="brand hidden-sm hidden-md hidden-lg">
+                <img src="img/logo_menu_fixed_sm.png" alt="" class="brand"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+
+            <ul class="nav navbar-nav navbar-rigth">
+
+                <li>
+                    <a href="#/salidas/expediciones"><span ng-if="!esIngles">EXPEDICIONES</span><span ng-if="esIngles">EXPEDITIONS</span></a>
+                </li>
+                <li>
+                    <a href="#/salidas/trekkings">TREKKINGS</a>
+                </li>
+                <li>
+                    <a href="#/servicios"><span ng-if="!esIngles">SERVICIOS LOGISTICOS</span><span ng-if="esIngles">LOGISTICS SERVICES</span></a>
+                </li>
+                <li>
+                    <a href="#/nosotros"><span ng-if="!esIngles">NOSOTROS</span><span ng-if="esIngles">ABOUT US</span></a>
+                </li>
+                <li>
+                    <a href="#/contacto"><span ng-if="!esIngles">RESERVAS</span><span ng-if="esIngles">RESERVATIONS</span></a>
+                </li>
+                <li>
+                    <a ng-click="cambiaLenguaje()" ng-if="!esIngles"><img width="35" src="img/en.png"/></a>
+                    <a ng-click="cambiaLenguaje()" ng-if="esIngles"><img width="35" src="img/es.png"/></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

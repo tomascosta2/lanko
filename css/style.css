@@ -1,0 +1,694 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+}
+
+
+/*Header*/
+
+header {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    color: white;
+    background-color: white;
+    background-size: cover;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: scroll;
+}
+
+header .header-content {
+    top: 80px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+@media (max-width: 767px) {
+    header .header-content {
+        top: 50px;
+    }
+}
+
+header .header-content .header-content-inner {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(1, 0, 1, 0.56);
+}
+
+header .header-content .header-content-inner p {
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.Annotate_a_las_nuevas_expediciones {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.875;
+    text-align: left;
+}
+
+.Ya_abrieron_las_inscripciones_para_las_expediciones {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/*Menu*/
+
+.navbar .container {
+    height: 80px;
+    font-family: Montserrat;
+}
+
+img.brand {
+    margin-top: 15px;
+    margin-right: 30px;
+    /*margin-bottom:15px;*/
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, .5);
+    border-color: rgba(255, 255, 255, .0)
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, .0)
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-nav>li>a {
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar .nav li {
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .navbar .container {
+        height: 40px;
+    }
+    img.brand {
+        margin-top: 10px;
+        margin-left: 10px;
+        /*margin-bottom:15px;*/
+    }
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, .9);
+    }
+}
+
+.navbar a {
+    cursor: pointer;
+}
+
+
+/*Home*/
+
+.vertrekkings {
+    height: 250px;
+    padding-top: 70px;
+}
+
+@media (max-width: 767px) {
+    .vertrekkings {
+        padding-top: 20px;
+        height: 270px;
+    }
+}
+
+.titulos_debajo_de_foto {
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(0, 89, 121);
+    font-weight: bold;
+    line-height: 1.194;
+    text-align: center;
+}
+
+.texto_debajo_de_foto {
+    text-align: left;
+    color: #9a9a9a;
+    margin-bottom: 20px;
+}
+
+.socialbordes {
+    background: #F6F6F6;
+    border-top: solid #DDDDDD;
+    border-bottom: solid #DDDDDD;
+    border-width: 2px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+
+/*Salidas*/
+
+
+/*header.salidas{
+    margin-top: -50px;
+}*/
+
+.fondo-opaco {
+    /*background-color: rgb(33, 33, 33);
+    opacity: 0.7;
+    height: 100%;
+    min-height: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    z-index: 1;*/
+}
+
+.titulo_salidas {
+    font-size: 36px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(1, 0, 1, 0.56);
+    -moz-transform: matrix( 1.29424722967537, 0, 0, 1.29424722967538, 0, 0);
+    -webkit-transform: matrix( 1.29424722967537, 0, 0, 1.29424722967538, 0, 0);
+    -ms-transform: matrix( 1.29424722967537, 0, 0, 1.29424722967538, 0, 0);
+}
+
+.descripcion_salidas {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.descripcion-salida {
+    height: 500px;
+    min-height: 500px;
+    background-position: center;
+}
+
+.orden {
+    margin-top: -41px;
+}
+
+.nav-tabs>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+    color: rgba(0, 0, 0, 1);
+}
+
+.circulitos_verdes {
+    border-radius: 50%;
+    background-color: rgb(96, 164, 104);
+    width: 11px;
+    height: 11px;
+    margin-left: 2px;
+    margin-right: 2px;
+    top: 15%;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.circulitos_grises {
+    border-radius: 50%;
+    background-color: rgb(176, 176, 176);
+    width: 11px;
+    height: 11px;
+    margin-left: 2px;
+    margin-right: 2px;
+    top: 15%;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.boton_unirme {
+    border-radius: 5px;
+    background-color: rgb(96, 164, 104);
+    width: 72px;
+    height: 35px;
+    text-align: center;
+}
+
+.palabra_unirme {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2;
+    line-height: 35px;
+}
+
+.thumbnail {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    margin: 10px 10px 10px 10px;
+}
+
+@media (max-width: 1199px) {
+    .thumbnail {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .thumbnail {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 767px) {
+    .thumbnail {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 640px) {
+    .thumbnail {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+.thumbnail a img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.thumbnail a img.portrait {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+/*seccion contacto*/
+
+.reservas .contenedor_flotante {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.reservas .titulos {
+    font-size: 30px;
+  font-family: "Open Sans";
+  color: rgb(56, 56, 56);
+  line-height: 2;
+  font-weight: bold;
+}
+.reservas .subtitulos {
+    font-size: 20px;
+  font-family: "Open Sans";
+  color: rgb(56, 56, 56);
+  line-height: 2;
+  font-weight: bold;
+}
+
+.reservas .preguntas {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(56, 56, 56);
+  line-height: 2;
+}
+
+@media ( max-width: 585px ) {
+    .input-group span.input-group-btn,.input-group input,.input-group button{
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .input-group {
+        position: relative;   
+    }
+    .input-group span.data-up{
+        position: absolute;
+        top: 0;
+    }
+    .input-group span.data-dwn{
+        position: absolute;
+        bottom: 0;
+    }
+    .form-control.text-center {
+        margin: 34px 0;
+    }
+    .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+        margin-left:0;
+    }
+
+}
+
+
+/*columna izquierda*/
+
+.titulos_en_azul {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(0, 89, 121);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contenido_contacto {
+    font-size: 17px;
+    font-family: "Lato";
+    color: rgb(104, 104, 104);
+    line-height: 1.333;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contenido_trekkings_y_expediciones {
+    font-size: 18px;
+    font-family: "Lato";
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+    line-height: 1.333;
+    text-align: left;
+}
+
+
+/*seccion contenidos*/
+
+.contenidos {
+    margin-top: 50px;
+    color: #4c323b;
+}
+
+.contenidos .fila {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .contenidos {
+        margin-top: -20px;
+    }
+    .contenidos .fila {
+        margin-bottom: 5px;
+    }
+}
+
+.contenidos a {
+    text-decoration: none;
+    color: #4c323b;
+    cursor: pointer;
+}
+
+.contenidos a.active, a:hover {
+    color: #005979;
+}
+
+.contenidos h1 {
+    color: #005979;
+    font-size: 30px;
+}
+
+.contenidos h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contenidos p {
+    margin-bottom: 20px;
+    color: #262626;
+}
+
+.contenidos strong {
+    margin-top: 50px;
+}
+
+
+/*footer*/
+
+.titulos_auspiciantes {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(62, 62, 62);
+    line-height: 1.911;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*Utiles*/
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Botones*/
+
+.btn-primary {
+    color: white;
+    background-color: #005979;
+    border-color: #004e6d;
+    box-shadow: 0px 2px 0px 0px rgba(0, 69, 94, 0.004);
+    -webkit-transition: all 0.35s;
+    /* Chrome y Safari */
+    -moz-transition: all 0.35s;
+    /* Mozilla Firefox */
+    -o-transition: all 0.35s;
+    /* Opera */
+    -ms-transition: all 0.35s;
+    /* Internet Explorer */
+    transition: all 0.35s;
+    /* W3C */
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #1c6687;
+    border-color: #025a7a;
+    box-shadow: 5px 5px 0px 0px rgba(0, 69, 94, 0.004);
+}
+
+.btn-secondary {
+    color: white;
+    background-color: rgb(137, 34, 27);
+    border-color: rgb(122, 16, 16);
+    box-shadow: 0px 2px 0px 0px rgba(137, 34, 27, 0.004);
+    -webkit-transition: all 0.35s;
+    /* Chrome y Safari */
+    -moz-transition: all 0.35s;
+    /* Mozilla Firefox */
+    -o-transition: all 0.35s;
+    /* Opera */
+    -ms-transition: all 0.35s;
+    /* Internet Explorer */
+    transition: all 0.35s;
+    /* W3C */
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+    color: white;
+    background-color: rgb(151, 46, 36);
+    border-color: rgb(137, 34, 27);
+    box-shadow: 5px 5px 0px 0px rgba(151, 46, 36, 0.004);
+}
+
+.btn-secondary .badge {
+    color: #F05F40;
+    background-color: white;
+}
+
+.btn-transparent {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: all 0.35s;
+    /* Chrome y Safari */
+    -moz-transition: all 0.35s;
+    /* Mozilla Firefox */
+    -o-transition: all 0.35s;
+    /* Opera */
+    -ms-transition: all 0.35s;
+    /* Internet Explorer */
+    transition: all 0.35s;
+    /* W3C */
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btn-transparent:hover, .btn-transparent:focus, .btn-transparent.focus, .btn-transparent:active, .btn-transparent.active, .open > .dropdown-toggle.btn-transparent {
+    color: white;
+    background-color: rgb(151, 46, 36);
+    border-color: rgb(137, 34, 27);
+    box-shadow: 5px 5px 0px 0px rgba(151, 46, 36, 0.004);
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.556;
+}
+
+.btn-xl {
+    padding: 12px 20px;
+}
+
+.btn-success {
+    min-width: 100px;
+}
+
+.cloud {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.img-01 {
+    background-image: url(../img/home/cloud-01.png);
+    width: 100%;
+    height: 100%;
+}
+
+.img-02 {
+    background-image: url(../img/home/cloud-02.png);
+    width: 100%;
+    height: 100%;
+}
+
+.img-03 {
+    background-image: url(../img/home/cloud-03.png);
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Time to animate*/
+
+.x1 {
+    -webkit-animation: moveclouds 15s linear infinite;
+    -moz-animation: moveclouds 15s linear infinite;
+    -o-animation: moveclouds 15s linear infinite;
+}
+
+
+/*variable speed, opacity, and position of clouds for realistic effect*/
+
+.x2 {
+    left: 200px;
+    opacity: 0.6;
+    /*opacity proportional to the size*/
+    /*Speed will also be proportional to the size and opacity*/
+    /*More the speed. Less the time in 's' = seconds*/
+    -webkit-animation: moveclouds 25s linear infinite;
+    -moz-animation: moveclouds 25s linear infinite;
+    -o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+    left: -250px;
+    top: -200px;
+    opacity: 0.8;
+    /*opacity proportional to the size*/
+    -webkit-animation: moveclouds 20s linear infinite;
+    -moz-animation: moveclouds 20s linear infinite;
+    -o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+    left: -2200px;
+    top: -350px;
+    opacity: 0.75;
+    /*opacity proportional to the size*/
+    -webkit-animation: moveclouds 18s linear infinite;
+    -moz-animation: moveclouds 18s linear infinite;
+    -o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+    left: -150px;
+    top: -450px;
+    opacity: 0.8;
+    /*opacity proportional to the size*/
+    -webkit-animation: moveclouds 20s linear infinite;
+    -moz-animation: moveclouds 20s linear infinite;
+    -o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+    0% {
+        margin-left: 110%;
+    }
+    100% {
+        margin-left: -110%;
+    }
+}
+
+@-moz-keyframes moveclouds {
+    0% {
+        margin-left: 110%;
+    }
+    100% {
+        margin-left: -110%;
+    }
+}
+
+@-o-keyframes moveclouds {
+    0% {
+        margin-left: 110%;
+    }
+    100% {
+        margin-left: -110%;
+    }
+}

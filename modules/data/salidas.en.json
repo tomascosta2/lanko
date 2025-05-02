@@ -1,0 +1,975 @@
+{
+    "expediciones": {
+        "titulo": "Aconcagua Expeditions",
+        "descripcion": "Our expeditions are programs that requires an impeccable logistic from our part and an excellent physical and psychological preparation from the members of the equipment who tries to attack the summit. We are mountaineers and we know what services people need in the mountains, that is why we take care of every details in order that our clients only worry about the only thing they have to worry: to acclimate and to be kept strong to reach the summit.",
+        "foto_cabecera": "img/fondos/bg1.jpg",
+        "salidas": [{
+            "id": 1,
+            "nombre": "Normal Route",
+            "nombre_corto": "Normal Route",
+            "descripcion": "The Normal Route Aconcagua presents no technical difficulty, which is why this route is enormously attractive, allowing to reach the summit at any mountaineer in good physical preparation and proper acclimatization. Contact us in case our dates are not convenient for you, we have at our disposal enough staff and infrastructure to prepare a schedule up to you.",
+            "foto_principal": "img/fondos/bg1212.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [{
+                "ruta": "Normal",
+                "comienzo": "Nov 26th",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 4
+            }, {
+                "ruta": "Normal",
+                "comienzo": "Dec 17th",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Normal",
+                "comienzo": "Dec 24th",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Normal",
+                "comienzo": "Jan 07th",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Normal",
+                "comienzo": "Jan 21th",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Normal",
+                "comienzo": "Feb 9th",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }],
+            "galeria": [{
+                "titulo": "Title Picture 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 13",
+                "imagen": "img/fotos-ruta-normal/13.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 14",
+                "imagen": "img/fotos-ruta-normal/14.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 15",
+                "imagen": "img/fotos-ruta-normal/15.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 16",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 17",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 18",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }],
+            "itinerario": {
+                "titulo": "EXPEDITION HORCONES VALLEY",
+                "descripcion": "The itinerary is intended as a guideline only. Although every effort will be made to adhere to it, changes may be caused due to weather conditions, transport failure or other unforeseen events. Please be flexible if necessary.",
+                "etapas": [{
+                    "nombre": "+Day 01",
+                    "copete": "Mendoza (2508 feets - 760 msnm)",
+                    "descripcion": "Pick up on the airport / Hotel in Mendoza, check in. Guides will check your equipment."
+                }, {
+                    "nombre": "+Day 02",
+                    "copete": "Mendoza / Penitentes (8992 feets - 2725 msnm)",
+                    "descripcion": "Obtaining of permits. Transfer to Penitentes. Lodging in our mountain Refuge. Preparation of the loads for the mules (B, D)"
+                }, {
+                    "nombre": "+Day 03",
+                    "copete": "Penitentes / Confluencia (10890 feets - 3300 msnm)",
+                    "descripcion": "Drive to the entrance of the Park. Trek to Confluencia Camp. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 04",
+                    "copete": "Confluencia / Plaza Francia (13200 feets - 4000 msnm) / Confluencia",
+                    "descripcion": "Trek to Plaza Francia (South Face), Lunch and return to Confluencia. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 05",
+                    "copete": "Confluencia / Plaza de Mulas (14058 feets - 4260 msnm)",
+                    "descripcion": "Trek to Plaza de Mulas BC. Lodge in the base camp. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 06",
+                    "copete": "Plaza de Mulas (14058 feets - 4260 msnm)",
+                    "descripcion": "Día de descanso. Trek corto al Glaciar Horcones. Prácticas con crampones. (D, A, C)"
+                }, {
+                    "nombre": "+Day 07",
+                    "copete": "Trek to Mt. Bonete Summit  (16732 feets - 5100 msnm)",
+                    "descripcion": "Acclimatization trek to Mt. Bonete Summit and return to PM. Activity will definitely turns on all acclimatization mechanisms in the body. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 08",
+                    "copete": "Plaza de Mulas / Camp 1 Canadá (16203 feets - 4910 msnm) / Plaza de Mulas",
+                    "descripcion": "Transportation of material to Canadá and return to Base Camp. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 09",
+                    "copete": "Plaza de Mulas (14058 feets - 4260 msnm)",
+                    "descripcion": "Resting day. (B, L, D)"
+                }, {
+                    "nombre": "+Day 10",
+                    "copete": "Plaza de Mulas / Camp 1 Canadá (16203 feets - 4910 msnm)",
+                    "descripcion": "Climb to Camp 1 Canadá. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 11",
+                    "copete": "Camp 1 Canadá / Camp 2 Nido de Cóndores (17325 feets - 5250 msnm)",
+                    "descripcion": "Climb to Camp 2 Nido de Cóndores. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 12",
+                    "copete": "Camp 2 Nido de Cóndores (17325 feets – 5250 msnm)",
+                    "descripcion": "Resting day. (B, L, D)"
+                }, {
+                    "nombre": "+Day 13",
+                    "copete": "Extra day",
+                    "descripcion": "Extra day for bad weather conditions (B, L, D)"
+                }, {
+                    "nombre": "+Day 14",
+                    "copete": "Extra day",
+                    "descripcion": "Extra day for bad weather conditions (B, L, D)"
+                }, {
+                    "nombre": "+Day 15",
+                    "copete": "Camp 2 Nido de Cóndores / Camp 3 Berlín - Cólera (19470 feets – 5900 msnm)",
+                    "descripcion": "Climb to Camp 3 Berlín - Cólera. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 16",
+                    "copete": "Camp 3 Berlín - Cólera / SUMMIT (22834 feets – 6962 msnm) / Camp 3",
+                    "descripcion": "Climb from Camp 3 Berlín - Cólera to the SUMMIT and return to Camp. 3 (B, PL, D)"
+                }, {
+                    "nombre": "+Day 17",
+                    "copete": "Camp 3 Berlín - Cólera / Plaza de Mulas BC",
+                    "descripcion": "Descent to Plaza de Mulas base camp. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 18",
+                    "copete": "Plaza de Mulas base camp / Puente del Inca / Mendoza",
+                    "descripcion": "Descent to Puente del Inca. Drive to Mendoza. Lodging in the hotel. (B, PL)"
+                }, {
+                    "nombre": "+Day 19",
+                    "copete": "Transfer to the airport",
+                    "descripcion": "Transfer from the hotel to the airport. (B)"
+                }]
+            },
+            "servicios": {
+                "titulo": "Services",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Land Cost Included",
+                    "copete": "",
+                    "descripcion": "<li>Certified High altitude Mountain Guide</li><li>Two Hotel nights in Mendoza, 3* star/double occupancy with breakfast</li><li>Private transfer from airport to Mendoza Hotel and back</li><li>Assistance to obtaining climbing permit</li><li>Transportation in private vehicles: Mendoza - Penitentes Lodge</li><li>Two nights in a Mountain Refuge in Penitentes, double occupancy, (B,D)</li><li>Transportation from Penitentes Horcones Valley Park entrance</li><li>Transport of load by mules from Penitentes to Plaza de Mulas and back</li><li>Two days full board service in Confluencia BC</li><li>Full board service at Plaza de Mules BC</li><li>Our camps have solar energy, radios, Satellite Phone; meals are prepared following strict standards of hygiene. We also cater to vegetarians</li><li>All necessary food for the high camps</li><li>Tent for use while group is at the base camp, permanent radio communication and toilet.</li><li>Four season tents (The North Face, Mountain 25),MSR stoves, cookware and dishes</li><li>Permanent communication between base camp, Mendoza and Penitentes to be able to coordinate different logistical issues, reservations and. When necessary, rescues or evacuations.</li>"
+                }, {
+                    "nombre": "+Land Cost Does Not Included",
+                    "copete": "",
+                    "descripcion": "<li>Ascent Permit</li><li>Airfare and airport taxes to and from Mendoza</li><li>Food and drink not mentioned in Itinerary</li><li>Personal porters</li><li>Individual gear</li><li>Extra costs as a result of abandoning of the expedition</li><li>Medical or traveler's insurance. Costs as a result of an emergency rescue.</li><li>Personal expenses (drinks, laundry, mail, telephone calls)</li><li>All other services not listed as Included</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Recommended Equipment",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Clothes",
+                    "copete": "",
+                    "descripcion": "<li>Light underwear.</li><li>Long underwear.</li><li>Polypropylene underwear, capilene or something similar (not cotton)</li><li>Fleece trousers and jacket waterproof and easy to perspire; we suggest Gore-Tex or similar.</li><li>Note: wear trousers with lateral zipper, in order to put them on faster and easier </li>"
+                }, {
+                    "nombre": "+Hands",
+                    "copete": "",
+                    "descripcion": "<li>Interior polypropylene gloves or similar</li><li>Thick fingerless glove, wool, fleece or similar</li><li>Gore-Tex fingerless glove cover or similar</li>"
+                }, {
+                    "nombre": "+Feet",
+                    "copete": "",
+                    "descripcion": "<li>Confortable trekking shoes.</li><li>Double plastic boots, we recommend Koflach, Azolo, Iowa, etc.</li><li>Gaiters. Gore-Tex, Cordura.</li><li>Thick socks. woolen or synthetic.</li><li>Thin socks of smooth wool, nylon or polypropylene.</li>"
+                }, {
+                    "nombre": "+Head",
+                    "copete": "",
+                    "descripcion": "<li>Sunhat and balaclava.</li><li>Bandana or handkerchief (neck).</li><li>Wool ski hat.</li>"
+                }, {
+                    "nombre": "+Technical Gear",
+                    "copete": "",
+                    "descripcion": "<li>Light ice-ax, 60 or 70 cm, depending on the height.</li><li>quickly wearing crampons, 12 points with few ribbons.</li><li>ski sticks.</li><li>Climbing Helmet.</li>"
+                }, {
+                    "nombre": "+General Gear",
+                    "copete": "",
+                    "descripcion": "<li>Backpack: capacity 70 liters, rigid back, hard-wearing material with porta ice-ax and place for crampons. </li><li> Regular backpack.</li><li> Sleeping bag: high quality, duvet, to endure temperatures of -25°C</li><li> Sleeping pads, closed cell, neoprene or inflatable.</li><li> Heavy weight down jacket.</li><li> Gaiters Gore-Tex.</li><li> Water bottle and vacuum flask: capacity 1 liter, wide-mouth.</li><li> Head lamp (Petzel).</li><li>Sunglasses, 100%UV protection, with side shields, extra pair.</li><li> Victorinox penknife or similar.</li><li> Sunscreen. Minimum of spf 30-40 or full protection and lip protection.</li><li> Mini first-aid kit.</li><li> Camera.</li>"
+                }, {
+                    "nombre": "+Tip Gear",
+                    "copete": "",
+                    "descripcion": "<li>To transport your general gear from Penitentes-Puente de Inca to Plaza de Mulas, you need a big and resistant bag, like a duffel bag, and a small one, to leave your belongings in our store.</li>"
+                }]
+            }
+        }, {
+            "id": 2,
+            "nombre": "Aconcagua Route 360º",
+            "nombre_corto": "Route 360º",
+            "descripcion": "The 360º expedition combines two different routes around the Aconcagua, the east face and the Northwest  face. The ascent through Vacas Valley and the descent through the Normal Route allows you to enjoy the  magnificence of the highest mountain in America.",
+            "foto_principal": "img/fondos/bg3.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [{
+                "ruta": "Route 360º",
+                "comienzo": "3th Dec",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 4
+            }, {
+                "ruta": "Route 360º",
+                "comienzo": "26th Dec",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Route 360º",
+                "comienzo": "07th Jan",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Route 360º",
+                "comienzo": "021th Jan",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Route 360º",
+                "comienzo": "02th Feb",
+                "fin": "",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }],
+            "galeria": [{
+                "titulo": "Title Picture 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 13",
+                "imagen": "img/fotos-ruta-normal/13.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 14",
+                "imagen": "img/fotos-ruta-normal/14.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 15",
+                "imagen": "img/fotos-ruta-normal/15.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 16",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 17",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 18",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }],
+            "itinerario": {
+                "titulo": "360º ROUTE",
+                "descripcion": "The itinerary is intended as a guideline only. Although every effort will be made to adhere to it, changes may be caused due to weather conditions, transport failure or other unforeseen events. Please be flexible if necessary.",
+                "etapas": [{
+                    "nombre": "+Day 01",
+                    "copete": "Mendoza (2508 feets -760 msnm)",
+                    "descripcion": "Drive airport / Hotel in Mendoza. Instructive talk about the Mt. Aconcagua and the guides will check your equipment."
+                }, {
+                    "nombre": "+Day 02",
+                    "copete": "Mendoza / Penitentes (8992 feets -2725 msnm)",
+                    "descripcion": "Permits. Transfer to Penitentes. Lodging in Penitentes. Preparation of the loads for the mules. (B, L, D)"
+                }, {
+                    "nombre": "+Day 03",
+                    "copete": "Penitentes / Pampa de Leñas (10230 feets - 3100 msnm)",
+                    "descripcion": "Drive to Quebrada de Vacas. Start of the trek to Pampa de Leñas. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 04",
+                    "copete": "Pampa de Leñas / Casa de Piedra (11880 feets - 3600 msnm)",
+                    "descripcion": "Trek to Casa de Piedra. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 05",
+                    "copete": "Casa de Piedra / Plaza Argentina Base Camp (13200 feets - 4100 msnm)",
+                    "descripcion": "Trek to Plaza Argentina base camp. Lodging. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 06",
+                    "copete": "Plaza Argentina Base Camp (13200 feets - 4100 msnm)",
+                    "descripcion": "Resting day in Plaza Argentina. (B, L, D)"
+                }, {
+                    "nombre": "+Day 07",
+                    "copete": "Plaza Argentina / Camp 1 (16335 feets - 4950 msnm) / Plaza Argentina Base Camp",
+                    "descripcion": "Trek and transportation of material to Camp 1 back to BC. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 08",
+                    "copete": "Plaza Argentina Base Camp (13200 feets - 4100 msnm)",
+                    "descripcion": "Resting day in Plaza Argentina. (B, L, D)"
+                }, {
+                    "nombre": "+Day 09",
+                    "copete": "Plaza Argentina / Camp 1 (16335 feets - 4950 msnm)",
+                    "descripcion": "Climb to Camp 1. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 10",
+                    "copete": "Camp 1 / Camp 2 (19140 feets - 5800 msnm) / Camp 1",
+                    "descripcion": "Trek and transportation of material to Camp 2 back to Camp 1. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 11",
+                    "copete": "Camp 1 (16335 feets - 4950 msnm)",
+                    "descripcion": "Rest day in Camp 1. (B, L, D)"
+                }, {
+                    "nombre": "+Day 12",
+                    "copete": "Extra day",
+                    "descripcion": "Extra for contingencies or as bad weather. (B, L, D)"
+                }, {
+                    "nombre": "+Day 13",
+                    "copete": "Camp 1 / Camp 2 (19140 feets - 5800 msnm)",
+                    "descripcion": "Climb to Camp 2. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 14",
+                    "copete": "Camp 2 / Camp Cólera",
+                    "descripcion": "Climb to Camp Cólera on the Normal Route. (B, L, D)"
+                }, {
+                    "nombre": "+Day 15",
+                    "copete": "Extra day",
+                    "descripcion": "Extra for contingencies or as bad weather. (B, L, D)"
+                }, {
+                    "nombre": "+Day 16",
+                    "copete": "Camp Cólera / SUMMIT (22974 feets - 6962 msnm) / Camp 2 ",
+                    "descripcion": "Climbing day to the SUMMIT returning to Cólera. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 17",
+                    "copete": "Camp Cólera / Plaza de Mulas",
+                    "descripcion": "Descent from Cólera to BC Plaza de Mulas. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 18",
+                    "copete": "Plaza de Mulas / Horcones Valley / Penitentes / Mendoza",
+                    "descripcion": "Descent from BC to the entrance. Transfer to Penitentes. Penitentes to Mendoza. Lodging in hotel. Farewell Dinner (B, PL, D) "
+                }, {
+                    "nombre": "+Day 19",
+                    "copete": "Airport or Bus Station",
+                    "descripcion": "Transfer to the Airport or Bus Station (B)"
+                }]
+            },
+            "servicios": {
+                "titulo": "Services",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Land Cost Included",
+                    "copete": "",
+                    "descripcion": "<li>Certified High altitude Mountain Guide</li><li>Two Hotel nights in Mendoza, 3* star/double occupancy with breakfast</li><li>Private transfer from airport to Mendoza Hotel and back</li><li>Assistance to obtaining climbing permit</li><li>Transportation in private vehicles: Mendoza - Penitentes Lodge</li><li>Two nights in a Mountain Refuge in Penitentes, double occupancy, (B,D)</li><li>Transportation from Penitentes Horcones Valley Park entrance</li><li>Transport of load by mules from Penitentes to Plaza de Mulas and back</li><li>Two days full board service in Confluencia BC</li><li>Full board service at Plaza de Mules BC</li><li>Our camps have solar energy, radios, Satellite Phone; meals are prepared following strict standards of hygiene. We also cater to vegetarians</li><li>All necessary food for the high camps</li><li>Tent for use while group is at the base camp, permanent radio communication and toilet.</li><li>Four season tents (The North Face, Mountain 25),MSR stoves, cookware and dishes</li><li>Permanent communication between base camp, Mendoza and Penitentes to be able to coordinate different logistical issues, reservations and, when necessary rescues or evacuations.</li>"
+                }, {
+                    "nombre": "+Land Cost Does Not Included",
+                    "copete": "",
+                    "descripcion": "<li>Ascent Permit</li><li>Airfare and airport taxes to and from Mendoza</li><li>Food and drink not mentioned in Itinerary</li><li>Personal porters</li><li>Individual gear</li><li>Extra costs as a result of abandoning of the expedition</li><li>Medical or traveler's insurance. Costs as a result of an emergency rescue.</li><li>Personal expenses (drinks, laundry, mail, telephone calls)</li><li>All other services not listed as Included</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Recommended Equipment",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Clothes",
+                    "copete": "",
+                    "descripcion": "<li>Light underwear.</li><li>Long underwear.</li><li>Polypropylene underwear, capilene or something similar (not cotton)</li><li>Fleece trousers and jacket waterproof and easy to perspire; we suggest Gore-Tex or similar.</li><li>Note: wear trousers with lateral zipper, in order to put them on faster and easier </li>"
+                }, {
+                    "nombre": "+Hands",
+                    "copete": "",
+                    "descripcion": "<li>Interior polypropylene gloves or similar</li><li>Thick fingerless glove, wool, fleece or similar</li><li>Gore-Tex fingerless glove cover or similar</li>"
+                }, {
+                    "nombre": "+Feet",
+                    "copete": "",
+                    "descripcion": "<li>Confortable trekking shoes.</li><li>Double plastic boots, we recommend Koflach, Azolo, Iowa, etc.</li><li>Gaiters. Gore-Tex, Cordura.</li><li>Thick socks. woolen or synthetic.</li><li>Thin socks of smooth wool, nylon or polypropylene.</li>"
+                }, {
+                    "nombre": "+Head",
+                    "copete": "",
+                    "descripcion": "<li>Sunhat and balaclava.</li><li>Bandana or handkerchief (neck).</li><li>Wool ski hat.</li>"
+                }, {
+                    "nombre": "+Technical Gear",
+                    "copete": "",
+                    "descripcion": "<li>Light ice-ax, 60 or 70 cm, depending on the height.</li><li>quickly wearing crampons, 12 points with few ribbons.</li><li>ski sticks.</li><li>Climbing Helmet.</li>"
+                }, {
+                    "nombre": "+General Gear",
+                    "copete": "",
+                    "descripcion": "<li>Backpack: capacity 70 liters, rigid back, hard-wearing material with porta ice-ax and place for crampons. </li><li> Regular backpack.</li><li> Sleeping bag: high quality, duvet, to endure temperatures of -25°C</li><li> Sleeping pads, closed cell, neoprene or inflatable.</li><li> Heavy weight down jacket.</li><li> Gaiters Gore-Tex.</li><li> Water bottle and vacuum flask: capacity 1 liter, wide-mouth.</li><li> Head lamp (Petzel).</li><li>Sunglasses, 100%UV protection, with side shields, extra pair.</li><li> Victorinox penknife or similar.</li><li> Sunscreen. Minimum of spf 30-40 or full protection and lip protection.</li><li> Mini first-aid kit.</li><li> Camera.</li>"
+                }, {
+                    "nombre": "+Tip Gear",
+                    "copete": "",
+                    "descripcion": "<li>To transport your general gear from Penitentes-Puente de Inca to Plaza de Mulas, you need a big and resistant bag, like a duffel bag, and a small one, to leave your belongings in our store.</li>"
+                }]
+            }
+        }, {
+            "id": 3,
+            "nombre": "Polish Glacier Traverse",
+            "nombre_corto": "Polish Glacier",
+            "descripcion": "Through this route Mt. Aconcagua is going to show us its most rustic side on the east face of the mountain. Here you will find less traffic than the north-east side. To climb Aconcagua by this route requires minimal technical skills and an excellent physical condition.",
+            "foto_principal": "img/fondos/bg1.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [{
+                "ruta": "Polish Glacier Traverse",
+                "comienzo": "26th Dic",
+                "fin": "15 Ene",
+                "estacion": "Summer",
+                "disponibilidad": 4
+            }, {
+                "ruta": "Polish Glacier Traverse",
+                "comienzo": "16th Ene",
+                "fin": "05th feb",
+                "estacion": "Summer",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Polish Glacier Traverse",
+                "comienzo": "05th Feb",
+                "fin": "24th Feb",
+                "estacion": "Summer",
+                "disponibilidad": 2
+            }],
+            "galeria": [{
+                "titulo": "Title Picture 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 13",
+                "imagen": "img/fotos-ruta-normal/13.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 14",
+                "imagen": "img/fotos-ruta-normal/14.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Title Picture 15",
+                "imagen": "img/fotos-ruta-normal/15.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 16",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 17",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Title Picture 18",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }],
+            "itinerario": {
+                "titulo": "Polish Glacier",
+                "descripcion": "The itinerary is intended as a guideline only. Although every effort will be made to adhere to it, changes may be caused due to weather conditions, transport failure or other unforeseen events. Please be flexible if necessary.",
+                "etapas": [{
+                    "nombre": "+Day 01",
+                    "copete": "Mendoza (2508 feets -760 msnm)",
+                    "descripcion": "Drive airport / Hotel in Mendoza. Instructive talk about the Mt. Aconcagua and the guides will check your equipment."
+                }, {
+                    "nombre": "+Day 02",
+                    "copete": "Mendoza / Penitentes (8992 feets -2725 msnm)",
+                    "descripcion": "Permits. Transfer to Penitentes. Lodging in Penitentes. Preparation of the loads for the mules. (B, L, D)"
+                }, {
+                    "nombre": "+Day 03",
+                    "copete": "Penitentes / Pampa de Leñas (10230 feets - 3100 msnm)",
+                    "descripcion": "Drive to Quebrada de Vacas. Start of the trek to Pampa de Leñas. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 04",
+                    "copete": "Pampa de Leñas / Casa de Piedra (11880 feets - 3600 msnm)",
+                    "descripcion": "Trek to Casa de Piedra. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 05",
+                    "copete": "Casa de Piedra / Plaza Argentina Base Camp (13200 feets - 4100 msnm)",
+                    "descripcion": "Trek to Plaza Argentina base camp. Lodging. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 06",
+                    "copete": "Plaza Argentina Base Camp (13200 feets - 4100 msnm)",
+                    "descripcion": "Resting day in Plaza Argentina. (B, L, D)"
+                }, {
+                    "nombre": "+Day 07",
+                    "copete": "Plaza Argentina / Camp 1 (16335 feets - 4950 msnm) / Plaza Argentina Base Camp",
+                    "descripcion": "Trek and transportation of material to Camp 1 back to BC. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 08",
+                    "copete": "Plaza Argentina Base Camp (13200 feets - 4100 msnm)",
+                    "descripcion": "Resting day in Plaza Argentina. (B, L, D)"
+                }, {
+                    "nombre": "+Day 09",
+                    "copete": "Plaza Argentina / Camp 1 (16335 feets - 4950 msnm)",
+                    "descripcion": "Climb to Camp 1. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 10",
+                    "copete": "Camp 1 / Camp 2 (19140 feets - 5800 msnm) / Camp 1",
+                    "descripcion": "Trek and transportation of material to Camp 2 back to Camp 1. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 11",
+                    "copete": "Camp 1 (16335 feets - 4950 msnm)",
+                    "descripcion": "Rest day in Camp 1. (B, L, D)"
+                }, {
+                    "nombre": "+Day 12",
+                    "copete": "Extra day",
+                    "descripcion": "Extra for contingencies or as bad weather. (B, L, D)"
+                }, {
+                    "nombre": "+Day 13",
+                    "copete": "Camp 1 / Camp 2 (19140 feets - 5800 msnm)",
+                    "descripcion": "Climb to Camp 2. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 14",
+                    "copete": "Extra day",
+                    "descripcion": "Extra for contingencies or as bad weather. (B, L, D)"
+                }, {
+                    "nombre": "+Day 15",
+                    "copete": "Extra day",
+                    "descripcion": "Extra for contingencies or as bad weather. (B, L, D)"
+                }, {
+                    "nombre": "+Day 16",
+                    "copete": "Camp 2 / SUMMIT (22974 feets - 6962 msnm) / Camp 2 ",
+                    "descripcion": "Climbing day to the SUMMIT by making a traverse to the Normal Route and returning to Camp 2. (B, PL, D) "
+                }, {
+                    "nombre": "+Day 17",
+                    "copete": "Camp 2 / Plaza Argentina",
+                    "descripcion": "Descent from Camp 2 to BC. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 18",
+                    "copete": "Plaza Argentina / Pampa de Leñas",
+                    "descripcion": "Descent from BC to Pampa de Leñas. (B, PL, D)"
+                }, {
+                    "nombre": "+Day 19",
+                    "copete": "Pampa de Leñas / Puente del Inca / Mendoza",
+                    "descripcion": "Descent from Pampa de Leñas to Quebrada de Vacas. Transfer to Penitentes. Penitentes to Mendoza. Lodging in hotel. Farewell Dinner (B, PL, D)"
+                }, {
+                    "nombre": "+Day 20",
+                    "copete": "Airport or Bus Station",
+                    "descripcion": "Transfer to the Airport or Bus Station (B)"
+                }]
+            },
+            "servicios": {
+                "titulo": "Services",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Land Cost Included",
+                    "copete": "",
+                    "descripcion": "<li>Certified High altitude Mountain Guide</li><li>Two Hotel nights in Mendoza, 3* star/double occupancy with breakfast</li><li>Private transfer from airport to Mendoza Hotel and back</li><li>Assistance to obtaining climbing permit</li><li>Transportation in private vehicles: Mendoza - Penitentes Lodge</li><li>Two nights in a Mountain Refuge in Penitentes, double occupancy, (B,D)</li><li>Transportation from Penitentes to Vacas Valley Park entrance</li><li>Transport of load by mules from Penitentes to Plaza Argentina and back</li><li>Full board service at Plaza Argentina BC (meals are prepared following strict standards of hygiene. (We also cater to vegetarians)</li><li>In camps: toilet, solar energy, radio communication, Satellite Phone.</li><li>All necessary food for the high camps</li><li>Tent to be used while group is at the base camp.</li><li>Four season tents (The North Face, Mountain 25),MSR stoves, cookware and dishes</li><li>Permanent communication between base camp, Mendoza and Penitentes to be able to coordinate different logistical issues, reservations and. When necessary, rescues or evacuations.</li>"
+                }, {
+                    "nombre": "+Land Cost Does Not Included",
+                    "copete": "",
+                    "descripcion": "<li>Ascent Permit</li><li>Airfare and airport taxes to and from Mendoza</li><li>Food and drink not mentioned in Itinerary</li><li>Personal porters</li><li>Individual gear</li><li>Extra costs as a result of abandoning of the expedition</li><li>Medical or traveler's insurance. Costs as a result of an emergency rescue.</li><li>Personal expenses (drinks, laundry, mail, telephone calls)</li><li>All other services not listed as Included</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Recommended Equipment",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Clothes",
+                    "copete": "",
+                    "descripcion": "<li>Light underwear.</li><li>Long underwear.</li><li>Polypropylene underwear, capilene or something similar (not cotton)</li><li>Fleece trousers and jacket waterproof and easy to perspire; we suggest Gore-Tex or similar.</li><li>Note: wear trousers with lateral zipper, in order to put them on faster and easier </li>"
+                }, {
+                    "nombre": "+Hands",
+                    "copete": "",
+                    "descripcion": "<li>Interior polypropylene gloves or similar</li><li>Thick fingerless glove, wool, fleece or similar</li><li>Gore-Tex fingerless glove cover or similar</li>"
+                }, {
+                    "nombre": "+Feet",
+                    "copete": "",
+                    "descripcion": "<li>Confortable trekking shoes.</li><li>Double plastic boots, we recommend Koflach, Azolo, Iowa, etc.</li><li>Gaiters. Gore-Tex, Cordura.</li><li>Thick socks. woolen or synthetic.</li><li>Thin socks of smooth wool, nylon or polypropylene.</li>"
+                }, {
+                    "nombre": "+Head",
+                    "copete": "",
+                    "descripcion": "<li>Sunhat and balaclava.</li><li>Bandana or handkerchief (neck).</li><li>Wool ski hat.</li>"
+                }, {
+                    "nombre": "+Technical Gear",
+                    "copete": "",
+                    "descripcion": "<li>Light ice-ax, 60 or 70 cm, depending on the height.</li><li>quickly wearing crampons, 12 points with few ribbons.</li><li>ski sticks.</li><li>Climbing Helmet.</li>"
+                }, {
+                    "nombre": "+General Gear",
+                    "copete": "",
+                    "descripcion": "<li>Backpack: capacity 70 liters, rigid back, hard-wearing material with porta ice-ax and place for crampons. </li><li> Regular backpack.</li><li> Sleeping bag: high quality, duvet, to endure temperatures of -25°C</li><li> Sleeping pads, closed cell, neoprene or inflatable.</li><li> Heavy weight down jacket.</li><li> Gaiters Gore-Tex.</li><li> Water bottle and vacuum flask: capacity 1 liter, wide-mouth.</li><li> Head lamp (Petzel).</li><li>Sunglasses, 100%UV protection, with side shields, extra pair.</li><li> Victorinox penknife or similar.</li><li> Sunscreen. Minimum of spf 30-40 or full protection and lip protection.</li><li> Mini first-aid kit.</li><li> Camera.</li>"
+                }, {
+                    "nombre": "+Tip Gear",
+                    "copete": "",
+                    "descripcion": "<li>To transport your general gear from Penitentes-Puente de Inca to Plaza de Mulas, you need a big and resistant bag, like a duffel bag, and a small one, to leave your belongings in our store.</li>"
+                }]
+            }
+        }]
+    },
+    "trekkings": {
+        "titulo": "Aconcagua Trekkings",
+        "descripcion": "Trekking in Aconcagua Park rewards the visitor with a magnificent view and the exciting experience approaching to the base of the mythical South Face of Aconcagua, with its almost 3000m of altitude and covered with hanging glaciers, it is one of the largest in the world. We have 2 itineraries for you to enjoy an unforgettable experience, and to know the different base camps of Aconcagua.",
+        "foto_cabecera": "img/fondos/bg2.jpg",
+        "salidas": [
+         {
+            "id": 1,
+            "nombre": "Trek to Plaza Francia<br>Aconcagua’s South Face",
+            "nombre_corto": "Trek to Plaza Francia",
+            "descripcion": "The Aconcagua…. Incas´s old altar dazzles us with its primitive and beautiful scenery. A unique trek inside the Andes, it´s much more than wonderful landscapes, blue skies, powerful winds and majestic clouds; much more than rocks, stars and silence… It take us right into the Stone Sentinel's kingdom.<br>Your adventure begins at the base of the mythical South Face of Aconcagua, with hanging glaciers and walls almost 3.000 meters tall, one of the biggest in the world.<br>The trip will be filled with discoveries and memories that will last a lifetime.<br><br>This trekking program is designed for people with good health and optimum fitness for example able to run or go 3 or 4 times a week (1 to 2 hours) and recently completed a doctor of psychophysical fitness<br><br><strong>SAFETY & RESPONSIBILITY</strong><br><br>All of our programs are planned with safety as our number one priority, taking the weather conditions or events beyond our responsibility into account, we reserve the right to change or exclude those whose health may affect the safety of the trip or activity.",
+            "foto_principal": "img/fondos/bg3.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [],
+            "galeria": [{
+                "titulo": "Título Foto 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }],
+            "itinerario": {
+                "titulo": "Plaza Francia",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
+                "etapas": [{
+                    "nombre": "+Día 01",
+                    "copete": "Mendoza (760 msnm) / Penitentes (2725 msnm)",
+                    "descripcion": "Getting permits. Transfer from Mendoza to Penitentes in private vehicle or bus, accommodation in refuge, dinner and breakfast."
+                }, {
+                    "nombre": "+Día 02",
+                    "copete": "Penitentes (2725 msnm) / Confluencia (3400 msnm)",
+                    "descripcion": "Estimated trekking time 3-4hs. Drive to Aconcagua Provincial Park by private vehicle. After a welcome breafing we’ll check in at Rangers. Our trekking starts here, walking around Horcones’ Lagoon and then to Quebrada del Durazno bridge. Arriving to Confluencia, after approximately 3hs trekking, we’ll rest or if you want you can walk around and visit the Inca´s ruins (Optional). Dinner and night rest."
+                }, {
+                    "nombre": "+Día 03",
+                    "copete": "Confluencia (3400 msnm) / Plaza Francia (4000 msnm) ",
+                    "descripcion": "Estimated time 6-8hs. After breakfast we’ll depart to Plaza Francia, base of the South Face of Aconcagua, this is the base camp for those who take this difficult route to the summit.<br>After a short walk we’ll see the front of the Horcones’ Inferior glacier and walking up we’ll find an ancient glacial valley that will surprise us with their formations and colors.<br>Once in the base of the south Face we’ll have lunch enjoying this privileged view of the hanging glaciers and the two summits of the Colossus of America.<br>Back to Confluencia, we’ll be waiting with a well-deserved snack, finally dinner and overnight. (B,PL, R, D)"
+                }, {
+                    "nombre": "+Día 04",
+                    "copete": "Confluencia / Mendoza",
+                    "descripcion": "Estimated trekking time 2 ½ hs. After breakfast we’ll start our trekking back to the entrance of the park. We’ll check out at Rangers to finally take our transfer to Mendoza city. End of services. (B, PL)"
+                }]
+            },
+            "servicios": {
+                "titulo": "Services",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Included Services",
+                    "copete": "",
+                    "descripcion": "<li>Transfer  Mendoza  city– Aconcagua park – Mendoza city. </li><li>All the meals during the program </li><li>Confluencia Base Camp </li><li>Trek to Plaza Francia </li><li>Professional Guide</li><li>Tents</li><li>Communication</li><br><br>Interview with your Guide a day before departure <br><br>There will be a meeting with all participants of the hiking, the day before heading into the meeting place and time allocated for this purpose. <br>Here the guide will have a personal interview with each of them to: Verify personal data and medical record staff check the equipment necessary, evacuate doubt, advice and assist the passenger in the event of having to rent the same.<br><br>Transfer to Aconcagua Park <br><br>The clients are going to be picked up at the meeting point and time agreed. Private transfer or public bus from Mendoza-to Aconcagua Provincial park Meals <br>During the trekking you will enjoy all meals (B: breakfast / L: lunch / R: snack or reception / D: Dinner), they have been carefully planned by experts as calculating the average energy expenditure of the activities planned for each day and height above sea level in which they develop them. If you are vegetarian, celiac or requires a special diet, please contact us through your booking form so we can prepare a special menu that suits your needs.<br><br>Confluencia Base Camp <br><br>Our camp is designed and equipped so that our customers enjoy a comfortable stay. To do this we have a dome room (with beds and mattresses) and tents bedrooms (with mattress). The distribution of places (in bed or tent) will be made in order of their availability. In both cases the spaces are shared.<br>For the service of gastronomy, we got dinning Domes which are electric light equipped with camping tables and benches, dishes and the friendly attention of our people.<br>The WC service, is a structural comfortable bathroom with toilets, running water, and the right to shower with hot water.<br><br>Our Guides<br><br>In LANKO we believe that to succeed in our programs, the quality of the team that represents and manages us is critical. So we have a staff of professional mountain guides. They are all graduated and alumni of the prestigious EPGAMT (School of Mountain Guides and Trekking - this race is a top level Tecnicatura 2 ½ years duration.<br>Communication<br>We have VHF and BLU radio equipments in all of our base camps and sites of LANKO. That help us to stay in contact between  Penitentes- Confluencia- Plaza de Mulas- Plaza Argentina and Mendoza.  Therefore, we can respond almost inmediately to whatever issue that may arise."
+                }, {
+                    "nombre": "+Not Included Services",
+                    "copete": "",
+                    "descripcion": "<li>Trekking Permit </li><li>Mules</li><li>Drinks and other personal costs not mentioned in the itinerary   </li><li>Sleeping Bag and Personal Equipment </li><li>Expenses for giving up the trekking, even for illness</li><li>Personal Insurance</li><br><br>Trekking Permit<br><br>The formality to get the entrance permit it´s personal and the only way to enter at the Aconcagua Park. You can purchase it in the Aconcagua Visitor Centre in Mendoza city.<br>Tickets are not refundable due to the different entrance fees depending on the season (low, middle and high season)<br><br>Mules<br><br>The mules for the transfer of loads are not included in this program. You will have to carry in your backpack, all your personal equipment , enough water and your lunch, which will be provided by the guide every day before departure.<br><br>Drinks and other personal costs not mentioned in the itinerary<br><br>Extra expenses like food or drinks separate from those described in the itinerary should be paid for you, as they are not included.<br><br>Sleeping bag and Personal equipment<br><br>Neither the technical nor the mountain equipment are included services, so you would have to buy or rent them. Take into account our guides if you need assistance.<br>If you rent equipment, you will be responsible for it. Apart from that, you must give the equipment back to the mountain shop in time.<br><br>Expenses for giving up the trekking<br><br>If you give up the scheduled itinerary because of personal problems, mountain sickness, etc, you start taking private and individual services.  In this case, you must pay for the extra expenses  <br><br>Personal insurance<br><br>Having a personal insurance is not a fundamental requirement to do the trekking. However, if you wish to take one, we suggest that you contact an insurance company with enough time."
+                }]
+            },
+            "equipo": {
+                "titulo": "Personal Equipment",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Equipment",
+                    "copete": "",
+                    "descripcion": "<li>1 Comfortable 60 litres backpack </li><li>1 Pair of telescopic poles (optional) </li><li>1 sleeping bag ( -20° C)</li><li>2 bottles for water (1 ½ liters each one)</li><li>Front lamp with extra batteries</li><li>Sunscreen (never less than FSP 45) </li><li>Personal first aid kit</li><li>Personal care elements</li>"
+                }, {
+                    "nombre": "+Head",
+                    "copete": "",
+                    "descripcion": "<li>Sun cap or hat </li><li>Shelter hat (wool or fleece) </li><li>A good pair of sunglasses with UV filter </li>"
+                }, {
+                    "nombre": "+Body",
+                    "copete": "",
+                    "descripcion": "<li>2 Synthetic underwear shirts</li><li>Turtleneck of synthetic material </li><li>1 Fleece jacket of alike </li><li>1 Shelter jacket (down or synthetical)</li><li>1 Rainproof jacket </li>"
+                }, {
+                    "nombre": "+Legs",
+                    "copete": "",
+                    "descripcion": "<li>1 Pair of comfortable long pant (trekking type, no jeans)</li><li>1 Pair of underwear long pant</li><li>1 Pair of rainproof pants </li>"
+                }, {
+                    "nombre": "+Feet",
+                    "copete": "",
+                    "descripcion": "<li>2 Pairs of thick socks for cold (ski type) </li><li>1 Pair of comfortable and rainproof trekking boots </li>"
+                }, {
+                    "nombre": "+Hands",
+                    "copete": "",
+                    "descripcion": "<li>1 Pair of rainproof gloves for shelter (mitten type)</li><li>1 Pair of underwear gloves</li>"
+                }]
+            }
+        },{
+            "id": 2,
+            "nombre": "Trekking to Plaza de Mulas",
+            "nombre_corto": "Trek to Plaza de Mulas",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
+            "foto_principal": "img/fondos/bg1.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [],
+            "galeria": [{
+                "titulo": "Título Foto 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }],
+            "itinerario": {
+                "titulo": "Plaza de Mulas",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
+                "etapas": [{
+                    "nombre": "+Día 01",
+                    "copete": "Mendoza (760 msnm) / Penitentes (2725 msnm)",
+                    "descripcion": "Getting permits. Transfer from Mendoza to Penitentes in private vehicle or bus, accommodation in refuge, dinner and breakfast."
+                }, {
+                    "nombre": "+Día 02",
+                    "copete": "Penitentes (2725 msnm) / Confluencia (3400 msnm)",
+                    "descripcion": "Estimated trekking time 3-4hs. Drive to Aconcagua Provincial Park by private vehicle. After a welcome breafing we’ll check in at Rangers. Our trekking starts here, walking around Horcones’ Lagoon and then to Quebrada del Durazno bridge. Arriving to Confluencia, after approximately 3hs trekking, we’ll rest or if you want you can walk around and visit the Inca´s ruins (Optional). Dinner and night rest."
+                }, {
+                    "nombre": "+Día 03",
+                    "copete": "Confluencia (3400 msnm) / Plaza Francia (4000 msnm) ",
+                    "descripcion": "Estimated time 6-8hs. After breakfast we’ll depart to Plaza Francia, base of the South Face of Aconcagua, this is the base camp for those who take this difficult route to the summit.<br>After a short walk we’ll see the front of the Horcones’ Inferior glacier and walking up we’ll find an ancient glacial valley that will surprise us with their formations and colors.<br>Once in the base of the south Face we’ll have lunch enjoying this privileged view of the hanging glaciers and the two summits of the Colossus of America.<br>Back to Confluencia, we’ll be waiting with a well-deserved snack, finally dinner and overnight. (B,PL, R, D)"
+                }, {
+                    "nombre": "+Día 04",
+                    "copete": "Confluencia (3400 msnm) / Plaza de Mulas (4260 msnm)",
+                    "descripcion": "Estimated trek time 8 – 9 h. Breakfast and beginning of the trek. Lunch on the way at Piedra Ibáñez. Arrival to Plaza de Mulas in the evening. Check in at the Rangers Station. Reception at our camp."
+                }, {
+                    "nombre": "+Día 05",
+                    "copete": "Plaza de Mulas (4260 msnm)",
+                    "descripcion": "Resting day.  Breakfast and walk around. Opportunity to take some pictures. Lunch. Short-trekking to the Horcones Superior Glacier. Visit to the old Plaza de Mulas camp zone (optional). Dinner and overnight at the camp."
+                }, {
+                    "nombre": "+Día 06",
+                    "copete": "Plaza de Mulas (4620 msnm) / Penitentes",
+                    "descripcion": "Estimated trek time 9 - 10 h. Breakfast and descent to Horcones. Check out at the Rangers Station. Transfer on a private vehicle or public bus to Mendoza.  End of services."
+                }]
+            },
+            "servicios": {
+                "titulo": "Services",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Included Services",
+                    "copete": "",
+                    "descripcion": "<li>Transfer  Mendoza  city– Aconcagua park – Mendoza city. </li><li>All the meals during the program </li><li>Confluencia Base Camp </li><li>Trek to Plaza Francia </li><li>Professional Guide</li><li>Tents</li><li>Communication</li><br><br>Interview with your Guide a day before departure <br><br>There will be a meeting with all participants of the hiking, the day before heading into the meeting place and time allocated for this purpose. <br>Here the guide will have a personal interview with each of them to: Verify personal data and medical record staff check the equipment necessary, evacuate doubt, advice and assist the passenger in the event of having to rent the same.<br><br>Transfer to Aconcagua Park <br><br>The clients are going to be picked up at the meeting point and time agreed. Private transfer or public bus from Mendoza-to Aconcagua Provincial park Meals <br>During the trekking you will enjoy all meals (B: breakfast / L: lunch / R: snack or reception / D: Dinner), they have been carefully planned by experts as calculating the average energy expenditure of the activities planned for each day and height above sea level in which they develop them. If you are vegetarian, celiac or requires a special diet, please contact us through your booking form so we can prepare a special menu that suits your needs.<br><br>Confluencia Base Camp <br><br>Our camp is designed and equipped so that our customers enjoy a comfortable stay. To do this we have a dome room (with beds and mattresses) and tents bedrooms (with mattress). The distribution of places (in bed or tent) will be made in order of their availability. In both cases the spaces are shared.<br>For the service of gastronomy, we got dinning Domes which are electric light equipped with camping tables and benches, dishes and the friendly attention of our people.<br>The WC service, is a structural comfortable bathroom with toilets, running water, and the right to shower with hot water.<br><br>Our Guides<br><br>In LANKO we believe that to succeed in our programs, the quality of the team that represents and manages us is critical. So we have a staff of professional mountain guides. They are all graduated and alumni of the prestigious EPGAMT (School of Mountain Guides and Trekking - this race is a top level Tecnicatura 2 ½ years duration.<br>Communication<br>We have VHF and BLU radio equipments in all of our base camps and sites of LANKO. That help us to stay in contact between  Penitentes- Confluencia- Plaza de Mulas- Plaza Argentina and Mendoza.  Therefore, we can respond almost inmediately to whatever issue that may arise."
+                }, {
+                    "nombre": "+Not Included Services",
+                    "copete": "",
+                    "descripcion": "<li>Trekking Permit </li><li>Mules</li><li>Drinks and other personal costs not mentioned in the itinerary   </li><li>Sleeping Bag and Personal Equipment </li><li>Expenses for giving up the trekking, even for illness</li><li>Personal Insurance</li><br><br>Trekking Permit<br><br>The formality to get the entrance permit it´s personal and the only way to enter at the Aconcagua Park. You can purchase it in the Aconcagua Visitor Centre in Mendoza city.<br>Tickets are not refundable due to the different entrance fees depending on the season (low, middle and high season)<br><br>Mules<br><br>The mules for the transfer of loads are not included in this program. You will have to carry in your backpack, all your personal equipment , enough water and your lunch, which will be provided by the guide every day before departure.<br><br>Drinks and other personal costs not mentioned in the itinerary<br><br>Extra expenses like food or drinks separate from those described in the itinerary should be paid for you, as they are not included.<br><br>Sleeping bag and Personal equipment<br><br>Neither the technical nor the mountain equipment are included services, so you would have to buy or rent them. Take into account our guides if you need assistance.<br>If you rent equipment, you will be responsible for it. Apart from that, you must give the equipment back to the mountain shop in time.<br><br>Expenses for giving up the trekking<br><br>If you give up the scheduled itinerary because of personal problems, mountain sickness, etc, you start taking private and individual services.  In this case, you must pay for the extra expenses  <br><br>Personal insurance<br><br>Having a personal insurance is not a fundamental requirement to do the trekking. However, if you wish to take one, we suggest that you contact an insurance company with enough time."
+                }]
+            },
+            "equipo": {
+                "titulo": "Personal Equipment",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Equipment",
+                    "copete": "",
+                    "descripcion": "<li>1 Comfortable 60 litres backpack </li><li>1 Pair of telescopic poles (optional) </li><li>1 sleeping bag ( -20° C)</li><li>2 bottles for water (1 ½ liters each one)</li><li>Front lamp with extra batteries</li><li>Sunscreen (never less than FSP 45) </li><li>Personal first aid kit</li><li>Personal care elements</li>"
+                }, {
+                    "nombre": "+Head",
+                    "copete": "",
+                    "descripcion": "<li>Sun cap or hat </li><li>Shelter hat (wool or fleece) </li><li>A good pair of sunglasses with UV filter </li>"
+                }, {
+                    "nombre": "+Body",
+                    "copete": "",
+                    "descripcion": "<li>2 Synthetic underwear shirts</li><li>Turtleneck of synthetic material </li><li>1 Fleece jacket of alike </li><li>1 Shelter jacket (down or synthetical)</li><li>1 Rainproof jacket </li>"
+                }, {
+                    "nombre": "+Legs",
+                    "copete": "",
+                    "descripcion": "<li>1 Pair of comfortable long pant (trekking type, no jeans)</li><li>1 Pair of underwear long pant</li><li>1 Pair of rainproof pants </li>"
+                }, {
+                    "nombre": "+Feet",
+                    "copete": "",
+                    "descripcion": "<li>2 Pairs of thick socks for cold (ski type) </li><li>1 Pair of comfortable and rainproof trekking boots </li>"
+                }, {
+                    "nombre": "+Hands",
+                    "copete": "",
+                    "descripcion": "<li>1 Pair of rainproof gloves for shelter (mitten type)</li><li>1 Pair of underwear gloves</li>"
+                }]
+            }
+        }]
+    }
+}

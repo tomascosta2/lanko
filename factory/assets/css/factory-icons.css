@@ -1,0 +1,500 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/factory/icomoon194b.eot?t6yaxv');
+  src:  url('../fonts/factory/icomoon194b.eot?t6yaxv#iefix') format('embedded-opentype'),
+    url('../fonts/factory/icomoon194b.ttf?t6yaxv') format('truetype'),
+    url('../fonts/factory/icomoon194b.woff?t6yaxv') format('woff'),
+    url('../fonts/factory/icomoon194b.svg?t6yaxv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fc-icon-"], [class*=" fc-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fc-icon-d-printer:before {
+  content: "\e900";
+}
+.fc-icon-d-printer-1:before {
+  content: "\e949";
+}
+.fc-icon-assembly-line:before {
+  content: "\e94a";
+}
+.fc-icon-chimney:before {
+  content: "\e94b";
+}
+.fc-icon-container:before {
+  content: "\e94c";
+}
+.fc-icon-control-system:before {
+  content: "\e94d";
+}
+.fc-icon-conveyor2:before {
+  content: "\e94e";
+}
+.fc-icon-conveyor-12:before {
+  content: "\e94f";
+}
+.fc-icon-conveyor-2:before {
+  content: "\e950";
+}
+.fc-icon-conveyor-3:before {
+  content: "\e951";
+}
+.fc-icon-conveyor-4:before {
+  content: "\e952";
+}
+.fc-icon-conveyor-5:before {
+  content: "\e953";
+}
+.fc-icon-drilling-machine:before {
+  content: "\e954";
+}
+.fc-icon-drilling-machine-1:before {
+  content: "\e955";
+}
+.fc-icon-factory:before {
+  content: "\e956";
+}
+.fc-icon-factory-12:before {
+  content: "\e957";
+}
+.fc-icon-factory-2:before {
+  content: "\e958";
+}
+.fc-icon-factory-3:before {
+  content: "\e959";
+}
+.fc-icon-gear:before {
+  content: "\e95a";
+}
+.fc-icon-gear-1:before {
+  content: "\e95b";
+}
+.fc-icon-gear-2:before {
+  content: "\e95c";
+}
+.fc-icon-gear-3:before {
+  content: "\e95d";
+}
+.fc-icon-generator:before {
+  content: "\e95e";
+}
+.fc-icon-harbor-crane:before {
+  content: "\e95f";
+}
+.fc-icon-harbor-crane-1:before {
+  content: "\e960";
+}
+.fc-icon-harbor-crane-2:before {
+  content: "\e961";
+}
+.fc-icon-industrial-robot:before {
+  content: "\e962";
+}
+.fc-icon-industrial-robot-1:before {
+  content: "\e963";
+}
+.fc-icon-industrial-robot-2:before {
+  content: "\e964";
+}
+.fc-icon-industrial-robot-3:before {
+  content: "\e965";
+}
+.fc-icon-industrial-robot-4:before {
+  content: "\e966";
+}
+.fc-icon-industrial-robot-5:before {
+  content: "\e967";
+}
+.fc-icon-industrial-robot-6:before {
+  content: "\e968";
+}
+.fc-icon-industrial-robot-7:before {
+  content: "\e969";
+}
+.fc-icon-industrial-robot-8:before {
+  content: "\e96a";
+}
+.fc-icon-industrial-robot-9:before {
+  content: "\e96b";
+}
+.fc-icon-industrial-robot-10:before {
+  content: "\e96c";
+}
+.fc-icon-industrial-robot-11:before {
+  content: "\e96d";
+}
+.fc-icon-industrial-robot-12:before {
+  content: "\e96e";
+}
+.fc-icon-industrial-robot-13:before {
+  content: "\e96f";
+}
+.fc-icon-industrial-robot-14:before {
+  content: "\e970";
+}
+.fc-icon-industrial-robot-15:before {
+  content: "\e971";
+}
+.fc-icon-industrial-robot-16:before {
+  content: "\e972";
+}
+.fc-icon-industrial-robot-17:before {
+  content: "\e973";
+}
+.fc-icon-levels:before {
+  content: "\e974";
+}
+.fc-icon-lever2:before {
+  content: "\e975";
+}
+.fc-icon-lever-1:before {
+  content: "\e976";
+}
+.fc-icon-lift:before {
+  content: "\e977";
+}
+.fc-icon-light:before {
+  content: "\e978";
+}
+.fc-icon-loader:before {
+  content: "\e979";
+}
+.fc-icon-machine2:before {
+  content: "\e97a";
+}
+.fc-icon-machine-press:before {
+  content: "\e97b";
+}
+.fc-icon-meter:before {
+  content: "\e97c";
+}
+.fc-icon-meter-1:before {
+  content: "\e97d";
+}
+.fc-icon-meter-2:before {
+  content: "\e97e";
+}
+.fc-icon-power-plant:before {
+  content: "\e97f";
+}
+.fc-icon-pushcart:before {
+  content: "\e980";
+}
+.fc-icon-refinery:before {
+  content: "\e981";
+}
+.fc-icon-remote-control:before {
+  content: "\e982";
+}
+.fc-icon-stock:before {
+  content: "\e983";
+}
+.fc-icon-switch:before {
+  content: "\e984";
+}
+.fc-icon-switch-1:before {
+  content: "\e985";
+}
+.fc-icon-tanks:before {
+  content: "\e986";
+}
+.fc-icon-tanks-1:before {
+  content: "\e987";
+}
+.fc-icon-tanks-2:before {
+  content: "\e988";
+}
+.fc-icon-tank-truck:before {
+  content: "\e989";
+}
+.fc-icon-trolley:before {
+  content: "\e98a";
+}
+.fc-icon-truck:before {
+  content: "\e98b";
+}
+.fc-icon-truck-1:before {
+  content: "\e98c";
+}
+.fc-icon-valve:before {
+  content: "\e98d";
+}
+.fc-icon-valve-1:before {
+  content: "\e98e";
+}
+.fc-icon-van:before {
+  content: "\e98f";
+}
+.fc-icon-warehouse2:before {
+  content: "\e990";
+}
+.fc-icon-welder:before {
+  content: "\e991";
+}
+.fc-icon-welder-1:before {
+  content: "\e992";
+}
+.fc-icon-worker2:before {
+  content: "\e993";
+}
+.fc-icon-worker-1:before {
+  content: "\e994";
+}
+.fc-icon-worker-2:before {
+  content: "\e995";
+}
+.fc-icon-worker-3:before {
+  content: "\e996";
+}
+.fc-icon-wrench2:before {
+  content: "\e997";
+}
+.fc-icon-mill:before {
+  content: "\e998";
+}
+.fc-icon-barrel:before {
+  content: "\e999";
+}
+.fc-icon-solar-energy:before {
+  content: "\e99a";
+}
+.fc-icon-pumpjack:before {
+  content: "\e99b";
+}
+.fc-icon-mechanic:before {
+  content: "\e99c";
+}
+.fc-icon-construction:before {
+  content: "\e99d";
+}
+.fc-icon-history-book-for-education:before {
+  content: "\e901";
+}
+.fc-icon-medal:before {
+  content: "\e902";
+}
+.fc-icon-engineer-1:before {
+  content: "\e903";
+}
+.fc-icon-conveyor-1:before {
+  content: "\e904";
+}
+.fc-icon-crane:before {
+  content: "\e905";
+}
+.fc-icon-warehouse:before {
+  content: "\e906";
+}
+.fc-icon-windmill:before {
+  content: "\e907";
+}
+.fc-icon-boxes:before {
+  content: "\e908";
+}
+.fc-icon-machine-3:before {
+  content: "\e909";
+}
+.fc-icon-turbines:before {
+  content: "\e90a";
+}
+.fc-icon-cogwheel:before {
+  content: "\e90b";
+}
+.fc-icon-analytics-1:before {
+  content: "\e90c";
+}
+.fc-icon-gauge:before {
+  content: "\e90d";
+}
+.fc-icon-lever:before {
+  content: "\e90e";
+}
+.fc-icon-machine-2:before {
+  content: "\e90f";
+}
+.fc-icon-electric-tower:before {
+  content: "\e910";
+}
+.fc-icon-factory-1:before {
+  content: "\e911";
+}
+.fc-icon-factory2:before {
+  content: "\e912";
+}
+.fc-icon-conveyor:before {
+  content: "\e913";
+}
+.fc-icon-industry:before {
+  content: "\e914";
+}
+.fc-icon-engineer:before {
+  content: "\e915";
+}
+.fc-icon-oil-platform:before {
+  content: "\e916";
+}
+.fc-icon-plan:before {
+  content: "\e917";
+}
+.fc-icon-browser:before {
+  content: "\e918";
+}
+.fc-icon-worker:before {
+  content: "\e919";
+}
+.fc-icon-analytics:before {
+  content: "\e91a";
+}
+.fc-icon-pie-chart:before {
+  content: "\e91b";
+}
+.fc-icon-machine-1:before {
+  content: "\e91c";
+}
+.fc-icon-tank:before {
+  content: "\e91d";
+}
+.fc-icon-wrench:before {
+  content: "\e91e";
+}
+.fc-icon-monitor:before {
+  content: "\e91f";
+}
+.fc-icon-machine:before {
+  content: "\e920";
+}
+.fc-icon-machinery:before {
+  content: "\e921";
+}
+.fc-icon-machinery-1:before {
+  content: "\e922";
+}
+.fc-icon-machinery-2:before {
+  content: "\e923";
+}
+.fc-icon-machinery-3:before {
+  content: "\e924";
+}
+.fc-icon-machinery-4:before {
+  content: "\e925";
+}
+.fc-icon-machinery-5:before {
+  content: "\e926";
+}
+.fc-icon-machinery-6:before {
+  content: "\e927";
+}
+.fc-icon-machinery-7:before {
+  content: "\e928";
+}
+.fc-icon-machinery-8:before {
+  content: "\e929";
+}
+.fc-icon-machinery-9:before {
+  content: "\e92a";
+}
+.fc-icon-machinery-10:before {
+  content: "\e92b";
+}
+.fc-icon-machinery-11:before {
+  content: "\e92c";
+}
+.fc-icon-machinery-12:before {
+  content: "\e92d";
+}
+.fc-icon-machinery-13:before {
+  content: "\e92e";
+}
+.fc-icon-machinery-14:before {
+  content: "\e92f";
+}
+.fc-icon-machinery-15:before {
+  content: "\e930";
+}
+.fc-icon-machinery-16:before {
+  content: "\e931";
+}
+.fc-icon-machinery-17:before {
+  content: "\e932";
+}
+.fc-icon-machinery-18:before {
+  content: "\e933";
+}
+.fc-icon-machinery-19:before {
+  content: "\e934";
+}
+.fc-icon-machinery-20:before {
+  content: "\e935";
+}
+.fc-icon-machinery-21:before {
+  content: "\e936";
+}
+.fc-icon-machinery-22:before {
+  content: "\e937";
+}
+.fc-icon-machinery-23:before {
+  content: "\e938";
+}
+.fc-icon-machinery-24:before {
+  content: "\e939";
+}
+.fc-icon-machinery-25:before {
+  content: "\e93a";
+}
+.fc-icon-machinery-26:before {
+  content: "\e93b";
+}
+.fc-icon-machinery-27:before {
+  content: "\e93c";
+}
+.fc-icon-machinery-28:before {
+  content: "\e93d";
+}
+.fc-icon-machinery-29:before {
+  content: "\e93e";
+}
+.fc-icon-machinery-30:before {
+  content: "\e93f";
+}
+.fc-icon-machinery-31:before {
+  content: "\e940";
+}
+.fc-icon-machinery-32:before {
+  content: "\e941";
+}
+.fc-icon-machinery-33:before {
+  content: "\e942";
+}
+.fc-icon-machinery-34:before {
+  content: "\e943";
+}
+.fc-icon-machinery-35:before {
+  content: "\e944";
+}
+.fc-icon-machinery-36:before {
+  content: "\e945";
+}
+.fc-icon-machinery-37:before {
+  content: "\e946";
+}
+.fc-icon-machinery-38:before {
+  content: "\e947";
+}
+.fc-icon-machinery-39:before {
+  content: "\e948";
+}

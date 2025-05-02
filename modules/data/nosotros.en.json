@@ -1,0 +1,15 @@
+{
+	"nosotros":{ 
+		"titulo":"Nosotros",
+        "foto_principal":"img/fondos/bg1.jpg",
+		"secciones":[
+			{
+				"menuItem":"Who we are",
+				"titulo":"Who we are",
+				
+				"html":"From 1999 our company LANKO ALTAS MONTAÑAS provides logistic support in mount Aconcagua, supplying assistance for climbers and guiding companies from all over the world. The owners of Lanko started on the mountains since 1990 and the first time that they went in Aconcagua was at 1995 with one of the most important club in Mendoza, CLUB ANDINISTA MENDOZA on the 60 anniversary of the club. Lanko Altas Montañas is one of the leaders companies in Aconcagua Park. Since 2010 received from Tourism of Argentina Government the categories of Travel Agency. (Legajo Nº 14538). <br>These years of experience have given us the successfulness that makes us especially proud. For our company the most important it’s the permanent feedback with our clients that helps us grow.<br>We organize our adventure programs as if we were going to do them ourselves. It is our job, it is our life and our team works day after day, to guarantee you a safe travel. We try our best to highly value your money. And, we consider your security as our primary objective. It is essential for us providing our clients with the best services.<br>From already thank you very much for your trust in us!!<br>JOSE CASAS – OSVALDO CARBAJAL"
+			}
+		]
+
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"servicios":{ 
+		"titulo":"Logistic Support",
+        "foto_principal":"img/fondos/bg1234.jpg",
+		"secciones":[
+			{
+				"menuItem":"Horcones Valley",
+				"titulo":"Horcones Valley - Normal Route",
+				"subtitulo": "<strong>Our company has prepared a very convenient set of services for self-leaded expeditions. We make the logistic arrangements for you and your team expedition. This special package gives you the advantage of having complete control over your trip without having the administrative headache of expedition organization.</strong>",
+				"html":"<strong>INCLUDED SERVICES</strong><br><br><li>Transfer from Mendoza Airport IN - OUT (1) </li><li>Lodging in Mendoza, 3 * hotel, 2 nights, breakfast included (2) </li><li>Assistance to obtaining permits ascent </li><li>Transportation Mendoza - Penitentes - Mendoza (3) </li><li>Lodging in Penitentes, 2 nights, double occupancy at Mountain Refuge, breakfast and dinner included (4) </li><li>Transfer Penitentes - Horcones - Penitentes (5) </li><li>Mules services: Penitentes. - Plaza de Mulas - Penitentes (6)) </li><li>2 days full board at Confluencia BC (breakfast, lunch, dinner, bed) </li><li>5 days full board in Plaza de Mulas BC (breakfast, lunch, dinner, bed or tent per 2 pax) </li><li>Dining at base camp </li><li>Exclusive bathrooms for our customers </li><li>Radial permanent communication between base camp, Mendoza and Penitentes. </li><li>Assistance to coordinate reservations, sending and receiving equipment. </li><li>Provision of weather forecast for all our expeditionary </li><li>Our camps have solar energy, radio BLU and VHF, satellite phone. </li><li>Reserved in advance and can prepare food for vegetarians or coeliacs </li><br><br><strong>NOT INCLUDED SERVICES</strong><br><br><li>Personal porters </li><li>Individual gear </li><li>Extra costs as a result of abandoning of the expedition </li><li>Medical or traveler's insurance. Costs as a result of an emergency rescue. </li><li>Personal expenses (drinks, laundry, mail, telephone calls) </li><li>All other services not listed as Included</li>"
+			},
+			{
+				"menuItem":"Vacas Valley",
+				"titulo":"Vacas Valley - Plaza Argentina",
+				"subtitulo": "<strong>Our company has prepared a very convenient set of services for self-leaded expeditions. We make the logistic arrangements for you and your team expedition. This special package gives you the advantage of having complete control over your trip without having the administrative headache of expedition organization.</strong>",
+				"html":"<strong>INCLUDED SERVICES</strong><br><br><li>Private transfer from Mendoza airport to Mendoza Hotel and back </li><li>Two Hotel nights in Mendoza, 3* star/double occupancy with breakfast </li><li>Assistance to obtaining climbing permit </li><li>Transportation in private vehicles: Mendoza - Penitentes Lodge </li><li>Two nights in a Mountain Refuge in Penitentes, double occupancy, (B,D) </li><li>Transportation from Penitentes to Vacas Valley Park entrance </li><li>Transport of load by mules from Penitentes to Plaza Argentina and back </li><li>One dinner (BBQ) in camp Pampa de Leñas</li><li>Four  days Full board service at Plaza Argentina BC </li><li>Our camps have solar energy, radios, Satellite Phone; meals are prepared following strict standards of hygiene. We also cater to vegetarians </li><li>Tent for use while group is at the base camp, permanent radio communication and toilet. </li><li>Permanent communication between base camp, Mendoza and Penitentes to be able to coordinate different logistical issues, reservations and, when necessary, rescues or evacuations.</li><br><strong>NOT INCLUDED SERVICES</strong><br><br><li>Personal porters </li><li>Individual gear </li><li>Extra costs as a result of abandoning of the expedition </li><li>Medical or traveler's insurance. Costs as a result of an emergency rescue. </li><li>Personal expenses (drinks, laundry, mail, telephone calls) </li><li>All other services not listed as Included</li>"
+			},
+			{
+				"menuItem":"Base Camp Services",
+				"titulo":"Meal Services in Base Camp",
+				"subtitulo": "<strong>Our mountain agency has permanent campsites during the climbing season on the most important bases of mountain, such as Confluencia, Plaza de Mulas, and Plaza Argentina. These base camps are equipped with meal services, gear storage, dining tents with seats and complete silverware, dishes and electric light, satellite phone, radio communication, bathrooms exclusively for our costume’s use, shower, porters or bearer services. We can caterer vegetarian food with the reservation in advance. Your expedition can choice services in our different and properties camp sites. Lanko compromise to freely take your waste down from the base camp to Penitentes. In this case, our staff in the base camps will sign your climbing permit in order to give proof that our company will be responsibe for your garbage.</strong>",
+				"html":"<strong>INCLUDED SERVICES</strong><br><br><li>Gear storage room in Penitentes and base camps.</li><li>Transportation from your lodging in Puente del Inca or Penitentes up to the Horcones Valley or Vacas Valley).</li><li>BC Toilets.</li>"
+			}
+		]
+
+	}
+}

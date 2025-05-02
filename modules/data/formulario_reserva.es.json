@@ -1,0 +1,26 @@
+{
+	"grupos":[
+		{
+			"grupo":"Información Personal",
+			"campos":[
+				{
+					"nombre":"Nombre y Apellido",
+					"placeholder":""
+				},
+				{
+					"nombre":"Teléfono",
+					"placeholder":"Por favor, ingrese código del país y de ciudad"
+				},
+				{
+					"nombre":"Correo Electrónico",
+					"placeholder":""
+				},
+				{
+					"nombre":"Consulta",
+					"placeholder":""
+				}
+			]
+
+		}
+	]
+}

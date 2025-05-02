@@ -1,0 +1,27 @@
+.botonera1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #1F1F1F;
+	text-decoration: none;
+	font-size: 14px;
+}
+.botonera1:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #2E6F92;
+	text-decoration: none;
+	font-size: 14px;
+}
+.botonera2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #2E6F92;
+	text-decoration: none;
+	font-size: 14px;
+}
+.botonera2:hover {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #1F1F1F;
+	text-decoration: none;
+	font-size: 14px;
+}
+.color-gris {
+	color: #999;
+}

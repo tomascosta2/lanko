@@ -1,0 +1,3 @@
+<!-- INICIO codigo contadores.miarroba.com -->
+<SCRIPT LANGUAGE="JavaScript" src="http://miarroba.com/contadores/ver.php?id=92949"></SCRIPT>
+<!-- FIN codigo contadores.miarroba.com -->

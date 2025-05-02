@@ -1,0 +1,256 @@
+<header back-img="{{salida.foto_principal}}" class="descripcion-salida">
+	<div class="fondo-opaco">
+		<div class="header-content">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div class="titulo_salidas" style="padding-top: 50px; margin-bottom: 30px;" ng-bind-html="salida.nombre"></div>
+				</div>
+			</div>
+			<div class="row" style="margin-top:50px;">
+				<div class="col-sm-8 col-sm-offset-2">
+					<a ng-repeat="row in salida.salidas" href="#/salida/{{tipo}}/{{row.id}}" class="btn btn-transparent btn-xl wow bounceIn">{{row.nombre_corto}}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="tabs">
+	<div class="container">
+		<div class="orden">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a showtab href="#fechas">
+						<span ng-if="!esIngles">Fechas y Precios</span>
+						<span ng-if="esIngles">Dates and Prices</span>
+					</a>
+				</li>
+				<li>
+					<a showtab href="#galeria">
+						<span ng-if="!esIngles">Galería</span>
+						<span ng-if="esIngles">Gallery</span>
+					</a>
+				</li>
+				<li>
+					<a showtab href="#itinerario">
+						<span ng-if="!esIngles">Itinerario</span>
+						<span ng-if="esIngles">Itinerary</span>
+					</a>
+				</li>
+				<li>
+					<a showtab href="#servicios">
+						<span ng-if="!esIngles">Servicios</span>
+						<span ng-if="esIngles">Services</span>
+					</a>
+				</li>
+				<li>
+					<a showtab href="#equipamiento">
+						<span ng-if="!esIngles">Equipamiento</span>
+						<span ng-if="esIngles">Equipment</span>
+					</a>
+				</li>
+			</ul>
+			<div class="tab-content" style="margin-top:50px;">
+				<div id="fechas" class="tab-pane fade in active">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="titulos_en_azul">
+									<span ng-if="!esIngles">Contactanos</span>
+									<span ng-if="esIngles">Contact us</span>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<img src="img/ico_email.png"></div>
+									<div class="col-xs-11">
+										<div class="contenido_contacto">lankoexpediciones@yahoo.com.ar </br> info@lanko.com.ar</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<img src="img/ico_whatsapp.png"></div>
+									<div class="col-xs-11">
+										<div class="contenido_contacto">0261 15-558-3291</br>0261 15-559-0839</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<img src="img/ico_mapa.png"></div>
+									<div class="col-xs-11">
+										<div class="contenido_contacto">G Espejo 183, Piso 7, Oficina 63 (Cdad. de Mendoza) </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-8">
+								<h3>
+									<span ng-if="!esIngles">Descripción</span>
+									<span ng-if="esIngles">Description</span>
+								</h3>
+								<div ng-bind-html="salida.descripcion"></div>
+									<div class="boton_unirme" style="margin-top:20px;margin-bottom:20px;"  ng-if="salida.fechas.length==0">
+										<a href="#/contacto">
+											<span class="palabra_unirme">
+												<span ng-if="!esIngles">Unirme</span>
+												<span ng-if="esIngles">Join</span>
+											</span>
+										</a>
+									</div>
+								<div class="table-responsive" style="margin-top:20px;"  ng-if="salida.fechas.length>0">
+
+									<table class="table">
+										<thead style="background-color:#4c4c4c;color:#ffffff">
+											<tr>
+												<th>
+													<span ng-if="!esIngles">Ruta</span>
+													<span ng-if="esIngles">Route</span>
+												</th>
+												<th>
+													<span ng-if="!esIngles">Comienzo</span>
+													<span ng-if="esIngles">Start</span>
+												</th>
+												<th>
+													<span ng-if="!esIngles">Fin</span>
+													<span ng-if="esIngles">End</span>
+												</th>
+												<th>
+													<span ng-if="!esIngles">Estación</span>
+													<span ng-if="esIngles">Season</span>
+												</th>
+												<!--<th>Disponibilidad</th>
+											-->
+											<th></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ng-repeat="fecha in salida.fechas">
+											<td>{{fecha.ruta}}</td>
+											<td>{{fecha.comienzo}}</td>
+											<td>{{fecha.fin}}</td>
+											<td>{{fecha.estacion}}</td>
+											<!--<td>
+											<div ng-class="{'circulitos_verdes' : fecha.disponibilidad>
+												=1,'circulitos_grises':fecha.disponibilidad
+												<1}"></div>
+												<div ng-class="{'circulitos_verdes' : fecha.disponibilidad>
+													=2,'circulitos_grises':fecha.disponibilidad
+													<2}"></div>
+													<div ng-class="{'circulitos_verdes' : fecha.disponibilidad>
+														=3,'circulitos_grises':fecha.disponibilidad
+														<3}"></div>
+														<div ng-class="{'circulitos_verdes' : fecha.disponibilidad>
+															=4,'circulitos_grises':fecha.disponibilidad
+															<4}"></div>
+															<div ng-class="{'circulitos_verdes' : fecha.disponibilidad==5,'circulitos_grises':fecha.disponibilidad<5}"></div>
+															<div ng-class="{'circulitos_verdes' : fecha.disponibilidad>
+																=6,'circulitos_grises':fecha.disponibilidad
+																<6}"></div>
+															</td>
+															-->
+															<td>
+																<div class="boton_unirme">
+																	<a href="#/contacto">
+																		<span class="palabra_unirme">
+																			<span ng-if="!esIngles">Unirme</span>
+																			<span ng-if="esIngles">Join</span>
+																		</span>
+																	</a>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Modal -->
+							<div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">
+												<span aria-hidden="true">&times;</span>
+												<span class="sr-only">Cerrar</span>
+											</button>
+											<h4 class="modal-title" id="galleryModalLabel">{{foto_descipcion}}</h4>
+										</div>
+										<div class="modal-body">
+											<img class="img-responsive" src="{{foto_url}}" alt="{{foto_descipcion}}"></div>
+									</div>
+								</div>
+							</div>
+							<div id="galeria" class="tab-pane fade">
+								<div class="container" style="margin-left:-35px;">
+									<div class="row  popup-gallery">
+										<div ng-repeat="foto in salida.galeria.slice(0,6)" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
+											<div class="thumbnail">
+												<a ng-click="AmpliarImagen({event:$event})">
+													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}"  data-toggle="modal" data-target="#galleryModal"></a>
+											</div>
+										</div>
+									</div>
+									<div class="row  popup-gallery">
+										<div ng-repeat="foto in salida.galeria.slice(6,12)" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
+											<div class="thumbnail">
+												<a ng-click="AmpliarImagen({event:$event})">
+													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}"  data-toggle="modal" data-target="#galleryModal"></a>
+											</div>
+										</div>
+									</div>
+									<div class="row  popup-gallery">
+										<div ng-repeat="foto in salida.galeria.slice(12,18)" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
+											<div class="thumbnail">
+												<a ng-click="AmpliarImagen({event:$event})">
+													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}"  data-toggle="modal" data-target="#galleryModal"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div id="itinerario" class="tab-pane fade">
+								<h3>{{salida.itinerario.titulo}}</h3>
+								<p ng-bind-html="salida.itinerario.descripcion"></p>
+								<div ng-repeat="etapa in salida.itinerario.etapas">
+									<div class="row" style="padding-top:5px;padding-bottom:5px;">
+										<button style="font-size:14px" class="btn btn-success" data-toggle="collapse" data-target="#etapa{{$index}}">{{etapa.nombre}}</button>
+										{{etapa.copete}}
+									</div>
+									<div class="row-fluid"  style="padding-top:2px;padding-bottom:2px;">
+										<div id="etapa{{$index}}" class="collapse" ng-bind-html="etapa.descripcion"></div>
+									</div>
+								</div>
+							</div>
+
+							<div id="servicios" class="tab-pane fade">
+								<h3>{{salida.servicios.titulo}}</h3>
+								<p ng-bind-html="salida.servicios.descripcion"></p>
+								<div ng-repeat="servicio in salida.servicios.servicios">
+									<div class="row" style="padding-top:2px;padding-bottom:2px;">
+										<button style="font-size:14px" class="btn btn-success" data-toggle="collapse" data-target="#servicio{{$index}}">{{servicio.nombre}}</button>
+										{{servicio.copete}}
+									</div>
+									<div class="row-fluid"  style="padding-top:5px;padding-bottom:5px;">
+										<div id="servicio{{$index}}" class="collapse" ng-bind-html="servicio.descripcion"></div>
+									</div>
+								</div>
+							</div>
+							<div id="equipamiento" class="tab-pane fade">
+								<h3>{{salida.equipo.titulo}}</h3>
+								<p ng-bind-html="salida.equipo.descripcion"></p>
+								<div ng-repeat="equipo in salida.equipo.servicios">
+									<div class="row" style="padding-top:2px;padding-bottom:2px;">
+										<button style="font-size:14px" class="btn btn-success" data-toggle="collapse" data-target="#equipo{{$index}}">{{equipo.nombre}}</button>
+										{{equipo.copete}}
+									</div>
+									<div class="row-fluid" style="padding-top:5px;padding-bottom:5px;">
+										<div id="equipo{{$index}}" class="collapse"  ng-bind-html="equipo.descripcion"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<ng-include src="'modules/includes/pie.html'"></ng-include>

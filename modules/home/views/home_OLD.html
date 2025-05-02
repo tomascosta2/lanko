@@ -1,0 +1,57 @@
+<header back-img="img/home/header.jpg">
+	<!--div class="cloud img-01 x1 hidden-xs"></div>
+	<div class="cloud img-02 x2 hidden-xs"></div>
+	<div class="cloud img-03 x3 hidden-xs"></div>
+	<div class="cloud img-01 x4 hidden-xs"></div>
+	<div class="cloud img-02 x5 hidden-xs"></div-->
+	<div class="header-content">
+		<div class="header-content-inner">
+			<img src="img/logo_grande_home.png"  class="wow pulse"  style="margin-top:20px;">
+			<h1><span ng-if="!esIngles">EXPEDICIONES AL ACONCAGUA</span><span ng-if="esIngles">ACONCAGUA EXPEDITIONS</span></h1>
+			<a href="#/salidas/expediciones" class="btn btn-primary btn-xl wow bounceIn"><span ng-if="!esIngles">Ver expediciones</span><span ng-if="esIngles">See expeditions</span></a>
+		</div>
+	</div>
+</header>
+<div class="container-fluid vertrekkings" back-img="img/home/header2.jpg">
+	<div class="row"  >
+		<div class="col-sm-6 col-sm-offset-1">
+			<h2 class="Annotate_a_las_nuevas_expediciones"><span ng-if="!esIngles">Fechas de expediciones</span><span ng-if="esIngles">Dates expeditions</span></h2>
+			<h2 class="Annotate_a_las_nuevas_expediciones">2018/2019</h2>
+		</div>
+		<div class="col-sm-4" style="text-align:center;margin-top:30px;">
+			<a href="#/salidas/trekkings" class="btn btn-secondary btn-xl wow bounceIn"><span ng-if="!esIngles">Ver Trekkings</span><span ng-if="esIngles">See Trekkings</span></a>
+		</div>
+	</div>
+</div>
+<div class="container" style=" padding-top: 40px; padding-bottom: 50px">
+	<div class="row">
+		<a href="http://lanko.com.ar/#/salidas/expediciones"><div class="col-sm-3 col-sm-offset-1 col-xs-8 col-xs-offset-2">
+			<img src="img/expediciones.png" class="img-responsive centered" alt="">
+			<h4 class="titulos_debajo_de_foto"><span ng-if="!esIngles">Expediciones</span><span ng-if="esIngles">Expeditions</span></h4>
+			<div class="texto_debajo_de_foto">
+				<span ng-if="!esIngles">Nuestras expediciones son programas que requieren una logística impecable desde nuestra parte y una excelente preparación física y psicológica de los miembros del equipo que trata de atacar la cumbre. Somos montañistas y sabemos los servicios que se necesitan en la montaña, es por eso que nos ocupamos de todos los detalles con el fin de que nuestros clientes sólo se preocupen por lo único que tiene que preocuparse: aclimatar y mantenerse fuertes para llegar a la cima.</span>
+				<span ng-if="esIngles">Our expeditions are programs that requires an impeccable logistic from our part and an excellent physical and psychological preparation from the members of the equipment who tries to attack the summit. We are mountaineers and we know what services people need in the mountains, that is why we take care of every details in order that our clients only worry about the only thing they have to worry: to acclimate and to be kept strong to reach the summit.</span>
+			</div>
+
+		</div></a>
+
+		<a href="http://lanko.com.ar/#/salidas/trekkings"><div class="col-sm-3 col-sm-offset-1 col-xs-8 col-xs-offset-2">
+			<img src="img/trekings.png" class="img-responsive centered" alt="">
+			<h4 class="titulos_debajo_de_foto">Trekkings</h4>
+			<div class="texto_debajo_de_foto">
+				<span ng-if="!esIngles">Con nuestros trekkings vivirás  la emocionante aventura de acercarte a la base de la mítica Pared Sur del Aconcagua, que con sus casi 3000m de desnivel  y  cubierta por glaciares colgantes, es una de las más grandes del mundo. Contamos con 2 itinerarios de modo que puedas disfrutar de una experiencia inolvidable, y conocer las diferentes bases de Aconcagua.</span>
+				<span ng-if="esIngles">Trekking in Aconcagua Park rewards the visitor with a magnificent view and the exciting experience approaching to the base of the mythical South Face of Aconcagua, with its almost 3000m of altitude and covered with hanging glaciers, it is one of the largest in the world. We have 2 itineraries for you to enjoy an unforgettable experience, and to know the different base camps of Aconcagua.</span>
+			</div>
+
+		</div></a>
+		<a href="http://lanko.com.ar/#/servicios"><div class="col-sm-3 col-sm-offset-1 col-xs-8 col-xs-offset-2">
+			<img src="img/servicios.png" class="img-responsive centered" alt="">
+			<h4 class="titulos_debajo_de_foto"><span ng-if="!esIngles">Servicios Logísticos</span><span ng-if="esIngles">Logistics Services</span></h4>
+			<div class="texto_debajo_de_foto">
+				<span ng-if="!esIngles">Hacemos los arreglos logísticos para vos y tu grupo. Este paquete te da la ventaja de tener un control completo sobre tu viaje sin tener que preocuparte de nada y sólo concentrarte en la cumbre.</span>
+				<span ng-if="esIngles">We have prepared a very convenient set of services for self-leaded expeditions. We make the logistic arrangements for you and your team expedition. This special package gives you the advantage of having complete control over your trip without you having to worry about anything. Your time prior to the expedition's departure is therefore free so you can concentrate in your summit.</span>
+			</div>
+		</div></a>
+	</div>
+</div>
+<ng-include src="'modules/includes/pie.html'"></ng-include>

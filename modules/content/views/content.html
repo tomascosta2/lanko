@@ -1,0 +1,32 @@
+<header back-img="{{contenido.foto_principal}}" class="descripcion-salida">
+	<div class="fondo-opaco">
+		<div class="header-content">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<div class="titulo_salidas" style="padding-top: 150px; margin-bottom: 30px;">{{contenido.titulo}}</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top:50px;">
+				<div class="col-sm-8 col-sm-offset-2">
+					<a ng-repeat="row in salida.salidas" href="#/salida/{{tipo}}/{{row.id}}" class="btn btn-transparent btn-xl wow bounceIn">{{row.nombre_corto}}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="container contenidos">
+	<div class="row">
+		<div class="col-sm-3" style="margin-top:40px;">
+			<div ng-repeat="seccion in contenido.secciones" class="fila">
+				<a ng-class="{active:$index==contenidoActual}" ng-click="cambiaSeccion($index)"> > {{seccion.menuItem}}</a>
+			</div>
+		</div>
+		<div class="col-sm-9">
+			<h1>{{contenido.secciones[contenidoActual].titulo}}</h1>
+			<p ng-bind-html="contenido.secciones[contenidoActual].subtitulo"></p>
+			<p ng-bind-html="contenido.secciones[contenidoActual].html"></p>
+		</div>
+	</div>
+</div>
+
+<ng-include src="'modules/includes/pie.html'"></ng-include>

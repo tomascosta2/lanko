@@ -1,0 +1,967 @@
+{
+    "expediciones": {
+        "titulo": "Expediciones al Aconcagua",
+        "descripcion": "Nuestras expediciones son programas que requieren una logística impecable desde nuestra parte y una excelente preparación física y psicológica de los miembros del equipo que trata de atacar la cumbre. Somos montañistas y sabemos los servicios que se necesitan en la montaña, es por eso que nos ocupamos de todos los detalles con el fin de que nuestros clientes sólo se preocupen por lo único que tiene que preocuparse: aclimatar y mantenerse fuertes para llegar a la cima.",
+        "foto_cabecera": "img/fondos/bg1.jpg",
+        "salidas": [{
+            "id": 1,
+            "nombre": "Aconcagua Ruta Normal",
+            "nombre_corto": "Ruta Normal",
+            "descripcion": "La Ruta Normal del Aconcagua no presenta ninguna dificultad técnica, es por esto que ésta ruta es enormemente atractiva, permitiendo alcanzar la cumbre a cualquier montañista con buena preparación física y una correcta aclimatación.",
+            "foto_principal": "img/fondos/bg1212.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [{
+                "ruta": "Normal",
+                "comienzo": "26 Nov",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 4
+            }, {
+                "ruta": "Normal",
+                "comienzo": "17 Dic",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Normal",
+                "comienzo": "24 Dic",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Normal",
+                "comienzo": "07 Ene",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Normal",
+                "comienzo": "21 Ene",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Normal",
+                "comienzo": "09 Feb",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 5
+            }],
+            "galeria": [{
+                "titulo": "Título Foto 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 13",
+                "imagen": "img/fotos-ruta-normal/13.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 14",
+                "imagen": "img/fotos-ruta-normal/14.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 15",
+                "imagen": "img/fotos-ruta-normal/15.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 16",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 17",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 18",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }],
+            "itinerario": {
+                "titulo": "Expedicion Valle De Horcones",
+                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe.",
+                "etapas": [{
+                    "nombre": "+Día 01",
+                    "copete": "Mendoza (760 msnm)",
+                    "descripcion": "Traslado aeropuerto / hotel en Mendoza. Alojamiento. Chequeo de su equipo y Reunión instructiva del Cerro Aconcagua con el guía y compañeros."
+                }, {
+                    "nombre": "+Día 02",
+                    "copete": "Mendoza / Penitentes (2725 msnm)",
+                    "descripcion": "Permisos. Traslado Mendoza / Penitentes. Alojamiento en Refugio de Montaña. Preparación de las cargas para las mulas. (D, A, C)"
+                }, {
+                    "nombre": "+Día 03",
+                    "copete": "Penitentes / Confluencia (3300 msnm)",
+                    "descripcion": "Transporte a la entrada del Parque Aconcagua. Presentación de los permisos. Trek al campamento de aproximación Confluencia. Alojamiento (D, L, C)"
+                }, {
+                    "nombre": "+Día 04",
+                    "copete": "Confluencia / Plaza Francia (4000 msnm) / Confluencia",
+                    "descripcion": "Trek hasta el mirador de Plaza Francia, base de la pared Sur del Aconcagua. Lunch y regreso a Confluencia. (D, L, C)"
+                }, {
+                    "nombre": "+Día 05",
+                    "copete": "Confluencia / Campo Base Plaza de Mulas (4260 msnm)",
+                    "descripcion": "Trek al Campo Base Plaza de Mulas. Alojamiento en el campamento. (D, L, C)"
+                }, {
+                    "nombre": "+Día 06",
+                    "copete": "Plaza de Mulas (14058 feets - 4260 msnm)",
+                    "descripcion": "Día de descanso. Trek corto al Glaciar Horcones. Prácticas con crampones. (D, A, C)"
+                }, {
+                    "nombre": "+Día 07",
+                    "copete": "Plaza de Mulas / Cumbre del Cerro Bonete (5100 msnm) / Plaza de Mulas",
+                    "descripcion": "Trek a la cima del Cerro Bonete y retorno a Plaza de Mulas. Este trekking tiene una duración de 6 horas y permite alcanzar los 5100 msnm. Esta actividad definitivamente activará todos los mecanismos de aclimatación de nuestro cuerpo. (D, L, C)"
+                }, {
+                    "nombre": "+Día 08",
+                    "copete": "Plaza de Mulas / Campo 1 Canadá (4910 msnm) / Plaza de Mulas",
+                    "descripcion": "Trek de aclimatación y transporte de material al Campo 1 Canadá y regreso al Campo."
+                }, {
+                    "nombre": "+Día 09",
+                    "copete": "Plaza de Mulas (4260 msnm)",
+                    "descripcion": "Día de descanso y aclimatación. (D, A, C)"
+                }, {
+                    "nombre": "+Día 10",
+                    "copete": "Plaza de Mulas / Campo 1 Canadá (4910 msnm)",
+                    "descripcion": "Ascenso al Campo 1 Canadá. (D, L, C)"
+                }, {
+                    "nombre": "+Día 11",
+                    "copete": "Campo 1 Canadá / Campo 2 Nido de Cóndores (5250 msnm)",
+                    "descripcion": "Ascenso al Campo 2 Nido de Cóndores. (D, L, C)"
+                }, {
+                    "nombre": "+Día 12",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }, {
+                    "nombre": "+Día 13",
+                    "copete": "Campo 2 Nido de Cóndores / Campo 3 Berlín - Cólera (5900 msnm)",
+                    "descripcion": "Ascenso al Campo 3 Berlín - Cólera. (D, L, C)"
+                }, {
+                    "nombre": "+Día 14",
+                    "copete": "Campo 3 Berlín - Cólera / CUMBRE (6962 msnm) / Campo 3 Berlín - Cólera",
+                    "descripcion": "Ascenso Campo 3 Berlín - Cólera a la CUMBRE y regreso al Campo 3. (D, L, C)"
+                }, {
+                    "nombre": "+Día 15",
+                    "copete": "Campo 3 Berlín - Cólera / Campo Base Plaza de Mulas",
+                    "descripcion": "Descenso al Campo Base Plaza de Mulas. (D, L, C)"
+                }, {
+                    "nombre": "+Día 16",
+                    "copete": "Plaza de Mulas / Puente del Inca / Mendoza",
+                    "descripcion": "Descenso a Puente del Inca. Transporte a Mendoza. Alojamiento en el Hotel. (D, L,)"
+                }, {
+                    "nombre": "+Día 17",
+                    "copete": "Transporte al Aeropuerto o Estación de Buses",
+                    "descripcion": "Traslado hotel / aeropuerto o estación de buses. (D)"
+                }, {
+                    "nombre": "+Día 18",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }, {
+                    "nombre": "+Día 19",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }]
+            },
+            "servicios": {
+                "titulo": "Servicios",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Servicios Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Guía de Alta Montaña Certificado</li><li>Dos noches Hotel en Mendoza, 3 * habitación doble con desayuno</li><li>Transfer desde el aeropuerto de Mendoza al Hotel y regreso</li><li>Asistencia para la obtención del permiso de ascenso</li><li>Transfer Mendoza - Penitentes</li><li>Dos noches en Refugio de Montaña, desayuno y cena incluida</li><li>Transfer Penitentes - Horcones</li><li>Transporte de cargas en mulas</li><li>Dos días de servicio full en Confluencia</li><li>Servicio pensión completa en Plaza de Mulas</li><li>Nuestros campamentos base cuentan con energía solar, radios, teléfono satelital, las comidas son preparadas bajo estrictos controles municipales.También realizamos menues vegetarianos</li><li>Toda la comida necesaria para los campamentos de altura</li><li>Tiendas comedores en el campamento base, comunicación permanente vía radial desde y hasta los campamentos de altura, baños exclusivos para nuestros clientes.</li><li>Tiendas cuatro estaciones(The North Face, Mountain 25), calentadores MSR, elementos de cocina.</li><li>Comunicación Permanente desde los campamentos base con, Mendoza y Penitentes para coordinar los diferentes movimientos logísticos de la expedición.</li>"
+                }, {
+                    "nombre": "+Servicios No Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Permiso de Ascenso</li><li>Comidas y bebidas no mencionadas en el itinerario</li><li>Porter Persona</li><li>Equipo personal</li><li>Costos Extra resultado del abandono de la expedicion</li><li>Medical or traveler 's insurance. Costs as a result of an emergency rescue.</li><li>Personal expenses(drinks, laundry, mail, telephone calls)</li><li>All other services not listed as Included</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Equipo Recomendado",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Ropa",
+                    "copete": "",
+                    "descripcion": "<li>Ropa interior de polipropileno,capilene o similar(no algodón).</li><li>Pantalón y chaqueta de polar.</li><li>Pantalón y chaqueta impermeable,transpirable;recomendamos gore - tex o similar.</li><li>Nota: los pantalones deben tener cremallera lateral,para una postura rápida y sencilla.</li>"
+                }, {
+                    "nombre": "+Manos",
+                    "copete": "",
+                    "descripcion": " <li>Guante interior de polipropileno o similar.</li><li>Mitones gruesos de lana,polar o similar.</li><li>Cubre mitones de gore - tex o similar.</li>"
+                }, {
+                    "nombre": "+Pies",
+                    "copete": "",
+                    "descripcion": " <li>Zapatillas cómodas de trekking o similar</li><li>Botas dobles de plástico,recomendamos koflach,azolo,lowa,etc.</li><li>Polainas</li><li>Calcetines gruesos.de lana o sintético.</li><li>Calcetines finos de lana suave,nylon o polipropileno.</li>"
+                }, {
+                    "nombre": "+Cabeza",
+                    "copete": "",
+                    "descripcion": "<li>Gorra para el sol y pasamontañas.</li><li>badana o pañuelo(cuello).</li><li>gorro de lana</li>"
+                }, {
+                    "nombre": "+Equipo Técnico",
+                    "copete": "",
+                    "descripcion": "<li>Piolet ligero de 60 o 70 cm. Según su altura.</li><li>Crampones de postura rápida,12 puntas y pocas cintas.</li><li>Bastones de esquí.</li><li>Casco</li>"
+                }, {
+                    "nombre": "+Equipo General",
+                    "copete": "",
+                    "descripcion": "<li>Mochila: capacidad 70 litros,espalda rígida,tela resistente con porta piolet y lugar para crampones.</li><li>Mochila de ataque opcional.</li><li>Bolsa de dormir: debe ser de excelente calidad,de duvet,para temperaturas de - 25° c.</li><li>Colchoneta aislante de celda cerrada,neoprene o inflables.</li><li>Campera de abrigo de duvet o thinsulate.</li><li>Polainas de gore - tex o cordura.</li><li>Medias: gruesas,finas,de marcha,dos pares de cada una como mínimo.</li><li>Cantimplora y termo: capacidad de un litro y boca grande.</li><li>Linterna frontal tipo petzel.</li><li>Lentes para sol con filtro 100 % uv,protección lateral y un par de repuesto.</li><li>Navaja tipo Victorinox.</li><li>Crema protectora para sol spf 30 - 40 o pantalla total y lápiz labial para sol.</li><li>Mini botiquín.</li><li>Cámara fotográfica.</li>"
+                }, {
+                    "nombre": "+Equipo de Viaje",
+                    "copete": "",
+                    "descripcion": " <li>Para transportar su equipo general desde penitentes-puente de inca hasta plaza de mulas, se necesita un    bolso grande y resistente tipo marinero y un bolso pequeño para dejar sus pertenencias en nuestro depósito.</li>"
+                }]
+            }
+        }, {
+            "id": 2,
+            "nombre": "Aconcagua Ruta 360º",
+            "nombre_corto": "Ruta 360º",
+            "descripcion": "La expedición de 360º combina dos rutas alrededor del Aconcagua, la cara este y noroeste. Ascender a través del valle de Vacas y descender a través de la ruta normal le permite disfrutar de la magnificencia de la montaña más alta de América.",
+            "foto_principal": "img/fondos/bg3.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [{
+                "ruta": "Ruta 360º",
+                "comienzo": "03 Dic",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 4
+            }, {
+                "ruta": "Ruta 360º",
+                "comienzo": "26 Dic",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Ruta 360º",
+                "comienzo": "07 Ene",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Ruta 360º",
+                "comienzo": "21 Ene",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 2
+            }, {
+                "ruta": "Ruta 360º",
+                "comienzo": "02 Feb",
+                "fin": "",
+                "estacion": "Verano",
+                "disponibilidad": 2
+            }],
+            "galeria": [{
+                "titulo": "Título Foto 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 13",
+                "imagen": "img/fotos-ruta-normal/13.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 14",
+                "imagen": "img/fotos-ruta-normal/14.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 15",
+                "imagen": "img/fotos-ruta-normal/15.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 16",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 17",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 18",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }],
+            "itinerario": {
+                "titulo": "Expedición 360º",
+                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe.",
+                "etapas": [{
+                    "nombre": "+Día 01",
+                    "copete": "Mendoza (760 msnm)",
+                    "descripcion": "Recepción en aeropuerto de Mendoza. Hotel. Chequeo de equipo."
+                }, {
+                    "nombre": "+Día 02",
+                    "copete": "Mendoza / Penitentes (2725 msnm)",
+                    "descripcion": "Permisos. Traslado a Penitentes. Alojamiento en Refugio de Montaña. (D, A, C)"
+                }, {
+                    "nombre": "+Día 03",
+                    "copete": "Penitentes / Pampa de Leñas (3100 msnm)",
+                    "descripcion": "Transfer Penitentes  a la Quebrada de Vacas. Trek a Pampa de Leñas. (D, L, C)"
+                }, {
+                    "nombre": "+Día 04",
+                    "copete": "Pampa de Leñas / Casa de Piedra (3600 msnm)",
+                    "descripcion": "Trek Pampa de Leñas a Casa de Piedra. (D, L, C)"
+                }, {
+                    "nombre": "+Día 05",
+                    "copete": "Casa de Piedra / Campo Base Plaza Argentina (4100 msnm)",
+                    "descripcion": "Trek a Campo Base Plaza Argentina. (D, L, C)"
+                }, {
+                    "nombre": "+Día 06",
+                    "copete": "Campo Base Plaza Argentina (4100 msnm)",
+                    "descripcion": "Día de descanso en el Campo Base Plaza Argentina. (D, A, C)"
+                }, {
+                    "nombre": "+Día 07",
+                    "copete": "Plaza Argentina / Campo 1 (4950 msnm) / Plaza Argentina",
+                    "descripcion": "Porteo de material al campamento Campo 1, retorno a Plaza Argentina. (D, L, C)"
+                }, {
+                    "nombre": "+Día 08",
+                    "copete": "Campo Base Plaza Argentina (4100 msnm)",
+                    "descripcion": "Día de descanso en el Campo Base Plaza Argentina. (D, A, C)"
+                }, {
+                    "nombre": "+Día 09",
+                    "copete": "Plaza Argentina / Campo 1 (4950 msnm)",
+                    "descripcion": "Ascenso al Campo 1. (D, L, C)"
+                }, {
+                    "nombre": "+Día 10",
+                    "copete": "Campo 1 / Campo 2 Upper Guanacos (5800 msnm) / Campo 1",
+                    "descripcion": "Porteo de material al campamento Campo2."
+                }, {
+                    "nombre": "+Día 11",
+                    "copete": "Campo 1 (4950 msnm)",
+                    "descripcion": "Día de descanso en el Campo 1. (D, A, C)"
+                }, {
+                    "nombre": "+Día 12",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }, {
+                    "nombre": "+Día 13",
+                    "copete": "Campo 1 / Campo 2 (5500 msnm)",
+                    "descripcion": "Ascenso al Campo 2. (D, L, C)"
+                }, {
+                    "nombre": "+Día 14",
+                    "copete": "Campo 2 / Campo Cólera",
+                    "descripcion": "Ascenso al Campo Cólera sobre la Ruta Normal, travesía  base del Glaciar Falso Polacos. (D, L, C)"
+                }, {
+                    "nombre": "+Día 15",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }, {
+                    "nombre": "+Día 16",
+                    "copete": "Campo Cólera / Cumbre (6962 msnm) / Campo Cólera",
+                    "descripcion": "Día de ascenso a la CUMBRE por la Ruta Normal y regreso al Campo Cólera. (D, L, C)"
+                }, {
+                    "nombre": "+Día 17",
+                    "copete": "Campo Cólera / Plaza de Mulas",
+                    "descripcion": "Descenso desde el Campo Cólera al Campo Base Plaza de Mulas. (D, L, C)"
+                }, {
+                    "nombre": "+Día 18",
+                    "copete": "Plaza de Mulas / Valle de Horcones",
+                    "descripcion": "Descenso desde Plaza de Mulas a Valle de Horcones, transfer refugio en Penitentes (D, L, C)"
+                }, {
+                    "nombre": "+Día 19",
+                    "copete": "Penitentes / Mendoza",
+                    "descripcion": "Traslado desde Penitentes a Hotel en Mendoza. Fin de los servicios."
+                }]
+            },
+            "servicios": {
+                "titulo": "Servicios",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Servicios Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Guía de Alta Montaña Certificado</li><li>Dos noches Hotel en Mendoza,3 * habitación doble con desayuno</li><li>Transfer desde el aeropuerto de Mendoza al Hotel y regreso</li><li>Asistencia para la obtención del permiso de ascenso</li><li>Transfer Mendoza - Penitentes</li><li>Dos noches en Refugio de Montaña,desayuno y cena incluida</li><li>Transfer Penitentes - Horcones</li><li>Transporte de cargas en mulas</li><li>Dos días de servicio full en Confluencia</li><li>Servicio pensión completa en Plaza de Mulas</li><li>Nuestros campamentos base cuentan con energía solar,radios,teléfono satelital,las comidas son preparadas bajo estrictos controles municipales.También realizamos menues vegetarianos</li><li>Toda la comida necesaria para los campamentos de altura</li><li>Tiendas comedores en el campamento base,comunicación permanente vía radial desde y hasta los campamentos de altura,baños exclusivos para nuestros clientes.</li><li>Tiendas cuatro estaciones(The North Face, Mountain 25),calentadores MSR,elementos de cocina.</li><li>Comunicación Permanente desde los campamentos base con,Mendoza y Penitentes para coordinar los diferentes movimientos logísticos de la expedición.</li>"
+                }, {
+                    "nombre": "+Servicios No Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Permiso de Ascenso</li><li>Comidas y bebidas no mencionadas en el itinerario</li><li>Porter Persona</li><li>Equipo personal</li><li>Costos Extra resultado del abandono de la expedicion</li><li>Medical or traveler 's insurance. Costs as a result of an emergency rescue.</li><li>Personal expenses(drinks, laundry, mail, telephone calls)</li><li>All other services not listed as Included</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Equipo Recomendado",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Ropa",
+                    "copete": "",
+                    "descripcion": "<li>Ropa interior de polipropileno,capilene o similar(no algodón).</li><li>Pantalón y chaqueta de polar.</li><li>Pantalón y chaqueta impermeable,transpirable;recomendamos gore - tex o similar.</li><li>Nota: los pantalones deben tener cremallera lateral,para una postura rápida y sencilla.</li>"
+                }, {
+                    "nombre": "+Manos",
+                    "copete": "",
+                    "descripcion": " <li>Guante interior de polipropileno o similar.</li><li>Mitones gruesos de lana,polar o similar.</li><li>Cubre mitones de gore - tex o similar.</li>"
+                }, {
+                    "nombre": "+Pies",
+                    "copete": "",
+                    "descripcion": " <li>Zapatillas cómodas de trekking o similar</li><li>Botas dobles de plástico,recomendamos koflach,azolo,lowa,etc.</li><li>Polainas</li><li>Calcetines gruesos.de lana o sintético.</li><li>Calcetines finos de lana suave,nylon o polipropileno.</li>"
+                }, {
+                    "nombre": "+Cabeza",
+                    "copete": "",
+                    "descripcion": "<li>Gorra para el sol y pasamontañas.</li><li>badana o pañuelo(cuello).</li><li>gorro de lana</li>"
+                }, {
+                    "nombre": "+Equipo Técnico",
+                    "copete": "",
+                    "descripcion": "<li>Piolet ligero de 60 o 70 cm. Según su altura.</li><li>Crampones de postura rápida,12 puntas y pocas cintas.</li><li>Bastones de esquí.</li><li>Casco</li>"
+                }, {
+                    "nombre": "+Equipo General",
+                    "copete": "",
+                    "descripcion": "<li>Mochila: capacidad 70 litros,espalda rígida,tela resistente con porta piolet y lugar para crampones.</li><li>Mochila de ataque opcional.</li><li>Bolsa de dormir: debe ser de excelente calidad,de duvet,para temperaturas de - 25° c.</li><li>Colchoneta aislante de celda cerrada,neoprene o inflables.</li><li>Campera de abrigo de duvet o thinsulate.</li><li>Polainas de gore - tex o cordura.</li><li>Medias: gruesas,finas,de marcha,dos pares de cada una como mínimo.</li><li>Cantimplora y termo: capacidad de un litro y boca grande.</li><li>Linterna frontal tipo petzel.</li><li>Lentes para sol con filtro 100 % uv,protección lateral y un par de repuesto.</li><li>Navaja tipo Victorinox.</li><li>Crema protectora para sol spf 30 - 40 o pantalla total y lápiz labial para sol.</li><li>Mini botiquín.</li><li>Cámara fotográfica.</li>"
+                }, {
+                    "nombre": "+Equipo de Viaje",
+                    "copete": "",
+                    "descripcion": " <li>Para transportar su equipo general desde penitentes-puente de inca hasta plaza de mulas, se necesita un    bolso grande y resistente tipo marinero y un bolso pequeño para dejar sus pertenencias en nuestro depósito.</li>"
+                }]
+            }
+        }, {
+            "id": 3,
+            "nombre": "Expedición Falso Polacos",
+            "nombre_corto": "Falso Polacos",
+            "descripcion": "A través de esta ruta el Aconcagua nos muestra su cara más rústica. Ésta ruta posee menos tráfico que la ruta normal. Ascender el Aconcagua por esta ruta requiere mínimas habilidades técnicas y una excelente condición física.",
+            "foto_principal": "img/fondos/bg1.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [{
+                "ruta": "Falso Polacos",
+                "comienzo": "26 Dic",
+                "fin": "15 Ene",
+                "estacion": "Verano",
+                "disponibilidad": 4
+            }, {
+                "ruta": "Falso Polacos",
+                "comienzo": "16 Ene",
+                "fin": "05 feb",
+                "estacion": "Verano",
+                "disponibilidad": 5
+            }, {
+                "ruta": "Falso Polacos",
+                "comienzo": "05 Feb",
+                "fin": "24 Feb",
+                "estacion": "Verano",
+                "disponibilidad": 2
+            }],
+            "galeria": [{
+                "titulo": "Título Foto 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 12",
+                "imagen": "img/fotos-ruta-normal/12.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 13",
+                "imagen": "img/fotos-ruta-normal/13.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 14",
+                "imagen": "img/fotos-ruta-normal/14.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 15",
+                "imagen": "img/fotos-ruta-normal/15.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 16",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 17",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 18",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }],
+            "itinerario": {
+                "titulo": "Falso Polacos",
+                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe.",
+                "etapas": [{
+                    "nombre": "+Día 01",
+                    "copete": "Mendoza (760 msnm)",
+                    "descripcion": "Recepción en aeropuerto de Mendoza. Hotel. Chequeo de equipo."
+                }, {
+                    "nombre": "+Día 02",
+                    "copete": "Mendoza / Penitentes (2725 msnm)",
+                    "descripcion": "Permisos. Traslado a Penitentes. Alojamiento en Refugio de Montaña. (D, A, C)"
+                }, {
+                    "nombre": "+Día 03",
+                    "copete": "Penitentes / Pampa de Leñas (3100 msnm)",
+                    "descripcion": "Transfer Penitentes  a la Quebrada de Vacas. Trek a Pampa de Leñas. (D, L, C)"
+                }, {
+                    "nombre": "+Día 04",
+                    "copete": "Pampa de Leñas / Casa de Piedra (3600 msnm)",
+                    "descripcion": "Trek Pampa de Leñas a Casa de Piedra. (D, L, C)"
+                }, {
+                    "nombre": "+Día 05",
+                    "copete": "Casa de Piedra / Campo Base Plaza Argentina (4100 msnm)",
+                    "descripcion": "Trek a Campo Base Plaza Argentina. (D, L, C)"
+                }, {
+                    "nombre": "+Día 06",
+                    "copete": "Campo Base Plaza Argentina (4100 msnm)",
+                    "descripcion": "Día de descanso en el Campo Base Plaza Argentina. (D, A, C)"
+                }, {
+                    "nombre": "+Día 07",
+                    "copete": "Plaza Argentina / Campo 1 (4950 msnm) / Plaza Argentina",
+                    "descripcion": "Porteo de material al campamento Campo 1, retorno a Plaza Argentina. (D, L, C)"
+                }, {
+                    "nombre": "+Día 08",
+                    "copete": "Campo Base Plaza Argentina (4100 msnm)",
+                    "descripcion": "Día de descanso en el Campo Base Plaza Argentina. (D, A, C)"
+                }, {
+                    "nombre": "+Día 09",
+                    "copete": "Plaza Argentina / Campo 1 (4950 msnm)",
+                    "descripcion": "Ascenso al Campo 1. (D, L, C)"
+                }, {
+                    "nombre": "+Día 10",
+                    "copete": "Campo 1 / Campo 2 Upper Guanacos (5500 msnm) / Campo 1",
+                    "descripcion": "Porteo de material al campamento Campo2."
+                }, {
+                    "nombre": "+Día 11",
+                    "copete": "Campo 1 (4950 msnm)",
+                    "descripcion": "Día de descanso en el Campo 1. (D, A, C)"
+                }, {
+                    "nombre": "+Día 12",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }, {
+                    "nombre": "+Día 13",
+                    "copete": "Campo 1 / Campo 2 Upper Guanacos (5500 msnm)",
+                    "descripcion": "Ascenso al Campo 2. (D, L, C)"
+                }, {
+                    "nombre": "+Día 14",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }, {
+                    "nombre": "+Día 15",
+                    "copete": "Día extra",
+                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                }, {
+                    "nombre": "+Día 16",
+                    "copete": "Campo 2 / Cumbre (6962 msnm) / Campo 2",
+                    "descripcion": "Día de ascenso a la CUMBRE, regreso a Campo 2  (D, L, C)"
+                }, {
+                    "nombre": "+Día 17",
+                    "copete": "Campo 2 / Plaza Argentina",
+                    "descripcion": "Descenso desde Campo 2 a Plaza Argentina. (D, L, C)"
+                }, {
+                    "nombre": "+Día 18",
+                    "copete": "Plaza Argentina / Pampa de Leñas",
+                    "descripcion": "Descenso desde el campamento base a  Pampa de Leñas. (D, L, C)"
+                }, {
+                    "nombre": "+Día 19",
+                    "copete": "Pampa de Leñas / Penitentes / Mendoza",
+                    "descripcion": "Traslado desde Penitentes a Hotel en Mendoza. Fin de los servicios."
+                }, {
+                    "nombre": "+Día 20",
+                    "copete": "Aeropuerto o Terminal de Buses",
+                    "descripcion": "Transfer a aeropuerto o terminal de buses"
+                }]
+            },
+            "servicios": {
+                "titulo": "Servicios",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Servicios Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Guías de alta montaña</li><li>2 noche de alojamiento en Hotel 3*, en Mendoza con desayuno.</li><li>Asistencia para la obtención del permiso de ascenso.</li><li>Transportes en privados desde el Aeropuerto – Hotel -  Penitentes y viceversa. </li><li>Transportes desde Penitentes a las entradas del Parque Aconcagua, y viceversa.</li><li> alojamiento en Refugio de Montaña en  Penitentes, con desayuno y cena.</li><li>Transporte de equipos en mulares a los diferentes campos base, y viceversa, 30 pax.</li><li>Todas las comidas y bebidas incluidas durante la aproximación y el ascenso.</li><li>Carpas en los campos base, con vajilla completa, mesas, sillas, luz eléctrica, etc.</li><li>Cocinero en campamento base.</li><li>Carpas dormitorio.</li><li>Carpas de altura.</li><li>Carpas depósito.</li><li>Baños estructurales exclusivos para clientes.</li><li>Asistencia médica en los diferentes campos base.</li><li>Comunicación radial permanente entre los diferentes campos base y comunicación entre las bases y los campos de altura.</li><li>Transporte de emergencia en mulas silleras en caso de no estar operativo el servicio de helicóptero provisto por el Parque Aconcagua.</li><li>Asesoramiento integral para la adquisición o el alquiler del equipo necesario para la ascensión.</li>"
+                }, {
+                    "nombre": "+Servicios No Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Equipo personal</li><li>Bebidas en Penitentes</li><li>Permisos de ingreso</li><li>Gastos originados por el abandono del programa</li><li>Porteadores personales</li><li>Gastos extras</li><li>Seguros personales.</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Equipo Recomendado",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Ropa",
+                    "copete": "",
+                    "descripcion": "<li>Ropa interior de polipropileno,capilene o similar(no algodón).</li><li>Pantalón y chaqueta de polar.</li><li>Pantalón y chaqueta impermeable,transpirable;recomendamos gore - tex o similar.</li><li>Nota: los pantalones deben tener cremallera lateral,para una postura rápida y sencilla.</li>"
+                }, {
+                    "nombre": "+Manos",
+                    "copete": "",
+                    "descripcion": " <li>Guante interior de polipropileno o similar.</li><li>Mitones gruesos de lana,polar o similar.</li><li>Cubre mitones de gore - tex o similar.</li>"
+                }, {
+                    "nombre": "+Pies",
+                    "copete": "",
+                    "descripcion": " <li>Zapatillas cómodas de trekking o similar</li><li>Botas dobles de plástico,recomendamos koflach,azolo,lowa,etc.</li><li>Polainas</li><li>Calcetines gruesos.de lana o sintético.</li><li>Calcetines finos de lana suave,nylon o polipropileno.</li>"
+                }, {
+                    "nombre": "+Cabeza",
+                    "copete": "",
+                    "descripcion": "<li>Gorra para el sol y pasamontañas.</li><li>badana o pañuelo(cuello).</li><li>gorro de lana</li>"
+                }, {
+                    "nombre": "+Equipo Técnico",
+                    "copete": "",
+                    "descripcion": "<li>Piolet ligero de 60 o 70 cm. Según su altura.</li><li>Crampones de postura rápida,12 puntas y pocas cintas.</li><li>Bastones de esquí.</li><li>Casco</li>"
+                }, {
+                    "nombre": "+Equipo General",
+                    "copete": "",
+                    "descripcion": "<li>Mochila: capacidad 70 litros,espalda rígida,tela resistente con porta piolet y lugar para crampones.</li><li>Mochila de ataque opcional.</li><li>Bolsa de dormir: debe ser de excelente calidad,de duvet,para temperaturas de - 25° c.</li><li>Colchoneta aislante de celda cerrada,neoprene o inflables.</li><li>Campera de abrigo de duvet o thinsulate.</li><li>Polainas de gore - tex o cordura.</li><li>Medias: gruesas,finas,de marcha,dos pares de cada una como mínimo.</li><li>Cantimplora y termo: capacidad de un litro y boca grande.</li><li>Linterna frontal tipo petzel.</li><li>Lentes para sol con filtro 100 % uv,protección lateral y un par de repuesto.</li><li>Navaja tipo Victorinox.</li><li>Crema protectora para sol spf 30 - 40 o pantalla total y lápiz labial para sol.</li><li>Mini botiquín.</li><li>Cámara fotográfica.</li>"
+                }, {
+                    "nombre": "+Equipo de Viaje",
+                    "copete": "",
+                    "descripcion": " <li>Para transportar su equipo general desde penitentes-puente de inca hasta plaza de mulas, se necesita un    bolso grande y resistente tipo marinero y un bolso pequeño para dejar sus pertenencias en nuestro depósito.</li>"
+                }]
+            }
+        }]
+    },
+    "trekkings": {
+        "titulo": "Trekkings al Aconcagua",
+        "descripcion": "Los trekkings en el Parque Aconcagua premian al visitante con una vista magnífica y la emocionante experiencia de acercarse a la base de la mítica Pared Sur del Aconcagua, con sus casi 3.000 metros de altura y cubierto de glaciares colgantes, es una de las más grandes del mundo. Tenemos 2 itinerarios para disfrutar de una experiencia inolvidable, y para conocer los diferentes campos de base del Aconcagua.",
+        "foto_cabecera": "img/fondos/bg2.jpg",
+        "salidas": [
+         {
+            "id": 1,
+            "nombre": "Trekking a Plaza Francia<br>Cara Sur del Aconcagua",
+            "nombre_corto": "Plaza Francia",
+            "descripcion": "El Aconcagua ... . Antiguo altar Incas nos deslumbra con su paisaje primitivo y hermoso. Un viaje único en el interior de los Andes, es mucho más que maravillosos paisajes, cielos azules, fuertes vientos y las nubes majestuosas; mucho más que rocas, las estrellas y el silencio... Nos adentramos en el reino del Centinela de Piedra.<br>La aventura comienza en la base de la mítica Pared Sur del Aconcagua, con glaciares colgantes y las paredes de casi 3.000 metros de altura, una de las más grandes del mundo.<br>El viaje estará lleno de descubrimientos y recuerdos que durarán toda la vida.<br><br>Este Programa de Trekking está diseñado para personas con buena salud y estado físico óptimo (por ejemplo capaces de marchar 3 o 4 veces por semana 1 a 2 horas).<br><br><strong> SEGURIDAD Y RESPONSABILIDAD</strong><br><br>Todos nuestros programas están planeados con la seguridad como nuestra prioridad número uno, teniendo en cuenta las condiciones meteorológicas o eventos más allá de nuestra responsabilidad, nos reservamos el derecho a cambiar o excluir aquellos cuya salud puede afectar a la seguridad del viaje o actividad.",
+            "foto_principal": "img/fondos/bg3.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [],
+            "galeria": [{
+                "titulo": "Título Foto 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }],
+            "itinerario": {
+                "titulo": "Plaza Francia",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
+                "etapas": [{
+                    "nombre": "+Día 01",
+                    "copete": "Mendoza (760 msnm) / Penitentes (2725 msnm)",
+                    "descripcion": "Obtención de permisos. Traslado desde Mendoza Penitentes en vehículo privado o bus de línea, alojamiento en refugio de montaña, cena y desayuno incluidos."
+                }, {
+                    "nombre": "+Día 02",
+                    "copete": "Penitentes (2725 msnm) / Confluencia (3400 msnm)",
+                    "descripcion": "Tiempo estimado de traslado 3-4 hs, tiempo de marcha  3-4hs. Traslado  desde Penitentes al Parque Provincial Aconcagua en vehículo privado. Check in en Guardaparques. Charla de bienvenida. Comienzo del trekking. Visita a la laguna Horcones. Antes de cruzar el puente colgante, nuestro guía  nos mostrará el Cerro Pirámide donde fue encontrada una momia Inca y relatará brevemente el hallazgo de la misma. Pack lunch en las inmediaciones de la Quebrada del Durazno. Oportunidad de avistaje de aves. Arribo a Confluencia. Recepción en el campamento. Distribución de los alojamientos. Descanso. Paseo por los alrededores y visita a las ruinas incas. Cena y pernocte. (L, M, C)"
+                }, {
+                    "nombre": "+Día 03",
+                    "copete": "Confluencia (3400 msnm) / Plaza Francia (4000 msnm) ",
+                    "descripcion": "Tiempo estimado de marcha 6-8hs. Desayuno y partida hacia Plaza Francia. A poco andar veremos el frente del glaciar Horcones inferior. A medida que ganamos altura el paisaje de éste antiguo valle glaciario nos sorprenderá con sus formaciones y colores.  Al llegar al mirador, pack lunch mientras disfrutamos de una vista privilegiada de las dos cumbres del Coloso de América y los glaciares colgantes de la gigantesca Pared Sur del Aconcagua que con sus casi 3.000m de desnivel, es una de las más grandes del mundo. Nuestro guía nos mostrará las diferentes rutas que los escaladores más expertos utilizaron para alcanzar la cima. Regreso a Confluencia. Descanso. Cena y pernocte. (D, L, C)"
+                }, {
+                    "nombre": "+Día 04",
+                    "copete": "Confluencia / Mendoza",
+                    "descripcion": "Tiempo estimado de marcha 2 ½ hs. Tiempo de traslado a Mendoza 3-4 hs. Desayuno y descenso a Horcones. Check out en Guardaparques. Traslado en vehículo para visitar al monumento natural Puente del Inca, paseo por los alrededores, artesanías Regreso a la ciudad de Mendoza en vehículo privado o bus de línea. Despedida. (D, L)"
+                }]
+            },
+            "servicios": {
+                "titulo": "Servicios",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Servicios Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Traslados en los tramos: Mendoza - Parque  Provincial Aconcagua - Mendoza</li><li>Todas las Comidas desde el inicio al fin del programa</li><li>Alojamiento en Penitentes, con media pensión</li><li>Campamento en Confluencia</li><li>Guía titulado</li><li>Alojamiento en domo geodésico en cuchetas con colchón</li><li>Comunicaciones internas</li>"
+                }, {
+                    "nombre": "+Servicios No Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Permiso de ingreso al Parque Aconcagua</li><li>Mulas</li><li>Extras y bebidas no mencionadas en el programa</li><li>Bolsa de dormir y  equipo personal  necesario</li><li>Gastos originados por abandono del programa</li><li>Seguro Personal</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Equipo Recomendado",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Equipo Técnico y Personal Recomendado",
+                    "copete": "",
+                    "descripcion": "<li>1 Mochila cómoda de 60 litros mínimo</li><li>1 Bolsa de dormir para -18°C mínimo (duvet)</li><li>2 Botellas para agua de 1 ½ litro c/u</li><li>1 Linterna frontal con pilas de repuesto</li><li>1 Pantalla solar factor (50 en adelante)</li><li>1 Minibotiquín   </li><li>Elementos de higiene personal</li>"
+                }, {
+                    "nombre": "+Cabeza",
+                    "copete": "",
+                    "descripcion": "<li>1 Gorra para el sol</li><li>1 Gorro de abrigo</li><li>1 Par de lentes para sol con filtro UV</li><li>1 Pañuelo para el cuello</li>"
+                }, {
+                    "nombre": "+Tronco",
+                    "copete": "",
+                    "descripcion": "<li>1  Ánorak impermeable</li><li>1  Campera de abrigo (duvet o sintética)</li><li>1  Buzo o campera de polar</li><li>1  Pólera sintética</li><li>1  Remera sintética de mangas largas (para recambio)</li>"
+                }, {
+                    "nombre": "+Piernas",
+                    "copete": "",
+                    "descripcion": "<li>1 Pantalón largo tipo de trekking (no jean, no de algodón)</li><li>1 Pantalón interior (sintético)</li><li>1 Cubre pantalón impermeable</li>"
+                }, {
+                    "nombre": "+Pies",
+                    "copete": "",
+                    "descripcion": "<li>1 Par de medias gruesas de abrigo (sintéticas)</li><li>1 Par de medias de abrigo (intermedias- sintéticas)</li><li>1 Par de botas o zapatillas de trekking</li>"
+                }, {
+                    "nombre": "+Manos",
+                    "copete": "",
+                    "descripcion": "<li>1 Par de guantes interiores</li><li>1 Par de guantes o mitones de abrigo e impermeables</li>"
+                }]
+            }
+        },{
+            "id": 2,
+            "nombre": "Trekking a Plaza de Mulas",
+            "nombre_corto": "Plaza de Mulas",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
+            "foto_principal": "img/fondos/bg1.jpg",
+            "foto_secundaria": "img/expediciones.png",
+            "fechas": [],
+            "galeria": [{
+                "titulo": "Título Foto 1",
+                "imagen": "img/fotos-ruta-normal/1.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 2",
+                "imagen": "img/fotos-ruta-normal/2.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 3",
+                "imagen": "img/fotos-ruta-normal/3.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 4",
+                "imagen": "img/fotos-ruta-normal/4.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 5",
+                "imagen": "img/fotos-ruta-normal/5.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 6",
+                "imagen": "img/fotos-ruta-normal/6.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 7",
+                "imagen": "img/fotos-ruta-normal/7.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 8",
+                "imagen": "img/fotos-ruta-normal/8.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 9",
+                "imagen": "img/fotos-ruta-normal/9.JPG",
+                "orientacion": "landscape"
+            }, {
+                "titulo": "Título Foto 10",
+                "imagen": "img/fotos-ruta-normal/10.JPG",
+                "orientacion": "portrait"
+            }, {
+                "titulo": "Título Foto 11",
+                "imagen": "img/fotos-ruta-normal/11.JPG",
+                "orientacion": "landscape"
+            }],
+            "itinerario": {
+                "titulo": "Plaza de Mulas",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
+                "etapas": [{
+                    "nombre": "+Día 01",
+                    "copete": "Mendoza (760 msnm) / Penitentes (2725 msnm)",
+                    "descripcion": "Obtención de permisos. Traslado desde Mendoza Penitentes en vehículo privado o bus de línea, alojamiento en refugio de montaña, cena y desayuno incluidos."
+                }, {
+                    "nombre": "+Día 02",
+                    "copete": "Penitentes (2725 msnm) / Confluencia (3400 msnm)",
+                    "descripcion": "Tiempo estimado de traslado 3-4 hs, tiempo de marcha  3-4hs. Traslado  desde Penitentes al Parque Provincial Aconcagua en vehículo privado. Check in en Guardaparques. Charla de bienvenida. Comienzo del trekking. Visita a la laguna Horcones. Antes de cruzar el puente colgante, nuestro guía  nos mostrará el Cerro Pirámide donde fue encontrada una momia Inca y relatará brevemente el hallazgo de la misma. Pack lunch en las inmediaciones de la Quebrada del Durazno. Oportunidad de avistaje de aves. Arribo a Confluencia. Recepción en el campamento. Distribución de los alojamientos. Descanso. Paseo por los alrededores y visita a las ruinas incas. Cena y pernocte. (L, M, C)"
+                }, {
+                    "nombre": "+Día 03",
+                    "copete": "Confluencia (3400 msnm) / Plaza Francia (4000 msnm) ",
+                    "descripcion": "Tiempo estimado de marcha 6-8hs. Desayuno y partida hacia Plaza Francia. A poco andar veremos el frente del glaciar Horcones inferior. A medida que ganamos altura el paisaje de éste antiguo valle glaciario nos sorprenderá con sus formaciones y colores.  Al llegar al mirador, pack lunch mientras disfrutamos de una vista privilegiada de las dos cumbres del Coloso de América y los glaciares colgantes de la gigantesca Pared Sur del Aconcagua que con sus casi 3.000m de desnivel, es una de las más grandes del mundo. Nuestro guía nos mostrará las diferentes rutas que los escaladores más expertos utilizaron para alcanzar la cima. Regreso a Confluencia. Descanso. Cena y pernocte. (D, L, C)"
+                }, {
+                    "nombre": "+Día 04",
+                    "copete": "Confluencia (3.400 msnm) / Plaza de Mulas (4260 msnm)",
+                    "descripcion": "Desayuno y comienzo del trekking. Almuerzo de marcha en Piedra Ibáñez. Arribo a Plaza de Mulas en horas de la tarde. Check in en Guardaparques. Recepción en nuestro campamento, distribución de las carpas dormitorio. Cena y pernocte. (D, L, M, C)"
+                }, {
+                    "nombre": "+Día 05",
+                    "copete": "Plaza de Mulas (4260 msnm)",
+                    "descripcion": "Día de descanso. Desayuno y paseo por los alrededores. Oportunidad fotográfica. Almuerzo. Trekking al Glaciar Horcones superior. Visita al antiguo campamento de Plaza de Mulas. Merienda.  Tiempo libre. Cena y pernocte. (D, A, M, C)"
+                }, {
+                    "nombre": "+Día 06",
+                    "copete": "Plaza de Mulas / Horcones / Mendoza",
+                    "descripcion": "Tiempo estimado de marcha 8 hs. Tiempo de traslado a Mendoza 3-4 hs. Desayuno y descenso a Horcones. Check out en Guardaparques. Traslado en vehículo para visitar al monumento natural Puente del Inca, paseo por los alrededores, artesanías Regreso a la ciudad de Mendoza en vehículo privado o bus de línea. Despedida. (D, L)"
+                }]
+            },
+            "servicios": {
+                "titulo": "Servicios",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Servicios Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Traslados en los tramos: Mendoza - Parque  Provincial Aconcagua - Mendoza</li><li>Todas las Comidas desde el inicio al fin del programa</li><li>Alojamiento en Penitentes, con media pensión</li><li>Campamento en Confluencia</li><li>Guía titulado</li><li>Alojamiento en domo geodésico en cuchetas con colchón</li><li>Comunicaciones internas</li>"
+                }, {
+                    "nombre": "+Servicios No Incluídos",
+                    "copete": "",
+                    "descripcion": "<li>Permiso de ingreso al Parque Aconcagua</li><li>Mulas</li><li>Extras y bebidas no mencionadas en el programa</li><li>Bolsa de dormir y  equipo personal  necesario</li><li>Gastos originados por abandono del programa</li><li>Seguro Personal</li>"
+                }]
+            },
+            "equipo": {
+                "titulo": "Equipo Recomendado",
+                "descripcion": "",
+                "servicios": [{
+                    "nombre": "+Equipo Técnico y Personal Recomendado",
+                    "copete": "",
+                    "descripcion": "<li>1 Mochila cómoda de 60 litros mínimo</li><li>1 Bolsa de dormir para -18°C mínimo (duvet)</li><li>2 Botellas para agua de 1 ½ litro c/u</li><li>1 Linterna frontal con pilas de repuesto</li><li>1 Pantalla solar factor (50 en adelante)</li><li>1 Minibotiquín   </li><li>Elementos de higiene personal</li>"
+                }, {
+                    "nombre": "+Cabeza",
+                    "copete": "",
+                    "descripcion": "<li>1 Gorra para el sol</li><li>1 Gorro de abrigo</li><li>1 Par de lentes para sol con filtro UV</li><li>1 Pañuelo para el cuello</li>"
+                }, {
+                    "nombre": "+Tronco",
+                    "copete": "",
+                    "descripcion": "<li>1  Ánorak impermeable</li><li>1  Campera de abrigo (duvet o sintética)</li><li>1  Buzo o campera de polar</li><li>1  Pólera sintética</li><li>1  Remera sintética de mangas largas (para recambio)</li>"
+                }, {
+                    "nombre": "+Piernas",
+                    "copete": "",
+                    "descripcion": "<li>1 Pantalón largo tipo de trekking (no jean, no de algodón)</li><li>1 Pantalón interior (sintético)</li><li>1 Cubre pantalón impermeable</li>"
+                }, {
+                    "nombre": "+Pies",
+                    "copete": "",
+                    "descripcion": "<li>1 Par de medias gruesas de abrigo (sintéticas)</li><li>1 Par de medias de abrigo (intermedias- sintéticas)</li><li>1 Par de botas o zapatillas de trekking</li>"
+                }, {
+                    "nombre": "+Manos",
+                    "copete": "",
+                    "descripcion": "<li>1 Par de guantes interiores</li><li>1 Par de guantes o mitones de abrigo e impermeables</li>"
+                }]
+            }
+        }]
+    }
+}

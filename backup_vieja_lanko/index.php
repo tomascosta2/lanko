@@ -1,0 +1,1 @@
+<?php header('Location: http://lanko.com.ar/english/index.htm') ?>
