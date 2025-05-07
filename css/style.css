@@ -693,6 +693,6 @@ img.centered {
     }
 }
 
-.la-table em {
-    padding: 12px;
+.la-table td {
+    padding: 12px !important;
 }
