@@ -10,43 +10,20 @@
             "descripcion": "La Ruta Normal del Aconcagua no presenta ninguna dificultad técnica, es por esto que ésta ruta es enormemente atractiva, permitiendo alcanzar la cumbre a cualquier montañista con buena preparación física y una correcta aclimatación.",
             "foto_principal": "img/fondos/bg1212.jpg",
             "foto_secundaria": "img/expediciones.png",
-            "fechas": [{
-                "ruta": "Normal",
-                "comienzo": "26 Nov",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 4
-            }, {
-                "ruta": "Normal",
-                "comienzo": "17 Dic",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 5
-            }, {
-                "ruta": "Normal",
-                "comienzo": "24 Dic",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 2
-            }, {
-                "ruta": "Normal",
-                "comienzo": "07 Ene",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 5
-            }, {
-                "ruta": "Normal",
-                "comienzo": "21 Ene",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 5
-            }, {
-                "ruta": "Normal",
-                "comienzo": "09 Feb",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 5
-            }],
+            "fechas": [
+                { "ruta": "Normal", "comienzo": "30 Nov", "fin": "19 Dic", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "07 Dic", "fin": "25 Dic", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "14 Dic", "fin": "01 Ene", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "21 Dic", "fin": "08 Ene", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "28 Dic", "fin": "15 Ene", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "04 Ene", "fin": "22 Ene", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "11 Ene", "fin": "29 Ene", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "18 Ene", "fin": "05 Feb", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "25 Ene", "fin": "12 Feb", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "01 Feb", "fin": "19 Feb", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "08 Feb", "fin": "26 Feb", "estacion": "Verano", "disponibilidad": 5 },
+                { "ruta": "Normal", "comienzo": "15 Feb", "fin": "06 Mar", "estacion": "Verano", "disponibilidad": 5 }
+            ],
             "galeria": [{
                 "titulo": "Título Foto 1",
                 "imagen": "img/fotos-ruta-normal/1.JPG",
