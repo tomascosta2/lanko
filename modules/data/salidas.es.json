@@ -561,25 +561,78 @@
             "descripcion": "A través de esta ruta el Aconcagua nos muestra su cara más rústica. Ésta ruta posee menos tráfico que la ruta normal. Ascender el Aconcagua por esta ruta requiere mínimas habilidades técnicas y una excelente condición física.",
             "foto_principal": "img/fondos/bg1.jpg",
             "foto_secundaria": "img/expediciones.png",
-            "fechas": [{
-                "ruta": "Falso Polacos",
-                "comienzo": "26 Dic",
-                "fin": "15 Ene",
-                "estacion": "Verano",
-                "disponibilidad": 4
-            }, {
-                "ruta": "Falso Polacos",
-                "comienzo": "16 Ene",
-                "fin": "05 feb",
-                "estacion": "Verano",
-                "disponibilidad": 5
-            }, {
-                "ruta": "Falso Polacos",
-                "comienzo": "05 Feb",
-                "fin": "24 Feb",
-                "estacion": "Verano",
-                "disponibilidad": 2
-            }],
+            "fechas": [
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "07 Dic",
+                    "fin": "25 Dic",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "14 Dic",
+                    "fin": "01 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "21 Dic",
+                    "fin": "08 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "28 Dic",
+                    "fin": "15 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "04 Ene",
+                    "fin": "22 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "11 Ene",
+                    "fin": "29 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "18 Ene",
+                    "fin": "05 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "25 Ene",
+                    "fin": "12 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "01 Feb",
+                    "fin": "19 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Falso Polacos",
+                    "comienzo": "08 Feb",
+                    "fin": "26 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                }
+            ],
             "galeria": [{
                 "titulo": "Título Foto 1",
                 "imagen": "img/fotos-ruta-normal/1.JPG",
