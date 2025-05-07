@@ -203,18 +203,21 @@
                     }
                 ]
             },
-            "servicios": {
+            "servicios":  {
                 "titulo": "Servicios",
                 "descripcion": "",
-                "servicios": [{
-                    "nombre": "+Servicios Incluídos",
-                    "copete": "",
-                    "descripcion": "<li>Guía de Alta Montaña Certificado</li><li>Dos noches Hotel en Mendoza, 3 * habitación doble con desayuno</li><li>Transfer desde el aeropuerto de Mendoza al Hotel y regreso</li><li>Asistencia para la obtención del permiso de ascenso</li><li>Transfer Mendoza - Penitentes</li><li>Dos noches en Refugio de Montaña, desayuno y cena incluida</li><li>Transfer Penitentes - Horcones</li><li>Transporte de cargas en mulas</li><li>Dos días de servicio full en Confluencia</li><li>Servicio pensión completa en Plaza de Mulas</li><li>Nuestros campamentos base cuentan con energía solar, radios, teléfono satelital, las comidas son preparadas bajo estrictos controles municipales.También realizamos menues vegetarianos</li><li>Toda la comida necesaria para los campamentos de altura</li><li>Tiendas comedores en el campamento base, comunicación permanente vía radial desde y hasta los campamentos de altura, baños exclusivos para nuestros clientes.</li><li>Tiendas cuatro estaciones(The North Face, Mountain 25), calentadores MSR, elementos de cocina.</li><li>Comunicación Permanente desde los campamentos base con, Mendoza y Penitentes para coordinar los diferentes movimientos logísticos de la expedición.</li>"
-                }, {
-                    "nombre": "+Servicios No Incluídos",
-                    "copete": "",
-                    "descripcion": "<li>Permiso de Ascenso</li><li>Comidas y bebidas no mencionadas en el itinerario</li><li>Porter Persona</li><li>Equipo personal</li><li>Costos Extra resultado del abandono de la expedicion</li><li>Medical or traveler 's insurance. Costs as a result of an emergency rescue.</li><li>Personal expenses(drinks, laundry, mail, telephone calls)</li><li>All other services not listed as Included</li>"
-                }]
+                "servicios": [
+                    {
+                        "nombre": "+Servicios Incluídos",
+                        "copete": "",
+                        "descripcion": "<li>Transfer in-out desde aeropuerto de Mendoza al Hotel en Mendoza.</li><li>Guías y asistentes de Montaña Certificados.</li><li>Dos noches Hotel en Mendoza 4*, habitación DOBLE c/desayuno.</li><li>Asistencia para la obtención del permiso de ascenso.</li><li>Transfers Mendoza - Penitentes - Mendoza.</li><li>2 noches en nuestro Lodge de Montaña en Penitentes, desayuno y cena incluidos.</li><li>Transfers in-out Penitentes – Horcones.</li><li>Transporte de cargas en mulas sin límite de kg.</li><li>Pensión completa en Confluencia alojamiento en domo.</li><li>Pensión completa en Campamento Base Plaza de Mulas.</li><li>Pensión completa en campamentos de altura.</li><li>Baños de uso exclusivo para montañistas de nuestra empresa.</li><li>Comunicación permanente vía radial desde y hasta los campamentos de altura, pronóstico actualizado, organización de rotación de altura, porteos.</li><li>Carpas de altura 4 estaciones (TNF M 25 o V25), calentadores, elementos de cocina, gas, bencina.</li><li>1 porteador de altura cada 3 personas para llevar equipo común de la expedición (20 kilos por rotación).</li><li>Comunicación Permanente desde los campamentos base con Mendoza y Penitentes para coordinar los diferentes movimientos logísticos de la expedición.</li><li>Nuestros campamentos base cuentan con energía solar, radios, internet satelital.</li><li>Menús vegetarianos, veganos, gluten free (con previo aviso). Las comidas son preparadas bajo estrictos estándares respecto a la altura.</li>"
+                    },
+                    {
+                        "nombre": "+Servicios No Incluídos",
+                        "copete": "",
+                        "descripcion": "<li>Costo del permiso de ascenso.</li><li>Comidas y bebidas no mencionadas en el itinerario.</li><li>Porteos para equipo personal y comida. POR FAVOR CONSULTAR TARIFAS DE PORTEOS.</li><li>Equipo personal.</li><li>Costos extras derivados del abandono de la expedición.</li><li>Seguro de rescate y evacuación solicitado por Parque Provincial Aconcagua. POR FAVOR CONSULTAR COMPAÑÍAS DE SEGURO RECOMENDADAS.</li><li>Gastos personales.</li><li>Todo lo que no esté detallado como incluido.</li>"
+                    }
+                ]
             },
             "equipo": {
                 "titulo": "Equipo Recomendado",
