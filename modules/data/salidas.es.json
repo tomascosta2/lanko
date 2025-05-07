@@ -99,7 +99,7 @@
             }],
             "itinerario": {
                 "titulo": "Expedicion Valle De Horcones",
-                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe. Por favor sea flexible si es necesario.",
+                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe.Por favor sea flexible si es necesario. (D, A, P, C) desayuno, almuerzo,almuerzo para llevar, cena.",
                 "etapas": [
                     {
                         "nombre": "+Día 01",
