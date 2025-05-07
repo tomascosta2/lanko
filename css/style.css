@@ -692,3 +692,7 @@ img.centered {
         margin-left: -110%;
     }
 }
+
+.la-table em {
+    padding: 12px;
+}
