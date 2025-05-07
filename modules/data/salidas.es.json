@@ -99,84 +99,109 @@
             }],
             "itinerario": {
                 "titulo": "Expedicion Valle De Horcones",
-                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe.",
-                "etapas": [{
-                    "nombre": "+Día 01",
-                    "copete": "Mendoza (760 msnm)",
-                    "descripcion": "Traslado aeropuerto / hotel en Mendoza. Alojamiento. Chequeo de su equipo y Reunión instructiva del Cerro Aconcagua con el guía y compañeros."
-                }, {
-                    "nombre": "+Día 02",
-                    "copete": "Mendoza / Penitentes (2725 msnm)",
-                    "descripcion": "Permisos. Traslado Mendoza / Penitentes. Alojamiento en Refugio de Montaña. Preparación de las cargas para las mulas. (D, A, C)"
-                }, {
-                    "nombre": "+Día 03",
-                    "copete": "Penitentes / Confluencia (3300 msnm)",
-                    "descripcion": "Transporte a la entrada del Parque Aconcagua. Presentación de los permisos. Trek al campamento de aproximación Confluencia. Alojamiento (D, L, C)"
-                }, {
-                    "nombre": "+Día 04",
-                    "copete": "Confluencia / Plaza Francia (4000 msnm) / Confluencia",
-                    "descripcion": "Trek hasta el mirador de Plaza Francia, base de la pared Sur del Aconcagua. Lunch y regreso a Confluencia. (D, L, C)"
-                }, {
-                    "nombre": "+Día 05",
-                    "copete": "Confluencia / Campo Base Plaza de Mulas (4260 msnm)",
-                    "descripcion": "Trek al Campo Base Plaza de Mulas. Alojamiento en el campamento. (D, L, C)"
-                }, {
-                    "nombre": "+Día 06",
-                    "copete": "Plaza de Mulas (14058 feets - 4260 msnm)",
-                    "descripcion": "Día de descanso. Trek corto al Glaciar Horcones. Prácticas con crampones. (D, A, C)"
-                }, {
-                    "nombre": "+Día 07",
-                    "copete": "Plaza de Mulas / Cumbre del Cerro Bonete (5100 msnm) / Plaza de Mulas",
-                    "descripcion": "Trek a la cima del Cerro Bonete y retorno a Plaza de Mulas. Este trekking tiene una duración de 6 horas y permite alcanzar los 5100 msnm. Esta actividad definitivamente activará todos los mecanismos de aclimatación de nuestro cuerpo. (D, L, C)"
-                }, {
-                    "nombre": "+Día 08",
-                    "copete": "Plaza de Mulas / Campo 1 Canadá (4910 msnm) / Plaza de Mulas",
-                    "descripcion": "Trek de aclimatación y transporte de material al Campo 1 Canadá y regreso al Campo."
-                }, {
-                    "nombre": "+Día 09",
-                    "copete": "Plaza de Mulas (4260 msnm)",
-                    "descripcion": "Día de descanso y aclimatación. (D, A, C)"
-                }, {
-                    "nombre": "+Día 10",
-                    "copete": "Plaza de Mulas / Campo 1 Canadá (4910 msnm)",
-                    "descripcion": "Ascenso al Campo 1 Canadá. (D, L, C)"
-                }, {
-                    "nombre": "+Día 11",
-                    "copete": "Campo 1 Canadá / Campo 2 Nido de Cóndores (5250 msnm)",
-                    "descripcion": "Ascenso al Campo 2 Nido de Cóndores. (D, L, C)"
-                }, {
-                    "nombre": "+Día 12",
-                    "copete": "Día extra",
-                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
-                }, {
-                    "nombre": "+Día 13",
-                    "copete": "Campo 2 Nido de Cóndores / Campo 3 Berlín - Cólera (5900 msnm)",
-                    "descripcion": "Ascenso al Campo 3 Berlín - Cólera. (D, L, C)"
-                }, {
-                    "nombre": "+Día 14",
-                    "copete": "Campo 3 Berlín - Cólera / CUMBRE (6962 msnm) / Campo 3 Berlín - Cólera",
-                    "descripcion": "Ascenso Campo 3 Berlín - Cólera a la CUMBRE y regreso al Campo 3. (D, L, C)"
-                }, {
-                    "nombre": "+Día 15",
-                    "copete": "Campo 3 Berlín - Cólera / Campo Base Plaza de Mulas",
-                    "descripcion": "Descenso al Campo Base Plaza de Mulas. (D, L, C)"
-                }, {
-                    "nombre": "+Día 16",
-                    "copete": "Plaza de Mulas / Puente del Inca / Mendoza",
-                    "descripcion": "Descenso a Puente del Inca. Transporte a Mendoza. Alojamiento en el Hotel. (D, L,)"
-                }, {
-                    "nombre": "+Día 17",
-                    "copete": "Transporte al Aeropuerto o Estación de Buses",
-                    "descripcion": "Traslado hotel / aeropuerto o estación de buses. (D)"
-                }, {
-                    "nombre": "+Día 18",
-                    "copete": "Día extra",
-                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
-                }, {
-                    "nombre": "+Día 19",
-                    "copete": "Día extra",
-                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
-                }]
+                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe. Por favor sea flexible si es necesario.",
+                "etapas": [
+                    {
+                        "nombre": "+Día 01",
+                        "copete": "Mendoza (760)",
+                        "descripcion": "Recepción y alojamiento en Hotel 4* superior. Los guías chequearán su equipo y lo acompañarán a alquilar o comprar los elementos que sean necesarios. En la tarde se realizará una charla instructiva del Cerro Aconcagua."
+                    },
+                    {
+                        "nombre": "+Día 02",
+                        "copete": "Mendoza / Penitentes-Puente del Inca (2.725)",
+                        "descripcion": "Gestión de permisos de ascenso. Traslado Mendoza / Penitentes. Por la tarde, se prepararán las cargas para las mulas para así, al día siguiente, disfrutar de su trekking.(D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 03",
+                        "copete": "Penitentes / Confluencia (3.300)",
+                        "descripcion": "Transporte a la entrada del Parque Aconcagua. Presentación de los permisos. Trek al campamento de aproximación Confluencia. Alojamiento. Podrá subir liviano con una mochila pequeña; nuestras mulas subirán su equipo personal. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 04",
+                        "copete": "Confluencia / Plaza Francia (4.000) / Confluencia",
+                        "descripcion": "Trek hasta el mirador de Plaza Francia, base de la pared Sur del Aconcagua. Lunch y regreso a Confluencia. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 05",
+                        "copete": "Confluencia / Plaza de Mulas (4.260)",
+                        "descripcion": "Trek al Campo Base Plaza de Mulas. Podrá subir liviano con una mochila pequeña; nuestras mulas subirán su equipo personal. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 06",
+                        "copete": "Plaza de Mulas (4.260)",
+                        "descripcion": "Día de descanso. Trek corto al Glaciar Horcones. Prácticas con crampones. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 07",
+                        "copete": "Plaza de Mulas / Cerro Bonete (5.091) / Plaza de Mulas",
+                        "descripcion": "Trek a la cima del Cerro Bonete y retorno a Plaza de Mulas. Duración: 6 horas. Alcance de más de 5100 msnm. Actividad clave para aclimatación. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 08",
+                        "copete": "Plaza de Mulas / Campo 1 Canadá (4.910) / Plaza de Mulas",
+                        "descripcion": "Trek de aclimatación y transporte de material a Campo 1 Canadá. Lunch y regreso a Plaza de Mulas. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 09",
+                        "copete": "Plaza de Mulas (4.260)",
+                        "descripcion": "Día de descanso y aclimatación. Chequeo de equipo. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 10",
+                        "copete": "Plaza de Mulas / Campo 1 Canadá (4.910)",
+                        "descripcion": "Ascenso al Campo 1 Canadá, armado de carpas y descanso. Transporte de equipo personal. Porteadores llevan carpas y kits de primeros auxilios. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 11",
+                        "copete": "Campo 1 Canadá / Campo 2 Nido de Cóndores (5.250)",
+                        "descripcion": "Ascenso, armado de carpas y descanso. Porteadores llevan equipo grupal. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 12",
+                        "copete": "Campo 2 Nido de Cóndores",
+                        "descripcion": "Día de descanso y aclimatación. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 13",
+                        "copete": "Campo 2 Nido de Cóndores / Campo 3 Berlín-Cólera (6.000) / Campo 2",
+                        "descripcion": "Trek de aclimatación y transporte de comida y cocina a Berlín-Cólera. Regreso a Nido. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 14",
+                        "copete": "Campo 2 / Campo 3 Berlín-Cólera (6.000)",
+                        "descripcion": "Ascenso, armado de carpas y chequeo de equipo. Transporte de equipo personal. Porteadores llevan lo grupal. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 15",
+                        "copete": "Campo 3 Berlín – Cólera / CUMBRE (6.962) / Campo 3",
+                        "descripcion": "Ascenso a la CUMBRE!!! y regreso a Campo 3. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 16",
+                        "copete": "Campo 3 / Plaza de Mulas (4.260)",
+                        "descripcion": "Descenso. Transporte de equipo personal. Porteadores bajan carpas y equipo común. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 17",
+                        "copete": "Plaza de Mulas / Mendoza",
+                        "descripcion": "Descenso a Penitentes. Mulas bajan el equipo. Alojamiento en Lodge. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 18",
+                        "copete": "Penitentes / Mendoza",
+                        "descripcion": "Desayuno. Transporte a la ciudad de Mendoza. Transporte opcional al aeropuerto. (D)"
+                    },
+                    {
+                        "nombre": "+Día 19",
+                        "copete": "Día extra",
+                        "descripcion": "Día extra por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 20",
+                        "copete": "Día extra",
+                        "descripcion": "Día extra por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
+                    }
+                ]
             },
             "servicios": {
                 "titulo": "Servicios",
