@@ -259,37 +259,78 @@
             "descripcion": "La expedición de 360º combina dos rutas alrededor del Aconcagua, la cara este y noroeste. Ascender a través del valle de Vacas y descender a través de la ruta normal le permite disfrutar de la magnificencia de la montaña más alta de América.",
             "foto_principal": "img/fondos/bg3.jpg",
             "foto_secundaria": "img/expediciones.png",
-            "fechas": [{
-                "ruta": "Ruta 360º",
-                "comienzo": "03 Dic",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 4
-            }, {
-                "ruta": "Ruta 360º",
-                "comienzo": "26 Dic",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 5
-            }, {
-                "ruta": "Ruta 360º",
-                "comienzo": "07 Ene",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 2
-            }, {
-                "ruta": "Ruta 360º",
-                "comienzo": "21 Ene",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 2
-            }, {
-                "ruta": "Ruta 360º",
-                "comienzo": "02 Feb",
-                "fin": "",
-                "estacion": "Verano",
-                "disponibilidad": 2
-            }],
+            "fechas": [
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "07 Dic",
+                    "fin": "25 Dic",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "14 Dic",
+                    "fin": "01 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "21 Dic",
+                    "fin": "08 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "28 Dic",
+                    "fin": "15 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "04 Ene",
+                    "fin": "22 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "11 Ene",
+                    "fin": "29 Ene",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "18 Ene",
+                    "fin": "05 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "25 Ene",
+                    "fin": "12 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "01 Feb",
+                    "fin": "19 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                },
+                {
+                    "ruta": "Ruta 360º",
+                    "comienzo": "08 Feb",
+                    "fin": "26 Feb",
+                    "estacion": "Verano",
+                    "disponibilidad": 5
+                }
+            ],
             "galeria": [{
                 "titulo": "Título Foto 1",
                 "imagen": "img/fotos-ruta-normal/1.JPG",
@@ -363,99 +404,122 @@
                 "imagen": "img/fotos-ruta-normal/3.JPG",
                 "orientacion": "portrait"
             }],
-            "itinerario": {
+            "itinerario":{
                 "titulo": "Expedición 360º",
-                "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe.",
-                "etapas": [{
-                    "nombre": "+Día 01",
-                    "copete": "Mendoza (760 msnm)",
-                    "descripcion": "Recepción en aeropuerto de Mendoza. Hotel. Chequeo de equipo."
-                }, {
-                    "nombre": "+Día 02",
-                    "copete": "Mendoza / Penitentes (2725 msnm)",
-                    "descripcion": "Permisos. Traslado a Penitentes. Alojamiento en Refugio de Montaña. (D, A, C)"
-                }, {
-                    "nombre": "+Día 03",
-                    "copete": "Penitentes / Pampa de Leñas (3100 msnm)",
-                    "descripcion": "Transfer Penitentes  a la Quebrada de Vacas. Trek a Pampa de Leñas. (D, L, C)"
-                }, {
-                    "nombre": "+Día 04",
-                    "copete": "Pampa de Leñas / Casa de Piedra (3600 msnm)",
-                    "descripcion": "Trek Pampa de Leñas a Casa de Piedra. (D, L, C)"
-                }, {
-                    "nombre": "+Día 05",
-                    "copete": "Casa de Piedra / Campo Base Plaza Argentina (4100 msnm)",
-                    "descripcion": "Trek a Campo Base Plaza Argentina. (D, L, C)"
-                }, {
-                    "nombre": "+Día 06",
-                    "copete": "Campo Base Plaza Argentina (4100 msnm)",
-                    "descripcion": "Día de descanso en el Campo Base Plaza Argentina. (D, A, C)"
-                }, {
-                    "nombre": "+Día 07",
-                    "copete": "Plaza Argentina / Campo 1 (4950 msnm) / Plaza Argentina",
-                    "descripcion": "Porteo de material al campamento Campo 1, retorno a Plaza Argentina. (D, L, C)"
-                }, {
-                    "nombre": "+Día 08",
-                    "copete": "Campo Base Plaza Argentina (4100 msnm)",
-                    "descripcion": "Día de descanso en el Campo Base Plaza Argentina. (D, A, C)"
-                }, {
-                    "nombre": "+Día 09",
-                    "copete": "Plaza Argentina / Campo 1 (4950 msnm)",
-                    "descripcion": "Ascenso al Campo 1. (D, L, C)"
-                }, {
-                    "nombre": "+Día 10",
-                    "copete": "Campo 1 / Campo 2 Upper Guanacos (5800 msnm) / Campo 1",
-                    "descripcion": "Porteo de material al campamento Campo2."
-                }, {
-                    "nombre": "+Día 11",
-                    "copete": "Campo 1 (4950 msnm)",
-                    "descripcion": "Día de descanso en el Campo 1. (D, A, C)"
-                }, {
-                    "nombre": "+Día 12",
-                    "copete": "Día extra",
-                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
-                }, {
-                    "nombre": "+Día 13",
-                    "copete": "Campo 1 / Campo 2 (5500 msnm)",
-                    "descripcion": "Ascenso al Campo 2. (D, L, C)"
-                }, {
-                    "nombre": "+Día 14",
-                    "copete": "Campo 2 / Campo Cólera",
-                    "descripcion": "Ascenso al Campo Cólera sobre la Ruta Normal, travesía  base del Glaciar Falso Polacos. (D, L, C)"
-                }, {
-                    "nombre": "+Día 15",
-                    "copete": "Día extra",
-                    "descripcion": "Por contingencias o mal clima que impidan el normal desarrollo del programa. (D, A, C)"
-                }, {
-                    "nombre": "+Día 16",
-                    "copete": "Campo Cólera / Cumbre (6962 msnm) / Campo Cólera",
-                    "descripcion": "Día de ascenso a la CUMBRE por la Ruta Normal y regreso al Campo Cólera. (D, L, C)"
-                }, {
-                    "nombre": "+Día 17",
-                    "copete": "Campo Cólera / Plaza de Mulas",
-                    "descripcion": "Descenso desde el Campo Cólera al Campo Base Plaza de Mulas. (D, L, C)"
-                }, {
-                    "nombre": "+Día 18",
-                    "copete": "Plaza de Mulas / Valle de Horcones",
-                    "descripcion": "Descenso desde Plaza de Mulas a Valle de Horcones, transfer refugio en Penitentes (D, L, C)"
-                }, {
-                    "nombre": "+Día 19",
-                    "copete": "Penitentes / Mendoza",
-                    "descripcion": "Traslado desde Penitentes a Hotel en Mendoza. Fin de los servicios."
-                }]
+                "descripcion": "El itinerario anterior es solo una guía. Si bien se hará todo lo posible para cumplirlo, pueden producirse cambios debido a las condiciones climáticas, fallas en el transporte u otros eventos imprevistos. Por favor sea flexible si es necesario. (D, A, P, C) desayuno, almuerzo, almuerzo para llevar, cena.",
+                "etapas": [
+                    {
+                        "nombre": "+Día 01",
+                        "copete": "Mendoza (760 m – 768 m)",
+                        "descripcion": "Recepción en Mendoza / Alojamiento en hotel 4* superior. Por la tarde, habrá una charla informativa sobre el Aconcagua y los guías revisarán su equipo. Tiempo para alquilar o comprar equipo si lo necesita."
+                    },
+                    {
+                        "nombre": "+Día 02",
+                        "copete": "Mendoza / Penitentes-Puente del Inca (2725 m – 2699 m)",
+                        "descripcion": "Obtención de permisos. Traslado a Penitentes-Puente del Inca. Alojamiento en refugio de montaña. Preparación de la carga para las mulas. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 03",
+                        "copete": "Penitentes / Pampa de Leñas (3100 m)",
+                        "descripcion": "Traslado a Quebrada de Vacas. Inicio de la caminata a Pampa de Leñas. Montaje de carpas y descanso. Solo llevará su mochila; nuestras mulas transportarán su equipo personal. (D, PL, C)"
+                    },
+                    {
+                        "nombre": "+Día 04",
+                        "copete": "Pampa de Leñas / Casa de Piedra (3600 m)",
+                        "descripcion": "Trekking a Casa de Piedra. Solo se permite llevar una mochila pequeña; nuestras mulas transportarán su equipo personal. (D, PL, C)"
+                    },
+                    {
+                        "nombre": "+Día 05",
+                        "copete": "Casa de Piedra / Campo Base Plaza Argentina (4000 m)",
+                        "descripcion": "Trekking al Campo Base Plaza Argentina. Alojamiento. Solo se permite llevar una mochila pequeña; nuestras mulas transportarán su equipo personal. (D, PL, C)"
+                    },
+                    {
+                        "nombre": "+Día 06",
+                        "copete": "Campo Base Plaza Argentina (4000 m – 4320 m)",
+                        "descripcion": "Día de descanso en Plaza Argentina. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 07",
+                        "copete": "Plaza Argentina / Campo 1 (4950 m – 5000 m) / Plaza Argentina",
+                        "descripcion": "Caminata de aclimatación y transporte de material al Campo 1. Almuerzo y regreso a Plaza Argentina. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 08",
+                        "copete": "Campo Base Plaza Argentina (4000 m – 4320 m)",
+                        "descripcion": "Día de descanso en Plaza Argentina. Revisión del equipo para el ascenso. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 09",
+                        "copete": "Plaza Argentina / Campo 1 (4950 m – 5000 m)",
+                        "descripcion": "Ascenso al Campo 1. Montaje de carpas y descanso. Transporte de equipo personal. Porteadores llevan carpas, basura y primeros auxilios. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 10",
+                        "copete": "Campamento 1 / Campamento 2 – Guanacos (5500 m) / Campamento 1",
+                        "descripcion": "Caminata de aclimatación y transporte de material al Campamento 2. Almuerzo y regreso al Campamento 1. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 11",
+                        "copete": "Campo 1 / Campo 2 – Guanacos (5500 m - 5500 m)",
+                        "descripcion": "Ascenso al Campo 2. Montaje de carpas y descanso. Transporte de equipo personal. Porteadores llevan carpas, basura y primeros auxilios. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 12",
+                        "copete": "Campo 2 (5500 m - 5500 m)",
+                        "descripcion": "Día de descanso en el Campo 2. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 13",
+                        "copete": "Campo 2 / Campo 3 (6000 m - 5974 m)",
+                        "descripcion": "Ascenso al Campo 3 realizando una travesía por la Ruta Normal, cruzando la base del Glaciar de los Polacos. Transporte de equipo personal. Porteadores llevan carpas, basura y primeros auxilios. (D, PL, C)"
+                    },
+                    {
+                        "nombre": "+Día 14",
+                        "copete": "Campo 3 / CUMBRE (6962 m) / Campo 3",
+                        "descripcion": "Día de escalada desde el Campo 3 hasta la CUMBRE!!! por la Ruta Normal y regreso al Campo 3. (D, PL, C)"
+                    },
+                    {
+                        "nombre": "+Día 15",
+                        "copete": "Campo 3 / Campo base Plaza de Mulas (Ruta Normal)",
+                        "descripcion": "Descenso desde el Campo 3 hasta el Campo base Plaza de Mulas. Transporte de equipo personal. Porteadores bajan carpas, basura y primeros auxilios. (D, PL, C)"
+                    },
+                    {
+                        "nombre": "+Día 16",
+                        "copete": "Plaza de Mulas / Penitentes",
+                        "descripcion": "Descenso a Penitentes. Solo llevará su mochila; nuestras mulas llevarán su equipo personal. Traslado a nuestro refugio de montaña. Alojamiento. (D, PL, C)"
+                    },
+                    {
+                        "nombre": "+Día 17",
+                        "copete": "Penitentes / Mendoza",
+                        "descripcion": "Desayuno. Traslado a la ciudad de Mendoza en nuestro traslado privado. (D)"
+                    },
+                    {
+                        "nombre": "+Día 18",
+                        "copete": "Día adicional",
+                        "descripcion": "Día adicional por imprevistos, como mal tiempo, que puedan impedir el normal desarrollo del programa. (D, A, C)"
+                    },
+                    {
+                        "nombre": "+Día 19",
+                        "copete": "Día adicional",
+                        "descripcion": "Día adicional por imprevistos como mal tiempo que puedan impedir el normal desarrollo del programa. (D, A, C)"
+                    }
+                ]
             },
             "servicios": {
                 "titulo": "Servicios",
                 "descripcion": "",
-                "servicios": [{
-                    "nombre": "+Servicios Incluídos",
-                    "copete": "",
-                    "descripcion": "<li>Guía de Alta Montaña Certificado</li><li>Dos noches Hotel en Mendoza,3 * habitación doble con desayuno</li><li>Transfer desde el aeropuerto de Mendoza al Hotel y regreso</li><li>Asistencia para la obtención del permiso de ascenso</li><li>Transfer Mendoza - Penitentes</li><li>Dos noches en Refugio de Montaña,desayuno y cena incluida</li><li>Transfer Penitentes - Horcones</li><li>Transporte de cargas en mulas</li><li>Dos días de servicio full en Confluencia</li><li>Servicio pensión completa en Plaza de Mulas</li><li>Nuestros campamentos base cuentan con energía solar,radios,teléfono satelital,las comidas son preparadas bajo estrictos controles municipales.También realizamos menues vegetarianos</li><li>Toda la comida necesaria para los campamentos de altura</li><li>Tiendas comedores en el campamento base,comunicación permanente vía radial desde y hasta los campamentos de altura,baños exclusivos para nuestros clientes.</li><li>Tiendas cuatro estaciones(The North Face, Mountain 25),calentadores MSR,elementos de cocina.</li><li>Comunicación Permanente desde los campamentos base con,Mendoza y Penitentes para coordinar los diferentes movimientos logísticos de la expedición.</li>"
-                }, {
-                    "nombre": "+Servicios No Incluídos",
-                    "copete": "",
-                    "descripcion": "<li>Permiso de Ascenso</li><li>Comidas y bebidas no mencionadas en el itinerario</li><li>Porter Persona</li><li>Equipo personal</li><li>Costos Extra resultado del abandono de la expedicion</li><li>Medical or traveler 's insurance. Costs as a result of an emergency rescue.</li><li>Personal expenses(drinks, laundry, mail, telephone calls)</li><li>All other services not listed as Included</li>"
-                }]
+                "servicios": [
+                    {
+                        "nombre": "+Servicios Incluídos",
+                        "copete": "",
+                        "descripcion": "<li>Transfer in-out desde aeropuerto de Mendoza al Hotel en Mendoza.</li><li>Guías y asistentes de Montaña Certificados.</li><li>Dos noches Hotel en Mendoza 4*, habitación DOBLE c/desayuno.</li><li>Asistencia para la obtención del permiso de ascenso.</li><li>Transfers Mendoza - Penitentes - Mendoza.</li><li>2 noches en nuestro Lodge de Montaña en Penitentes, desayuno y cena incluidos.</li><li>Transfers in-out Penitentes – Horcones.</li><li>Transporte de cargas en mulas sin límite de kg.</li><li>Pensión completa en Pampa de Leñas.</li><li>Pensión completa en Casa de Piedra.</li><li>Pensión completa en Campamento Base Plaza Argentina.</li><li>Pensión completa en Campamento Base Plaza de Mulas.</li><li>Pensión completa en campamentos de altura.</li><li>Baños de uso exclusivo para montañistas de nuestra empresa.</li><li>Comunicación permanente vía radial desde y hasta los campamentos de altura, pronóstico actualizado, organización de rotación de altura, porteos.</li><li>Carpas de altura 4 estaciones (TNF M 25 o V25), calentadores, elementos de cocina, gas, bencina.</li><li>1 porteador de altura cada 3 personas para llevar equipo común de la expedición (20 kilos por rotación).</li><li>Comunicación Permanente desde los campamentos base con Mendoza y Penitentes para coordinar los diferentes movimientos logísticos de la expedición.</li><li>Nuestros campamentos base cuentan con energía solar, radios, internet satelital.</li><li>Menús vegetarianos, veganos, gluten free (con previo aviso). Las comidas son preparadas bajo estrictos estándares respecto a la altura.</li>"
+                    },
+                    {
+                        "nombre": "+Servicios No Incluídos",
+                        "copete": "",
+                        "descripcion": "<li>Costo del permiso de ascenso.</li><li>Comidas y bebidas no mencionadas en el itinerario.</li><li>Porteos para equipo personal y comida. POR FAVOR CONSULTAR TARIFAS DE PORTEOS.</li><li>Equipo personal.</li><li>Costos extras derivados del abandono de la expedición.</li><li>Seguro de rescate y evacuación solicitado por Parque Provincial Aconcagua. POR FAVOR CONSULTAR COMPAÑÍAS DE SEGURO RECOMENDADAS.</li><li>Gastos personales.</li><li>Todo lo que no esté detallado como incluido.</li>"
+                    }
+                ]
             },
             "equipo": {
                 "titulo": "Equipo Recomendado",
