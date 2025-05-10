@@ -24,79 +24,169 @@
                 { "ruta": "Normal", "comienzo": "08 Feb", "fin": "26 Feb", "estacion": "Verano", "disponibilidad": 5 },
                 { "ruta": "Normal", "comienzo": "15 Feb", "fin": "06 Mar", "estacion": "Verano", "disponibilidad": 5 }
             ],
-            "galeria": [{
-                "titulo": "Título Foto 1",
-                "imagen": "img/fotos-ruta-normal/1.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 2",
-                "imagen": "img/fotos-ruta-normal/2.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 3",
-                "imagen": "img/fotos-ruta-normal/3.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 4",
-                "imagen": "img/fotos-ruta-normal/4.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 5",
-                "imagen": "img/fotos-ruta-normal/5.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 6",
-                "imagen": "img/fotos-ruta-normal/6.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 7",
-                "imagen": "img/fotos-ruta-normal/7.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 8",
-                "imagen": "img/fotos-ruta-normal/8.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 9",
-                "imagen": "img/fotos-ruta-normal/9.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 10",
-                "imagen": "img/fotos-ruta-normal/10.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 11",
-                "imagen": "img/fotos-ruta-normal/11.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 12",
-                "imagen": "img/fotos-ruta-normal/12.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 13",
-                "imagen": "img/fotos-ruta-normal/13.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 14",
-                "imagen": "img/fotos-ruta-normal/14.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 15",
-                "imagen": "img/fotos-ruta-normal/15.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 16",
-                "imagen": "img/fotos-ruta-normal/1.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 17",
-                "imagen": "img/fotos-ruta-normal/2.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 18",
-                "imagen": "img/fotos-ruta-normal/3.JPG",
-                "orientacion": "portrait"
-            }],
+            "galeria": [
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-1.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 2",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-2.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 3",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-3.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 4",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-4.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 5",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-5.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 6",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-6.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 7",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-7.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 8",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-8.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 9",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-9.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 10",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-10.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 11",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-11.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 12",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-12.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 13",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-13.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 14",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-14.jpeg",
+                    "orientacion": "landscape"
+                }, {
+                    "titulo": "Título Foto 15",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-15.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 16",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-confluencia-16.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 17",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-1.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-2.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-3.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-4.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-5.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-6.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-7.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-8.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-9.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-10.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-11.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-12.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-13.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-14.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-15.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-16.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-17.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-18.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-19.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-20.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-21.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-22.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-23.jpeg",
+                    "orientacion": "portrait"
+                }, {
+                    "titulo": "Título Foto 18",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-24.jpeg",
+                    "orientacion": "portrait"
+                }
+            ],
             "itinerario": {
                 "titulo": "Expedicion Valle De Horcones",
                 "descripcion": "El itinerario se presenta como un modelo a seguir y nosotros trabajamos duro para mantenerlo. Sin embargo, situaciones de cambios climáticos o de fuerza mayor, pueden hacer que el mismo varíe.Por favor sea flexible si es necesario. (D, A, P, C) desayuno, almuerzo,almuerzo para llevar, cena.",
@@ -968,51 +1058,128 @@
             "foto_principal": "img/fondos/bg1.jpg",
             "foto_secundaria": "img/expediciones.png",
             "fechas": [],
-            "galeria": [{
-                "titulo": "Título Foto 1",
-                "imagen": "img/fotos-ruta-normal/1.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 2",
-                "imagen": "img/fotos-ruta-normal/2.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 3",
-                "imagen": "img/fotos-ruta-normal/3.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 4",
-                "imagen": "img/fotos-ruta-normal/4.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 5",
-                "imagen": "img/fotos-ruta-normal/5.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 6",
-                "imagen": "img/fotos-ruta-normal/6.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 7",
-                "imagen": "img/fotos-ruta-normal/7.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 8",
-                "imagen": "img/fotos-ruta-normal/8.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 9",
-                "imagen": "img/fotos-ruta-normal/9.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 10",
-                "imagen": "img/fotos-ruta-normal/10.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 11",
-                "imagen": "img/fotos-ruta-normal/11.JPG",
-                "orientacion": "landscape"
-            }],
+            "galeria": [
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-1.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-2.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-3.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-4.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-5.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-6.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-7.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-8.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-9.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-10.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-11.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-12.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-13.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-14.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-15.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-16.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-17.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-18.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-19.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-20.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-21.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-22.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-23.jpg",
+                    "orientacion": "portrait"
+                },
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-de-mulas-24.jpg",
+                    "orientacion": "portrait"
+                }
+            ],
             "itinerario": {
                 "titulo": "Plaza de Mulas",
                 "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
