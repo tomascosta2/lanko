@@ -424,12 +424,12 @@
             "galeria": [
                 {
                     "titulo": "Foto 1",
-                    "imagen": "img/fotos-ruta-360/galeria-ruta-360-1.jpeg",
+                    "imagen": "img/fotos-ruta-360/galeria-ruta-360-1.jpg",
                     "orientacion": "landscape"
                 },
                 {
                     "titulo": "Foto 2",
-                    "imagen": "img/fotos-ruta-360/galeria-ruta-360-2.jpeg",
+                    "imagen": "img/fotos-ruta-360/galeria-ruta-360-2.jpg",
                     "orientacion": "landscape"
                 },
                 {
