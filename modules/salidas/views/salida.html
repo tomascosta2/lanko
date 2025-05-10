@@ -191,32 +191,18 @@
 							</div>
 							<div id="galeria" class="tab-pane fade">
 								<div class="container" style="margin-left:-35px;">
-									<div class="row  popup-gallery">
-										<div ng-repeat="foto in salida.galeria.slice(0,6)" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
+									<div class="row popup-gallery">
+										<div ng-repeat="foto in salida.galeria" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
 											<div class="thumbnail">
 												<a ng-click="AmpliarImagen({event:$event})">
-													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}"  data-toggle="modal" data-target="#galleryModal"></a>
-											</div>
-										</div>
-									</div>
-									<div class="row  popup-gallery">
-										<div ng-repeat="foto in salida.galeria.slice(6,12)" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
-											<div class="thumbnail">
-												<a ng-click="AmpliarImagen({event:$event})">
-													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}"  data-toggle="modal" data-target="#galleryModal"></a>
-											</div>
-										</div>
-									</div>
-									<div class="row  popup-gallery">
-										<div ng-repeat="foto in salida.galeria.slice(12,18)" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
-											<div class="thumbnail">
-												<a ng-click="AmpliarImagen({event:$event})">
-													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}"  data-toggle="modal" data-target="#galleryModal"></a>
+													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}" data-toggle="modal" data-target="#galleryModal">
+												</a>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
+							
 
 							<div id="itinerario" class="tab-pane fade">
 								<h3>{{salida.itinerario.titulo}}</h3>
