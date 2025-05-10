@@ -781,24 +781,29 @@
             }],
             "itinerario": {
                 "titulo": "Plaza Francia",
-                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
-                "etapas": [{
+                "descripcion": "Este itinerario está diseñado para nuestros programas de trekkings guiados. Incluye traslados, alojamiento, comidas y visitas guiadas en el Parque Provincial Aconcagua, con destino final en Plaza Francia, al pie de la imponente Pared Sur del Coloso de América.",
+                "etapas": [
+                    {
                     "nombre": "+Día 01",
-                    "copete": "Mendoza (760 msnm) / Penitentes (2725 msnm)",
-                    "descripcion": "Getting permits. Transfer from Mendoza to Penitentes in private vehicle or bus, accommodation in refuge, dinner and breakfast."
-                }, {
+                    "copete": "Mendoza / Penitentes",
+                    "descripcion": "Encuentro en nuestra oficina en Mendoza, obtención de permisos. Traslado desde Mendoza a Penitentes en vehículo privado o bus de línea. Alojamiento en refugio de montaña 'Cruz de Caña'. Cena y desayuno incluidos."
+                    },
+                    {
                     "nombre": "+Día 02",
-                    "copete": "Penitentes (2725 msnm) / Confluencia (3400 msnm)",
-                    "descripcion": "Estimated trekking time 3-4hs. Drive to Aconcagua Provincial Park by private vehicle. After a welcome breafing we’ll check in at Rangers. Our trekking starts here, walking around Horcones’ Lagoon and then to Quebrada del Durazno bridge. Arriving to Confluencia, after approximately 3hs trekking, we’ll rest or if you want you can walk around and visit the Inca´s ruins (Optional). Dinner and night rest."
-                }, {
+                    "copete": "Penitentes / Confluencia (3400 m.s.n.m)",
+                    "descripcion": "Traslado desde Penitentes al Parque Provincial Aconcagua en vehículo privado. Check-in en Guardaparques y charla de bienvenida. Comienzo del trekking (3-4 hs). Visita a la Laguna Horcones. Breve relato sobre el hallazgo de una momia Inca en el Cerro Pirámide. Pack lunch en la Quebrada del Durazno con posible avistaje de aves. Arribo a Confluencia, distribución en campamento, descanso, paseo por alrededores y visita a las ruinas incas. Cena y pernocte. (L, M, C)"
+                    },
+                    {
                     "nombre": "+Día 03",
-                    "copete": "Confluencia (3400 msnm) / Plaza Francia (4000 msnm) ",
-                    "descripcion": "Estimated time 6-8hs. After breakfast we’ll depart to Plaza Francia, base of the South Face of Aconcagua, this is the base camp for those who take this difficult route to the summit.<br>After a short walk we’ll see the front of the Horcones’ Inferior glacier and walking up we’ll find an ancient glacial valley that will surprise us with their formations and colors.<br>Once in the base of the south Face we’ll have lunch enjoying this privileged view of the hanging glaciers and the two summits of the Colossus of America.<br>Back to Confluencia, we’ll be waiting with a well-deserved snack, finally dinner and overnight. (B,PL, R, D)"
-                }, {
+                    "copete": "Confluencia (3400 m.s.n.m) / Plaza Francia (4000 m.s.n.m)",
+                    "descripcion": "Desayuno y partida hacia Plaza Francia (6-8 hs de caminata). Vista al frente del glaciar Horcones inferior. El antiguo valle glaciario sorprende con sus colores y formaciones. En el mirador, pack lunch con vista a la Pared Sur del Aconcagua, sus glaciares colgantes y las dos cumbres. El guía explicará las rutas de escalada utilizadas por los montañistas. Regreso a Confluencia, descanso, cena y pernocte. (D, L, C)"
+                    },
+                    {
                     "nombre": "+Día 04",
-                    "copete": "Confluencia / Mendoza",
-                    "descripcion": "Estimated trekking time 2 ½ hs. After breakfast we’ll start our trekking back to the entrance of the park. We’ll check out at Rangers to finally take our transfer to Mendoza city. End of services. (B, PL)"
-                }]
+                    "copete": "Confluencia / Horcones / Mendoza",
+                    "descripcion": "Desayuno y descenso a Horcones (2-3 hs). Check-out en Guardaparques. Traslado al monumento natural Puente del Inca, paseo y compras de artesanías. Regreso a Mendoza en vehículo privado o bus. Despedida. (D, L)"
+                    }
+                ]
             },
             "servicios": {
                 "titulo": "Services",
@@ -901,32 +906,44 @@
             }],
             "itinerario": {
                 "titulo": "Plaza de Mulas",
-                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut enim a velit viverra rhoncus. Aenean ultricies est vitae risus vestibulum sagittis. Aenean dapibus tellus mauris, ut pulvinar odio commodo sed. In porttitor eleifend malesuada.",
-                "etapas": [{
-                    "nombre": "+Día 01",
-                    "copete": "Mendoza (760 msnm) / Penitentes (2725 msnm)",
-                    "descripcion": "Getting permits. Transfer from Mendoza to Penitentes in private vehicle or bus, accommodation in refuge, dinner and breakfast."
-                }, {
-                    "nombre": "+Día 02",
-                    "copete": "Penitentes (2725 msnm) / Confluencia (3400 msnm)",
-                    "descripcion": "Estimated trekking time 3-4hs. Drive to Aconcagua Provincial Park by private vehicle. After a welcome breafing we’ll check in at Rangers. Our trekking starts here, walking around Horcones’ Lagoon and then to Quebrada del Durazno bridge. Arriving to Confluencia, after approximately 3hs trekking, we’ll rest or if you want you can walk around and visit the Inca´s ruins (Optional). Dinner and night rest."
-                }, {
-                    "nombre": "+Día 03",
-                    "copete": "Confluencia (3400 msnm) / Plaza Francia (4000 msnm) ",
-                    "descripcion": "Estimated time 6-8hs. After breakfast we’ll depart to Plaza Francia, base of the South Face of Aconcagua, this is the base camp for those who take this difficult route to the summit.<br>After a short walk we’ll see the front of the Horcones’ Inferior glacier and walking up we’ll find an ancient glacial valley that will surprise us with their formations and colors.<br>Once in the base of the south Face we’ll have lunch enjoying this privileged view of the hanging glaciers and the two summits of the Colossus of America.<br>Back to Confluencia, we’ll be waiting with a well-deserved snack, finally dinner and overnight. (B,PL, R, D)"
-                }, {
-                    "nombre": "+Día 04",
-                    "copete": "Confluencia (3400 msnm) / Plaza de Mulas (4260 msnm)",
-                    "descripcion": "Estimated trek time 8 – 9 h. Breakfast and beginning of the trek. Lunch on the way at Piedra Ibáñez. Arrival to Plaza de Mulas in the evening. Check in at the Rangers Station. Reception at our camp."
-                }, {
-                    "nombre": "+Día 05",
-                    "copete": "Plaza de Mulas (4260 msnm)",
-                    "descripcion": "Resting day.  Breakfast and walk around. Opportunity to take some pictures. Lunch. Short-trekking to the Horcones Superior Glacier. Visit to the old Plaza de Mulas camp zone (optional). Dinner and overnight at the camp."
-                }, {
-                    "nombre": "+Día 06",
-                    "copete": "Plaza de Mulas (4620 msnm) / Penitentes",
-                    "descripcion": "Estimated trek time 9 - 10 h. Breakfast and descent to Horcones. Check out at the Rangers Station. Transfer on a private vehicle or public bus to Mendoza.  End of services."
-                }]
+                "descripcion": "Este itinerario está diseñado para nuestros programas de trekkings guiados y está destinado a personas con buena salud y estado físico óptimo. Recorre uno de los caminos más impactantes del Parque Provincial Aconcagua, alcanzando los 5000 m.s.n.m. con vistas inigualables del Coloso de América.",
+                "etapas": [
+                    {
+                        "nombre": "+Día 01",
+                        "copete": "Mendoza / Penitentes",
+                        "descripcion": "Encuentro en nuestra oficina en Mendoza, obtención de permisos. Traslado desde Mendoza a Penitentes en vehículo privado o bus de línea. Alojamiento en refugio de montaña. Cena y desayuno incluidos."
+                    },
+                    {
+                        "nombre": "+Día 02",
+                        "copete": "Penitentes / Confluencia (3400 m.s.n.m)",
+                        "descripcion": "Traslado desde Penitentes al Parque Provincial Aconcagua en vehículo privado. Check-in en Guardaparques y charla de bienvenida. Comienzo del trekking (3-4 hs). Visita a la Laguna Horcones. Relato sobre el hallazgo de una momia Inca en el Cerro Pirámide. Pack lunch en la Quebrada del Durazno. Posible avistaje de aves. Arribo a Confluencia, recepción, distribución de alojamientos, descanso, paseo y visita a ruinas incas. Cena y pernocte. (L, M, C)"
+                    },
+                    {
+                        "nombre": "+Día 03",
+                        "copete": "Confluencia / Plaza Francia (4000 m.s.n.m)",
+                        "descripcion": "Desayuno y trekking a Plaza Francia (6-8 hs). Observación del glaciar Horcones inferior. Ascenso por antiguo valle glaciario con paisajes únicos. Pack lunch en mirador con vista a las cumbres del Aconcagua y la Pared Sur. El guía explicará las rutas de ascenso de expertos montañistas. Regreso a Confluencia, descanso, cena y pernocte. (D, L, C)"
+                    },
+                    {
+                        "nombre": "+Día 04",
+                        "copete": "Confluencia / Plaza de Mulas (4260 m.s.n.m)",
+                        "descripcion": "Desayuno y trekking a Plaza de Mulas (8-12 hs). Almuerzo de marcha en Piedra Ibáñez. Arribo por la tarde. Check-in en Guardaparques. Recepción en el campamento y distribución de carpas dormitorio. Cena y pernocte. (D, L, M, C)"
+                    },
+                    {
+                        "nombre": "+Día 05",
+                        "copete": "Plaza de Mulas (4260 m.s.n.m)",
+                        "descripcion": "Día de descanso. Desayuno, paseo por los alrededores, oportunidad para fotografías. Almuerzo. Trekking al Glaciar Horcones Superior. Visita al antiguo campamento de Plaza de Mulas. Merienda, tiempo libre, cena y pernocte. (D, A, M, C)"
+                    },
+                    {
+                        "nombre": "+Día 06",
+                        "copete": "Plaza de Mulas / Cerro Bonete / Plaza de Mulas",
+                        "descripcion": "Desayuno y ascenso al Cerro Bonete (8 hs). Alcanzamos los 5000 m.s.n.m. con vistas majestuosas del Aconcagua. Retorno al campamento, refrigerio, cena y pernocte. (D, L, M, C)"
+                    },
+                    {
+                        "nombre": "+Día 07",
+                        "copete": "Plaza de Mulas / Horcones / Mendoza",
+                        "descripcion": "Desayuno y descenso a Horcones (8-10 hs). Check-out en Guardaparques. Traslado para visitar el monumento natural Puente del Inca, paseo por los alrededores y artesanías. Regreso a Mendoza en vehículo privado o bus de línea. Despedida. (D, L)"
+                    }
+                ]
             },
             "servicios": {
                 "titulo": "Services",
