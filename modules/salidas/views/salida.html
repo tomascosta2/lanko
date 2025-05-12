@@ -196,7 +196,7 @@
 							<div class="modal-body text-center" style="position: relative;">
 
 								<!-- Botón anterior -->
-								<button ng-click="prevImage()" ng-disabled="currentIndex === 0"
+								<button class="gallery-btn" ng-click="prevImage()" ng-disabled="currentIndex === 0"
 									style="position:absolute; left:10px; top:50%; transform:translateY(-50%); z-index:10;">
 									‹
 								</button>
@@ -204,7 +204,7 @@
 								<img class="img-responsive" ng-src="{{foto_url}}" alt="{{foto_descipcion}}">
 
 								<!-- Botón siguiente -->
-								<button ng-click="nextImage()" ng-disabled="currentIndex === salida.galeria.length - 1"
+								<button class="gallery-btn" ng-click="nextImage()" ng-disabled="currentIndex === salida.galeria.length - 1"
 									style="position:absolute; right:10px; top:50%; transform:translateY(-50%); z-index:10;">
 									›
 								</button>

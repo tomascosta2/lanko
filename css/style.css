@@ -190,6 +190,17 @@ img.brand {
     }
 }
 
+.gallery-btn {
+    background: #000;
+    border: none;
+    border-radius: 100px;
+    height: 41px;
+    width: 41px;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 23px;
+}
+
 /*header.salidas{
     margin-top: -50px;
 }*/
