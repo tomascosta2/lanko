@@ -31,10 +31,33 @@ app.controller('SalidasController', ['$scope', '$rootScope', '$routeParams', 'Sa
             });
         }
 
-        $scope.AmpliarImagen = function(clickEvent) {
-            //console.log(url);
-            console.log(clickEvent.event.target);
-            $scope.foto_url = clickEvent.event.target.attributes.src.value.replace("c.",".");
-        }
+        // Nueva galeria
+
+        $scope.AmpliarImagen = function(clickEvent, index) {
+            $scope.currentIndex = index;
+            var foto = $scope.salida.galeria[index];
+            $scope.foto_url = foto.imagen.replace("c.",".");
+            $scope.foto_descipcion = foto.titulo;
+        };
+
+        $scope.nextImage = function() {
+            if ($scope.currentIndex < $scope.salida.galeria.length - 1) {
+                $scope.currentIndex++;
+                $scope.updateModalImage();
+            }
+        };
+        
+        $scope.prevImage = function() {
+            if ($scope.currentIndex > 0) {
+                $scope.currentIndex--;
+                $scope.updateModalImage();
+            }
+        };
+        
+        $scope.updateModalImage = function() {
+            var foto = $scope.salida.galeria[$scope.currentIndex];
+            $scope.foto_url = foto.imagen.replace("c.",".");
+            $scope.foto_descipcion = foto.titulo;
+        };
     }
 ]);
