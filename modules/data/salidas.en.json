@@ -47,79 +47,53 @@
                 "estacion": "Summer",
                 "disponibilidad": 2
             }],
-            "galeria": [{
-                "titulo": "Title Picture 1",
-                "imagen": "img/fotos-ruta-normal/1.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 2",
-                "imagen": "img/fotos-ruta-normal/2.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 3",
-                "imagen": "img/fotos-ruta-normal/3.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 4",
-                "imagen": "img/fotos-ruta-normal/4.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 5",
-                "imagen": "img/fotos-ruta-normal/5.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 6",
-                "imagen": "img/fotos-ruta-normal/6.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 7",
-                "imagen": "img/fotos-ruta-normal/7.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 8",
-                "imagen": "img/fotos-ruta-normal/8.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 9",
-                "imagen": "img/fotos-ruta-normal/9.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 10",
-                "imagen": "img/fotos-ruta-normal/10.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 11",
-                "imagen": "img/fotos-ruta-normal/11.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 12",
-                "imagen": "img/fotos-ruta-normal/12.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 13",
-                "imagen": "img/fotos-ruta-normal/13.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 14",
-                "imagen": "img/fotos-ruta-normal/14.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Title Picture 15",
-                "imagen": "img/fotos-ruta-normal/15.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 16",
-                "imagen": "img/fotos-ruta-normal/1.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 17",
-                "imagen": "img/fotos-ruta-normal/2.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Title Picture 18",
-                "imagen": "img/fotos-ruta-normal/3.JPG",
-                "orientacion": "portrait"
-            }],
+            "galeria": [
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-1.jpg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 2",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-2.jpg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 3",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-3.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 4",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-4.jpg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 5",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-5.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 6",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-6.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 7",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-7.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 8",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-8.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 9",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-9.jpg",
+                    "orientacion": "portrait"
+                }
+            ],
             "itinerario": {
                 "titulo": "EXPEDITION HORCONES VALLEY",
                 "descripcion": "The itinerary is intended as a guideline only. Although every effort will be made to adhere to it, changes may be caused due to weather conditions, transport failure or other unforeseen events. Please be flexible if necessary.",
