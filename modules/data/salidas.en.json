@@ -730,55 +730,53 @@
             "foto_principal": "img/fondos/bg3.jpg",
             "foto_secundaria": "img/expediciones.png",
             "fechas": [],
-            "galeria": [{
-                "titulo": "Título Foto 1",
-                "imagen": "img/fotos-ruta-normal/1.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 2",
-                "imagen": "img/fotos-ruta-normal/2.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 3",
-                "imagen": "img/fotos-ruta-normal/3.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 4",
-                "imagen": "img/fotos-ruta-normal/4.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 5",
-                "imagen": "img/fotos-ruta-normal/5.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 6",
-                "imagen": "img/fotos-ruta-normal/6.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 7",
-                "imagen": "img/fotos-ruta-normal/7.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 8",
-                "imagen": "img/fotos-ruta-normal/8.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 9",
-                "imagen": "img/fotos-ruta-normal/9.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 10",
-                "imagen": "img/fotos-ruta-normal/10.JPG",
-                "orientacion": "portrait"
-            }, {
-                "titulo": "Título Foto 11",
-                "imagen": "img/fotos-ruta-normal/11.JPG",
-                "orientacion": "landscape"
-            }, {
-                "titulo": "Título Foto 12",
-                "imagen": "img/fotos-ruta-normal/12.JPG",
-                "orientacion": "landscape"
-            }],
+            "galeria": [
+                {
+                    "titulo": "Título Foto 1",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-1.jpg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 2",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-2.jpg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 3",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-3.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 4",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-4.jpg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 5",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-5.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 6",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-6.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 7",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-7.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 8",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-8.jpeg",
+                    "orientacion": "portrait"
+                }, 
+                {
+                    "titulo": "Título Foto 9",
+                    "imagen": "img/fotos-ruta-normal/galeria-ruta-normal-plaza-francia-9.jpg",
+                    "orientacion": "portrait"
+                }
+            ],
             "itinerario": {
                 "titulo": "Plaza Francia",
                 "descripcion": "Este itinerario está diseñado para nuestros programas de trekkings guiados. Incluye traslados, alojamiento, comidas y visitas guiadas en el Parque Provincial Aconcagua, con destino final en Plaza Francia, al pie de la imponente Pared Sur del Coloso de América.",
