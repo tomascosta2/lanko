@@ -200,6 +200,9 @@ img.brand {
     font-weight: 900;
     font-size: 23px;
 }
+.gallery-btn:disabled {
+    opacity: 0;
+}
 
 /*header.salidas{
     margin-top: -50px;
