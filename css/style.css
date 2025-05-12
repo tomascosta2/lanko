@@ -181,7 +181,7 @@ img.brand {
 }
 .galeria-logistica-grid img {
     height: 200px;
-    width: 300px;
+    width: 270px;
     object-fit: cover;
 }
 @media (max-width: 552px) {
