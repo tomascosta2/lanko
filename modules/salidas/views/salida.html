@@ -189,19 +189,39 @@
 									</div>
 								</div>
 							</div>
+							
 							<div id="galeria" class="tab-pane fade">
-								<div class="container" style="margin-left:-35px;">
-									<div class="row popup-gallery">
-										<div ng-repeat="foto in salida.galeria" class="col-lg-2 col-md-4 col-sm-4 col-xs-6" href="{{foto.imagen}}" title="{{foto.titulo}}">
-											<div class="thumbnail">
-												<a ng-click="AmpliarImagen({event:$event})">
-													<img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}" data-toggle="modal" data-target="#galleryModal">
-												</a>
-											</div>
-										</div>
+								<div class="container" style="margin-left:-35px; position: relative;">
+							  
+								  <!-- Botón izquierdo -->
+								  <button 
+									class="btn btn-default btn-sm"
+									style="position: absolute; top: 50%; left: -10px; transform: translateY(-50%); z-index: 10;"
+									onclick="document.querySelector('#galeria-scroll').scrollBy({ left: -300, behavior: 'smooth' })">
+									‹
+								  </button>
+							  
+								  <!-- Galería scrollable -->
+								  <div id="galeria-scroll" class="row popup-gallery" style="overflow-x: auto; white-space: nowrap; scroll-behavior: smooth;">
+									<div ng-repeat="foto in salida.galeria" class="col-lg-2 col-md-4 col-sm-4 col-xs-6 d-inline-block" style="float: none;">
+									  <div class="thumbnail" href="{{foto.imagen}}" title="{{foto.titulo}}">
+										<a ng-click="AmpliarImagen({event:$event})">
+										  <img class="img-adaptative {{foto.orientacion}}" src="{{foto.imagen}}" data-toggle="modal" data-target="#galleryModal">
+										</a>
+									  </div>
 									</div>
+								  </div>
+							  
+								  <!-- Botón derecho -->
+								  <button 
+									class="btn btn-default btn-sm"
+									style="position: absolute; top: 50%; right: -10px; transform: translateY(-50%); z-index: 10;"
+									onclick="document.querySelector('#galeria-scroll').scrollBy({ left: 300, behavior: 'smooth' })">
+									›
+								  </button>
+							  
 								</div>
-							</div>
+							  </div>
 							
 
 							<div id="itinerario" class="tab-pane fade">
