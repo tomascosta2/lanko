@@ -180,7 +180,9 @@ img.brand {
     gap: 16px;
 }
 .galeria-logistica-grid img {
-    max-width: 300px;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
 }
 @media (max-width: 552px) {
     .galeria-logistica-grid {
