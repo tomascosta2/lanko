@@ -179,6 +179,9 @@ img.brand {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
 }
+.galeria-logistica-grid img {
+    max-width: 300px;
+}
 @media (max-width: 552px) {
     .galeria-logistica-grid {
         grid-template-columns: 1fr;
