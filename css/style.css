@@ -711,6 +711,9 @@ img.centered {
     }
 }
 
+.la-table th {
+    background: lightblue;
+}
 .la-table td,
 .la-table th {
     padding: 12px !important;
