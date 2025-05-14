@@ -2,7 +2,7 @@
     "expediciones": {
         "titulo": "Aconcagua Expeditions",
         "descripcion": "Our expeditions are programs that requires an impeccable logistic from our part and an excellent physical and psychological preparation from the members of the equipment who tries to attack the summit. We are mountaineers and we know what services people need in the mountains, that is why we take care of every details in order that our clients only worry about the only thing they have to worry: to acclimate and to be kept strong to reach the summit.",
-        "foto_cabecera": "img/fondos/bg1.jpg",
+        "foto_cabecera": "img/fondos/bg1.jpeg",
         "salidas": [{
             "id": 1,
             "nombre": "Normal Route",
