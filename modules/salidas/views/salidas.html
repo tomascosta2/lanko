@@ -1,13 +1,11 @@
 <header back-img="{{salida.foto_cabecera}}" class="salidas">
-	<div class="fondo-opaco">
-		<div class="header-content">
-			<div>
-				<div class="titulo_salidas" style="padding-top: 50px; margin-bottom: 50px;">{{salida.titulo}}</div>
-				<div class="descripcion_salidas">{{salida.descripcion}}</div>
-			</div>
-			<div style="display: flex; gap: 16px; flex-wrap: wrap;">
-				<a ng-repeat="row in salida.salidas" href="#/salida/{{tipo}}/{{row.id}}" class="btn btn-transparent btn-xl wow bounceIn">{{row.nombre_corto}}</a>
-			</div>
+	<div class="fondo-opaco" style="padding: 60px 16px;">
+		<div>
+			<div class="titulo_salidas" style="padding-top: 50px; margin-bottom: 50px;">{{salida.titulo}}</div>
+			<div class="descripcion_salidas">{{salida.descripcion}}</div>
+		</div>
+		<div style="display: flex; gap: 16px; flex-wrap: wrap;">
+			<a ng-repeat="row in salida.salidas" href="#/salida/{{tipo}}/{{row.id}}" class="btn btn-transparent btn-xl wow bounceIn">{{row.nombre_corto}}</a>
 		</div>
 	</div>
 </header>
