@@ -4,7 +4,7 @@
 			<div class="titulo_salidas" style="padding-top: 50px; margin-bottom: 50px;">{{salida.titulo}}</div>
 			<div class="descripcion_salidas">{{salida.descripcion}}</div>
 		</div>
-		<div style="display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap;">
+		<div style="margin-top: 32px; display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap;">
 			<a ng-repeat="row in salida.salidas" href="#/salida/{{tipo}}/{{row.id}}" class="btn btn-transparent btn-xl wow bounceIn">{{row.nombre_corto}}</a>
 		</div>
 	</div>

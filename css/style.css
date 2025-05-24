@@ -232,6 +232,12 @@ img.brand {
     -ms-transform: matrix( 1.29424722967537, 0, 0, 1.29424722967538, 0, 0);
 }
 
+@media (max-width: 500px) {
+    .titulo_salidas {
+        font-size: 28px;
+    }
+}
+
 .descripcion_salidas {
     font-size: 20px;
     font-family: "Lato";
