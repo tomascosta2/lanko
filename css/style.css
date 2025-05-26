@@ -111,6 +111,10 @@ img.brand {
     white-space: nowrap;
 }
 
+.navbar-collapse {
+    max-height: unset !important;
+}
+
 @media (max-width: 767px) {
     .navbar .container {
         height: 40px;
