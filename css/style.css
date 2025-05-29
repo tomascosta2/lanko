@@ -214,6 +214,7 @@ img.brand {
 }*/
 
 .fondo-opaco {
+    overflow: clip;
     /*background-color: rgb(33, 33, 33);
     opacity: 0.7;
     height: 100%;
