@@ -32,6 +32,7 @@ header .header-content {
 @media (max-width: 767px) {
     header .header-content {
         top: 50px;
+        overflow: clip;
     }
 }
 
