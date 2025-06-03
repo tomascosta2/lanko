@@ -999,14 +999,14 @@
     "trekkings": {
         "titulo": "Trekkings al Aconcagua",
         "descripcion": "Los trekkings en el Parque Aconcagua premian al visitante con una vista magnífica y la emocionante experiencia de acercarse a la base de la mítica Pared Sur del Aconcagua, con sus casi 3.000 metros de altura y cubierto de glaciares colgantes, es una de las más grandes del mundo. Tenemos 2 itinerarios para disfrutar de una experiencia inolvidable, y para conocer los diferentes campos de base del Aconcagua.",
-        "foto_cabecera": "img/fondos/bg3.jpg",
+        "foto_cabecera": "img/fondos/bg2.jpg",
         "salidas": [
          {
             "id": 1,
             "nombre": "Trekking a Plaza Francia<br>Cara Sur del Aconcagua",
             "nombre_corto": "Plaza Francia",
             "descripcion": "El Aconcagua ... . Antiguo altar Incas nos deslumbra con su paisaje primitivo y hermoso. Un viaje único en el interior de los Andes, es mucho más que maravillosos paisajes, cielos azules, fuertes vientos y las nubes majestuosas; mucho más que rocas, las estrellas y el silencio... Nos adentramos en el reino del Centinela de Piedra.<br>La aventura comienza en la base de la mítica Pared Sur del Aconcagua, con glaciares colgantes y las paredes de casi 3.000 metros de altura, una de las más grandes del mundo.<br>El viaje estará lleno de descubrimientos y recuerdos que durarán toda la vida.<br><br>Este Programa de Trekking está diseñado para personas con buena salud y estado físico óptimo (por ejemplo capaces de marchar 3 o 4 veces por semana 1 a 2 horas).<br><br><strong> SEGURIDAD Y RESPONSABILIDAD</strong><br><br>Todos nuestros programas están planeados con la seguridad como nuestra prioridad número uno, teniendo en cuenta las condiciones meteorológicas o eventos más allá de nuestra responsabilidad, nos reservamos el derecho a cambiar o excluir aquellos cuya salud puede afectar a la seguridad del viaje o actividad.",
-            "foto_principal": "img/fondos/bg2.jpg",
+            "foto_principal": "img/fondos/plaza-francia.webp",
             "foto_secundaria": "img/expediciones.png",
             "fechas": [],
             "galeria": [
