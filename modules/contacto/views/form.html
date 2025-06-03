@@ -1,79 +1,57 @@
 <header back-img="img/fondo_contacto.jpg" class="reservas">
-  <div class="header-content">
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 contenedor_flotante" style="margin-top:5%;padding-top:30px;padding-bottom:5%; border: solid 1px; border-color: #8d8d8d;">
-        
-        <!-- Título principal -->
-        <div class="row">
-          <div class="titulos">
-            <span ng-if="!esIngles">Formulario de Reserva</span>
-            <span ng-if="esIngles">Reservation Form</span>
-          </div>
-        </div>
+	<div class="header-content">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1  contenedor_flotante" style="margin-top:5%;padding-top:30px;padding-bottom:5%;     border: solid 1px;
+    border-color: #8d8d8d;">
+				<div class="row">
+					<div class="titulos">Formulario de Reserva</div>
+				</div>
+				<div class="row" style="margin-bottom:30px;margin-top:30px">
+					<div class="col-sm-8">
+						<div class="preguntas">
+							Sólo cuando haya <strong>completado y guardado</strong>
+							todos los formularios seleccione:
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<button type="button" id="submit" name="submit" class="btn btn-primary" ng-if="!esIngles" ng-click="go('/')">Enviar todo</button>
+						<button type="button" id="submit" name="submit" class="btn btn-primary" ng-if="esIngles" ng-click="go('/')">Send all</button>
+					</div>
 
-        <!-- Instrucción y botón -->
-        <div class="row" style="margin-bottom:30px;margin-top:30px">
-          <div class="col-sm-8">
-            <div class="preguntas" ng-if="!esIngles">
-              Sólo cuando haya <strong>completado y guardado</strong> todos los formularios seleccione:
-            </div>
-            <div class="preguntas" ng-if="esIngles">
-              Only after you have <strong>completed and saved</strong> all forms, select:
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <button type="button" class="btn btn-primary" ng-if="!esIngles" ng-click="go('/')">Enviar todo</button>
-            <button type="button" class="btn btn-primary" ng-if="esIngles" ng-click="go('/')">Send all</button>
-          </div>
-        </div>
-
-        <!-- Participante -->
-        <div class="row" style="margin-bottom:30px;margin-top:10px">
-          <div class="col-sm-8 col-sm-offset-1">
-            <div class="subtitulos">
-              <span ng-if="!esIngles">Seleccione el participante</span>
-              <span ng-if="esIngles">Select participant</span>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <select class="form-control" ng-change="CambiaParticipante()" ng-model="selectedParticipante" ng-options="item.name for item in participantes"></select>
-          </div>
-        </div>
-
-        <!-- Grupos y campos -->
-        <div class="row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <div class="form-area">
-              <form role="form">
-                <grupo ng-repeat="(idxgrupo, grupo) in formularioActual.grupos">
-                  <div class="row">
-                    <div class="col-xs-12" style="margin-bottom:10px;margin-top:10px">
-                      <div class="subtitulos">
-                        <span ng-if="!esIngles">{{grupo.grupo + " Participante " + selectedParticipante.name}}</span>
-                        <span ng-if="esIngles">{{grupo.grupo_en + " Participant " + selectedParticipante.name}}</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group" ng-repeat="(idxcampo, campo) in grupo.campos">
-                    <div class="row">
-                      <label for="{{PoneId(campo.nombre+idxcampo)}}" class="col-sm-4 preguntas">
-                        <span ng-if="!esIngles">{{campo.nombre}}</span>
-                        <span ng-if="esIngles">{{campo.nombre_en}}</span>
-                      </label>
-                      <div class="col-sm-8">
-                        <input type="text" ng-model="campo.value" class="form-control texto_dentro_de_text_box"
-                          placeholder="{{esIngles ? campo.placeholder_en : campo.placeholder}}"
-                          id="{{PoneId(campo.nombre+idxcampo)}}">
-                      </div>
-                    </div>
-                  </div>
-                </grupo>
-              </form>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
+				</div>
+				<div class="row" style="margin-bottom:30px;margin-top:10px">
+					<div class="col-sm-8 col-sm-offset-1">
+						<div class="subtitulos">Seleccione el participante</div>
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control" ng-change="CambiaParticipante()" ng-model="selectedParticipante" ng-options="item.name for item in participantes">
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="form-area">
+							<form role="form">
+								<grupo ng-repeat="(idxgrupo, grupo) in formularioActual.grupos">
+									<div class="row">
+										<div class="col-xs-12" style="margin-bottom:10px;margin-top:10px">
+											<div class="subtitulos">{{grupo.grupo + " Participante " + selectedParticipante.name}}</div>
+										</div>
+									</div>
+									<div class="form-group" ng-repeat="(idxcampo, campo) in grupo.campos">
+										<div class="row">
+											<label for="{{PoneId(campo.nombre+idxcampo)}}" class="col-sm-4 preguntas">{{campo.nombre}}</label>
+											<div class="col-sm-8">
+												<input type="text" ng-model="campo.value" class="form-control texto_dentro_de_text_box" placeholder="{{campo.placeholder}}" id="{{PoneId(campo.nombre+idxcampo)}}" >
+											</div>
+										</div>
+									</div>
+								</grupo>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
