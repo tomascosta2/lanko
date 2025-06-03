@@ -24,7 +24,7 @@ header {
 
 @media (max-width: 500px) {
     header {
-        height: unset !important;
+        max-height: unset !important;
     }
 }
 
