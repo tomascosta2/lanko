@@ -8,15 +8,15 @@
 					"placeholder":""
 				},
 				{
-					"name": "Phone",
+					"nombre": "Phone",
 					"placeholder": "Please enter country and area code"
 				},
 				{
-					"name": "Email",
+					"nombre": "Email",
 					"placeholder": ""
 				},
 				{
-					"name": "Message",
+					"nombre": "Message",
 					"placeholder": ""
 				}
 			]
