@@ -14,7 +14,7 @@ if (!is_null($request->mensaje)) {
 
     $msg = wordwrap($msg, 70);
 
-    $logFile = __DIR__ . '/mail_debug.log'; // Crea el archivo al lado de sendmail.php
+    $logFile = __DIR__ . '/mail_debug.log';
     $logContent = "--------\n";
     $logContent .= "Fecha: " . date('Y-m-d H:i:s') . "\n";
     $logContent .= "To: $to\n";
