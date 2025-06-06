@@ -4,18 +4,22 @@
 			"grupo":"Información Personal",
 			"campos":[
 				{
+					"slug": "nombreyapellido",
 					"nombre":"Nombre y Apellido",
 					"placeholder":""
 				},
 				{
+					"slug": "telefono",
 					"nombre":"Teléfono",
 					"placeholder":"Por favor, ingrese código del país y de ciudad"
 				},
 				{
+					"slug": "correoelectronico",
 					"nombre":"Correo Electrónico",
 					"placeholder":""
 				},
 				{
+					"slug": "consulta",
 					"nombre":"Consulta",
 					"placeholder":""
 				}

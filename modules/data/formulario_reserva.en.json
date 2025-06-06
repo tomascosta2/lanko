@@ -4,18 +4,22 @@
 			"grupo":"Personal Info",
 			"campos":[
 				{
+					"slug": "nombreyapellido",
 					"nombre":"Name and Lastname",
 					"placeholder":""
 				},
 				{
+					"slug": "telefono",
 					"nombre": "Phone",
 					"placeholder": "Please enter country and area code"
 				},
 				{
+					"slug": "correoelectronico",
 					"nombre": "Email",
 					"placeholder": ""
 				},
 				{
+					"slug": "consulta",
 					"nombre": "Message",
 					"placeholder": ""
 				}
