@@ -4,8 +4,8 @@ $request = json_decode($postdata);
 if (!is_null($request->mensaje)) {
     $to      = 'info@lanko.com.ar,tomascostapp@gmail.com';
     $subject = 'Nueva Reserva';
-    $headers = 'From: info@lanko.com.ar' . "\r\n" .
-    'Reply-To: info@lanko.com.ar' . "\r\n" .
+    $headers = 'From: contacto@lanko.com.ar' . "\r\n" .
+    'Reply-To: contacto@lanko.com.ar' . "\r\n" .
 	"MIME-Version: 1.0\r\n" .
 	"Content-Type: text/html; charset=UTF-8\r\n" .
     'X-Mailer: PHP/' . phpversion();
