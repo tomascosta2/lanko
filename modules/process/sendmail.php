@@ -2,7 +2,7 @@
 $postdata = file_get_contents("php://input");
 $request = json_decode($postdata);
 if (!is_null($request->mensaje)) {
-    $to      = 'info@lanko.com.ar,tomascostapp@gmail.com';
+    $to      = 'lankoexpediciones@gmail.com,lankoexpediciones@yahoo.com.ar,contacto@lanko.com.ar';
     $subject = 'Nueva Reserva';
     $headers = 'From: contacto@lanko.com.ar' . "\r\n" .
     'Reply-To: contacto@lanko.com.ar' . "\r\n" .
