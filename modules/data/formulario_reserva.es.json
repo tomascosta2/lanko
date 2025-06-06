@@ -22,6 +22,11 @@
 					"slug": "consulta",
 					"nombre":"Consulta",
 					"placeholder":""
+				},
+				{
+					"slug": "cantidad",
+					"nombre": "Cantidad de participantes",
+					"placeholder": ""
 				}
 			]
 

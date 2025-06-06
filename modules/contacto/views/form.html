@@ -23,7 +23,7 @@
 					</div>
 
 				</div>
-				<div class="row" style="margin-bottom:30px;margin-top:10px">
+				<!-- <div class="row" style="margin-bottom:30px;margin-top:10px">
 					<div class="col-sm-8 col-sm-offset-1">
 						<div class="subtitulos" ng-if="esIngles">Select the participant</div>
 						<div class="subtitulos" ng-if="!esIngles">Seleccione el participante</div>
@@ -32,7 +32,7 @@
 						<select class="form-control" ng-change="CambiaParticipante()" ng-model="selectedParticipante" ng-options="item.name for item in participantes">
 						</select>
 					</div>
-				</div>
+				</div> -->
 				<div class="row">
 					<div class="col-sm-10 col-sm-offset-1">
 						<div class="form-area">
@@ -40,7 +40,7 @@
 								<grupo ng-repeat="(idxgrupo, grupo) in formularioActual.grupos">
 									<div class="row">
 										<div class="col-xs-12" style="margin-bottom:10px;margin-top:10px">
-											<div class="subtitulos">{{grupo.grupo + " Participante " + selectedParticipante.name}}</div>
+											<div class="subtitulos">{{grupo.grupo}}</div>
 										</div>
 									</div>
 									<div class="form-group" ng-repeat="(idxcampo, campo) in grupo.campos">

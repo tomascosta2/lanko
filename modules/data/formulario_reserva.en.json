@@ -1,7 +1,7 @@
 {
 	"grupos":[
 		{
-			"grupo":"Personal Info",
+			"grupo":"Personal Information",
 			"campos":[
 				{
 					"slug": "nombreyapellido",
@@ -21,6 +21,11 @@
 				{
 					"slug": "consulta",
 					"nombre": "Message",
+					"placeholder": ""
+				},
+				{
+					"slug": "cantidad",
+					"nombre": "Number of participants",
 					"placeholder": ""
 				}
 			]
