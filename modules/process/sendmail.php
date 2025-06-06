@@ -2,7 +2,7 @@
 $postdata = file_get_contents("php://input");
 $request = json_decode($postdata);
 if (!is_null($request->mensaje)) {
-    $to      = 'info@lanko.com.ar,lankoexpediciones@yahoo.com.ar,tomascostapp@gmail.com';
+    $to      = 'info@lanko.com.ar,tomascostapp@gmail.com';
     $subject = 'Nueva Reserva';
     $headers = 'From: info@lanko.com.ar' . "\r\n" .
     'Reply-To: info@lanko.com.ar' . "\r\n" .
@@ -13,6 +13,14 @@ if (!is_null($request->mensaje)) {
     $msg = $request->mensaje;
 
     $msg = wordwrap($msg, 70);
+
+    $logFile = __DIR__ . '/mail_debug.log'; // Crea el archivo al lado de sendmail.php
+    $logContent = "--------\n";
+    $logContent .= "Fecha: " . date('Y-m-d H:i:s') . "\n";
+    $logContent .= "To: $to\n";
+    $logContent .= "Asunto: $subject\n";
+    $logContent .= "Headers: $headers\n";
+    $logContent .= "Mensaje:\n$msg\n";
 
     if (mail($to, $subject, $msg, $headers)) {
     	$result = array('success' => true,'msg' => 'El mail se envió sin problema');
