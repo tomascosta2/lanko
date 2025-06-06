@@ -25,7 +25,8 @@
 				</div>
 				<div class="row" style="margin-bottom:30px;margin-top:10px">
 					<div class="col-sm-8 col-sm-offset-1">
-						<div class="subtitulos">Seleccione el participante</div>
+						<div class="subtitulos" ng-if="esIngles">Select the participant</div>
+						<div class="subtitulos" ng-if="!esIngles">Seleccione el participante</div>
 					</div>
 					<div class="col-sm-2">
 						<select class="form-control" ng-change="CambiaParticipante()" ng-model="selectedParticipante" ng-options="item.name for item in participantes">
