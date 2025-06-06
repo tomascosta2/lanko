@@ -9,7 +9,10 @@
 				</div>
 				<div class="row" style="margin-bottom:30px;margin-top:30px">
 					<div class="col-sm-8">
-						<div class="preguntas">
+						<div class="preguntas" ng-if="esIngles">
+							Only after you have <strong>completed and saved</strong> all the forms, select:
+						</div>
+						<div class="preguntas" ng-if="!esIngles">
 							Sólo cuando haya <strong>completado y guardado</strong>
 							todos los formularios seleccione:
 						</div>
