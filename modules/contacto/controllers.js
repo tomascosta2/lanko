@@ -94,17 +94,17 @@ app.controller('ContactController', ['$scope', '$rootScope', '$http', 'ContactoS
         		var enviaParticipante = false;
         		var txtParticipante = "";
         		participante.grupos.forEach(function(grupo){
-        			txtParticipante+="<h4>"+grupo.grupo+"</h4><br>";
-        			grupo.campos.forEach(function(campo){
-        				if(campo.value){
-	        				if(campo.nombre=='Nombre y Apellido'){
-	        					enviaParticipante = true;
-	        				}
-	        				txtParticipante+="<strong>"+campo.nombre+"</strong><br>";
-	        				txtParticipante+=campo.value+"<br>";
-        				}
-        			});
-        		});
+                    txtParticipante += "<h4>" + grupo.grupo + "</h4><br>";
+                    grupo.campos.forEach(function(campo){
+                        if(campo.value){
+                            if(campo.slug === 'nombreyapellido'){ // CAMBIO CLAVE
+                                enviaParticipante = true;
+                            }
+                            txtParticipante += "<strong>" + campo.nombre + "</strong><br>";
+                            txtParticipante += campo.value + "<br>";
+                        }
+                    });
+                });
         		if(enviaParticipante){
        				mensaje+=txtParticipante;	
         		}
