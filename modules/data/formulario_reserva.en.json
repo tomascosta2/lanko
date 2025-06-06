@@ -1,225 +1,26 @@
 {
 	"grupos":[
 		{
-			"grupo":"Información Personal",
+			"grupo":"Personal Info",
 			"campos":[
 				{
-					"nombre":"Nombre y Apellido",
+					"nombre":"Name and Lastname",
 					"placeholder":""
 				},
 				{
-					"nombre":"Género",
-					"placeholder":""
+					"name": "Phone",
+					"placeholder": "Please enter country and area code"
 				},
 				{
-					"nombre":"Fecha de Nacimiento",
-					"placeholder":"dd/mm/aaaa"
+					"name": "Email",
+					"placeholder": ""
 				},
 				{
-					"nombre":"Nacionalidad",
-					"placeholder":""
-				},
-				{
-					"nombre":"Número de Pasaporte",
-					"placeholder":""
-				},
-				{
-					"nombre":"Dirección",
-					"placeholder":""
-				},
-				{
-					"nombre":"Teléfono",
-					"placeholder":"Por favor, ingrese código del país y de ciudad"
-				},
-				{
-					"nombre":"Celular",
-					"placeholder":"Por favor, ingrese código del país y de ciudad"
-				},
-				{
-					"nombre":"Correo Electrónico",
-					"placeholder":""
+					"name": "Message",
+					"placeholder": ""
 				}
 			]
 
-		},
-		{
-			"grupo":"Información de Contacto en Caso de Emergencia",
-			"campos":[
-				{
-					"nombre":"Nombre y Apellido de Contacto #1",
-					"placeholder":""
-				},
-				{
-					"nombre":"Teléfono #1",
-					"placeholder":"Por favor, ingrese código del país y de ciudad"
-				},
-				{
-					"nombre":"Correo Electrónico #1",
-					"placeholder":""
-				},
-				{
-					"nombre":"Nombre y Apellido de Contacto #2",
-					"placeholder":""
-				},
-				{
-					"nombre":"Teléfono #2",
-					"placeholder":"Por favor, ingrese código del país y de ciudad"
-				},
-				{
-					"nombre":"Correo Electrónico #2",
-					"placeholder":""
-				}
-			]
-		},
-		{
-			"grupo":"Compañía de Seguro",
-			"campos":[
-				{
-					"nombre":"Nombre de la Compañía",
-					"placeholder":""
-				},
-				{
-					"nombre":"Teléfono",
-					"placeholder":"Por favor, ingrese código del país y de ciudad"
-				},
-				{
-					"nombre":"Tipo de Seguro",
-					"placeholder":""
-				},
-				{
-					"nombre":"Número de Poliza",
-					"placeholder":""
-				}
-			]
-		},
-		{
-			"grupo":"Información Médica",
-			"campos":[
-				{
-					"nombre":"¿Cuál es su estatura?",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Cuánto pesa?",
-					"placeholder":""
-				},
-				{
-					"nombre":"Tipo de Sangre",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Cuánta es su presión sanguínea en su normalidad?",
-					"placeholder":"valores mínimos y máximos"
-				},
-				{
-					"nombre":"¿Recibe algún tratamiento médico actualmente?",
-					"placeholder":"Si su respuesta es sí, por favor descríbalo."
-				},
-				{
-					"nombre":"¿Toma alguna medicina de forma regular?",
-					"placeholder":"Por favor, especifique."
-				},
-				{
-					"nombre":"¿Sufrió de Edema Cerebral o Pulmonar?",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Usted tiene alguna condición especial en sus tobillos, espalda o tórax?",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Sufrió algún problema relacionado con el mal de altura en alguna de sus expediciones anteriores?",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Usted sufre de algún problema físico del cual deberíamos saber?",
-					"placeholder":""
-				},
-				{
-					"nombre":"Si usted es mujer ¿está embarazada?",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Usted fuma? ",
-					"placeholder":"Cuan seguido fuma y cuántos cigarrillos"
-				},
-				{
-					"nombre":"¿Realiza algún programa de ejercicios de manera regular?",
-					"placeholder":"¿Qué clase de actividad?"
-				},
-				{
-					"nombre":"¿Es alérgico?",
-					"placeholder":"Si su respuesta es sí, por favor especifique."
-				},
-				{
-					"nombre":"¿Tiene o tenía alguna de las siguientes enfermedades: asma, diabetes, infarto cardíaco, epilepsia o alguna otra condición de la cual deberíamos estar informados?",
-					"placeholder":""
-				}
-			]
-
-		},
-		{
-			"grupo":"Información Nutricional",
-			"campos":[
-				{
-					"nombre":"¿Es usted vegetariano?",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Es usted celíaco?",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿Tiene usted alguna restricción alimenticia?",
-					"placeholder":""
-				}
-			]
-		},
-		{
-			"grupo":"Información sobre la Expedición",
-			"campos":[
-				{
-					"nombre":"Tipo de servicio",
-					"placeholder":""
-				},
-				{
-					"nombre":"Fecha de Partida a la Expedición",
-					"placeholder":""
-				},
-				{
-					"nombre":"Fecha de Arribo a Mendoza",
-					"placeholder":""
-				},
-				{
-					"nombre":"Aerolínea y Número de Vuelo",
-					"placeholder":""
-				},
-				{
-					"nombre":"Fecha de Partida de Mendoza",
-					"placeholder":""
-				},
-				{
-					"nombre":"Aerolínea y Número de Vuelo",
-					"placeholder":""
-				}
-			]
-		},
-		{
-			"grupo":"Información Adicional",
-			"campos":[
-				{
-					"nombre":"Por favor, escriba un resumen de su experiencia en la montaña",
-					"placeholder":""
-				},
-				{
-					"nombre":"Otros comentarios",
-					"placeholder":""
-				},
-				{
-					"nombre":"¿A través de qué medios conoció a nuestra empresa?",
-					"placeholder":""
-				}
-			]
 		}
 	]
 }
