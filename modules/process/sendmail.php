@@ -21,8 +21,8 @@ if ($request && isset($request->mensaje)) {
         $mail->SMTPAuth   = true;
         $mail->Username   = 'lankoexpediciones@gmail.com'; // TU MAIL
         $mail->Password   = 'jvegkynrxktgyhsw';       // CONTRASEÑA DE APLICACIÓN
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port       = 465;
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
 
         // Configuración del mensaje
         $mail->setFrom('lankoexpediciones@gmail.com', 'Formulario Lanko');
