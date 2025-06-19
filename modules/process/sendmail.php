@@ -30,7 +30,8 @@ if ($request && isset($request->mensaje)) {
 
         // Email
         $mail->setFrom('lankoexpediciones@gmail.com', 'Formulario Lanko');
-        $mail->addAddress('lankoexpediciones@gmail.com, contacto@lanko.com.ar');
+        $mail->addAddress('lankoexpediciones@gmail.com');
+        $mail->addAddress('contacto@lanko.com.ar');
         $mail->isHTML(true);
         $mail->Subject = 'Nueva Reserva';
         $mail->Body = $request->mensaje;
