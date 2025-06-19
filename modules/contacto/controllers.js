@@ -45,7 +45,7 @@ app.controller('ContactController', ['$scope', '$rootScope', '$http', 'ContactoS
 
       if (tieneDatos) {
         // Podés usar $http directamente o seguir usando ContactoServices
-        $http.post('send-mail.php', { mensaje: mensaje })
+        $http.post('/modules/process/sendmail.php', { mensaje: mensaje })
           .then(function (response) {
             console.log('✅ Éxito:', response.data);
             alert(response.data.msg || 'Formulario enviado correctamente');
