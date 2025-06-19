@@ -1,50 +1,63 @@
 'use strict';
 var app = angular.module('Contact');
-app.controller('ReservaController', function ($scope, $http) {
-  // Ejemplo de estructura inicial del formulario
-  $scope.formularioActual = {
-    grupos: [
-      {
-        grupo: 'Datos personales',
-        campos: [
-          { nombre: 'Nombre', slug: 'nombre', value: '', placeholder: 'Tu nombre' },
-          { nombre: 'Email', slug: 'email', value: '', placeholder: 'Tu email' }
-        ]
-      },
-      {
-        grupo: 'Detalles de la reserva',
-        campos: [
-          { nombre: 'Fecha', slug: 'fecha', value: '', placeholder: 'DD/MM/AAAA' },
-          { nombre: 'Horario', slug: 'horario', value: '', placeholder: 'HH:MM' }
-        ]
-      }
-    ]
-  };
 
-  // Función para enviar el formulario
-  $scope.enviarFormulario = function () {
-    let mensaje = '';
+app.controller('ContactController', ['$scope', '$rootScope', '$http', 'ContactoServices', '$location',
+  function ($scope, $rootScope, $http, ContactoServices, $location) {
+    $scope.formularioActual = {};
 
-    $scope.formularioActual.grupos.forEach((grupo) => {
-      mensaje += `\n<strong>${grupo.grupo}</strong>\n`;
-      grupo.campos.forEach((campo) => {
-        mensaje += `${campo.nombre}: ${campo.value || ''}\n`;
-      });
-      mensaje += '\n';
+    // Idioma (como estaba antes)
+    cambiaLenguaje();
+    $rootScope.$on("CAMBIO_LENGUAJE", function () {
+      cambiaLenguaje();
     });
 
-    // Enviar al backend
-    $http.post('send-mail.php', { mensaje: mensaje })
-      .then(function (response) {
-        console.log('✅ Éxito:', response.data);
-        alert(response.data.msg || 'Formulario enviado correctamente');
-      })
-      .catch(function (error) {
-        console.error('❌ Error al enviar:', error);
-        alert('Ocurrió un error al enviar el formulario.');
+    function cambiaLenguaje() {
+      ContactoServices.getFormFields($rootScope.esIngles ? 'en' : 'es', function (data) {
+        $scope.formularioActual = angular.copy(data);
       });
-  };
+    }
 
-  // (Opcional) Detectar idioma
-  $scope.esIngles = false; // o true según el idioma por defecto
-});
+    $scope.PoneId = function (texto) {
+      return texto.toLowerCase().replace(/ /g, '');
+    };
+
+    // NUEVO: función para enviar el formulario
+    $scope.enviarFormulario = function () {
+      let mensaje = '';
+      let tieneDatos = false;
+
+      $scope.formularioActual.grupos.forEach((grupo) => {
+        let grupoTieneDatos = false;
+        let grupoTexto = `<h4>${grupo.grupo}</h4><br>`;
+
+        grupo.campos.forEach((campo) => {
+          if (campo.value) {
+            grupoTieneDatos = true;
+            mensaje += `<strong>${campo.nombre}</strong><br>${campo.value}<br>`;
+          }
+        });
+
+        if (grupoTieneDatos) {
+          mensaje += grupoTexto;
+          tieneDatos = true;
+        }
+      });
+
+      if (tieneDatos) {
+        // Podés usar $http directamente o seguir usando ContactoServices
+        $http.post('send-mail.php', { mensaje: mensaje })
+          .then(function (response) {
+            console.log('✅ Éxito:', response.data);
+            alert(response.data.msg || 'Formulario enviado correctamente');
+            $location.path('/gracias'); // redirigí a la página que quieras
+          })
+          .catch(function (error) {
+            console.error('❌ Error:', error);
+            alert('Ocurrió un error al enviar el formulario.');
+          });
+      } else {
+        alert('Por favor completá al menos un campo antes de enviar.');
+      }
+    };
+  }
+]);
