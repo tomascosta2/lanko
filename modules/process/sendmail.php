@@ -23,14 +23,14 @@ if ($request && isset($request->mensaje)) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'lankoexpediciones@gmail.com, contacto@lanko.com.ar'; // Tu correo
+        $mail->Username = 'lankoexpediciones@gmail.com'; // Tu correo
         $mail->Password = 'jvegkynrxktgyhsw';      // Contraseña de aplicación
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
         // Email
         $mail->setFrom('lankoexpediciones@gmail.com', 'Formulario Lanko');
-        $mail->addAddress('lankoexpediciones@gmail.com');
+        $mail->addAddress('lankoexpediciones@gmail.com, contacto@lanko.com.ar');
         $mail->isHTML(true);
         $mail->Subject = 'Nueva Reserva';
         $mail->Body = $request->mensaje;
