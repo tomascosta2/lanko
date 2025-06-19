@@ -1,36 +1,52 @@
 <?php
+require 'vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+
 $postdata = file_get_contents("php://input");
 $request = json_decode($postdata);
 $logFile = __DIR__ . '/mail_debug.log';
 
 if ($request && isset($request->mensaje)) {
-    $to      = 'tomascostapp@gmail.com';
-    $subject = 'Nueva Reserva';
-    $headers = 'From: contacto@lanko.com.ar' . "\r\n" .
-    'Reply-To: contacto@lanko.com.ar' . "\r\n" .
-    "MIME-Version: 1.0\r\n" .
-    "Content-Type: text/html; charset=UTF-8\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-    $msg = htmlspecialchars($request->mensaje);
-    $msg = wordwrap($msg, 70);
-
+    $mail = new PHPMailer(true);
     $logContent = "--------\n";
     $logContent .= "Fecha: " . date('Y-m-d H:i:s') . "\n";
-    $logContent .= "To: $to\n";
-    $logContent .= "Asunto: $subject\n";
-    $logContent .= "Headers: $headers\n";
-    $logContent .= "Mensaje:\n$msg\n";
 
-    if (mail($to, $subject, $msg, $headers)) {
-        $result = array('success' => true, 'msg' => 'El mail se envió sin problema');
-    } else {
-        $result = array('success' => false, 'msg' => 'ERROR: ' . error_get_last()['message']);
+    try {
+        // Configuración SMTP Gmail
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'contacto@lanko.com.ar'; // TU MAIL
+        $mail->Password   = 'jvegkynrxktgyhsw';       // CONTRASEÑA DE APLICACIÓN
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port       = 465;
+
+        // Configuración del mensaje
+        $mail->setFrom('contacto@lanko.com.ar', 'Formulario Lanko');
+        $mail->addAddress('tomascostapp@gmail.com');
+        $mail->addReplyTo('contacto@lanko.com.ar');
+        $mail->isHTML(true);
+        $mail->Subject = 'Nueva Reserva';
+        $mail->Body    = nl2br(htmlspecialchars($request->mensaje));
+        $mail->AltBody = $request->mensaje;
+
+        $logContent .= "To: tomascostapp@gmail.com\n";
+        $logContent .= "Asunto: Nueva Reserva\n";
+        $logContent .= "Mensaje:\n" . $request->mensaje . "\n";
+
+        $mail->send();
+        $result = ['success' => true, 'msg' => 'El mail se envió sin problema'];
+    } catch (Exception $e) {
+        $result = ['success' => false, 'msg' => "No se pudo enviar. Mailer Error: {$mail->ErrorInfo}"];
+        $logContent .= "Error: {$mail->ErrorInfo}\n";
     }
 
     file_put_contents($logFile, $logContent . "Resultado: " . json_encode($result) . "\n", FILE_APPEND);
 } else {
-    $result = array('success' => false, 'msg' => 'No existe el parámetro mensaje o el JSON es inválido');
+    $result = ['success' => false, 'msg' => 'No existe el parámetro mensaje o el JSON es inválido'];
 }
 
 header('Content-type: application/json');
