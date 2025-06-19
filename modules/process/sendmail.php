@@ -24,7 +24,7 @@ if ($request && isset($request->mensaje)) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'contacto@lanko.com.ar'; // Tu correo
-        $mail->Password = 'jvegkynrxktgyhsw';      // Contraseña de aplicación
+        $mail->Password = 'jveg kynr xktg yhsw';      // Contraseña de aplicación
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
