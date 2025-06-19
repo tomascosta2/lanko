@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 
 file_put_contents(__DIR__ . '/debug.log', "Iniciado script\n", FILE_APPEND);
 
-require __DIR__ . './../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
