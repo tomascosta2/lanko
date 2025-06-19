@@ -30,17 +30,17 @@ app.controller('ContactController', ['$scope', '$rootScope', '$http', 'ContactoS
         let grupoTieneDatos = false;
         let grupoTexto = `<h4>${grupo.grupo}</h4><br>`;
 
+        if (grupoTieneDatos) {
+          mensaje += grupoTexto;
+          tieneDatos = true;
+        }
+
         grupo.campos.forEach((campo) => {
           if (campo.value) {
             grupoTieneDatos = true;
             mensaje += `<strong>${campo.nombre}</strong><br>${campo.value}<br>`;
           }
         });
-
-        if (grupoTieneDatos) {
-          mensaje += grupoTexto;
-          tieneDatos = true;
-        }
       });
 
       if (tieneDatos) {
